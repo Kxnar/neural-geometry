@@ -1,0 +1,16 @@
+{
+  "uniform_sdf_mae": 0.008603663183748722,
+  "uniform_occupancy_iou": 0.2,
+  "uniform_true_inside_count": 57,
+  "surface_abs_predicted_sdf": 0.014258608222007751,
+  "near_surface_sdf_mae": 0.014645937830209732,
+  "interior_probe_retention": 0.3125,
+  "exterior_probe_preservation": 0.953125,
+  "train_seconds": 3.7075409999815747,
+  "initial_batch_mse": 0.4383341372013092,
+  "final_batch_mse": 0.00014219882723409683,
+  "peak_cuda_allocated_mib": 41.98876953125,
+  "mesh_status": "exported",
+  "mesh_vertices": 970,
+  "mesh_faces": 1892
+}

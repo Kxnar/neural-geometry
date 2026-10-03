@@ -7,6 +7,14 @@ structures, narrow gaps and disconnected components under limited model capacity
 is claimed yet. The first release targets a reproducible baseline and a controlled
 sampling study; research claims will depend on measured results and related work.
 
+## Measured pilot
+
+![Thin torus pilot](docs/pilot/comparison.png)
+
+[Two GPU runs and their limitations](docs/pilot.md) show an initial thin-feature
+failure and a standard sampling baseline. All 11 local correctness tests pass.
+This is preliminary evidence, not a novel-method result.
+
 ## What the model learns
 
 Given a coordinate (x, y, z), predict signed distance to a shape: negative inside,
