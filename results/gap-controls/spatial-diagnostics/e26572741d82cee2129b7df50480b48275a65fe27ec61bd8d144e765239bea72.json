@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "checkpoint_sha256": "e26572741d82cee2129b7df50480b48275a65fe27ec61bd8d144e765239bea72",
+    "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+    "eval_seed": 61000,
+    "requested_samples": 131072,
+    "scope": "post-hoc exploratory; not a selection endpoint",
+    "config": {
+      "scene": "parallel_plates",
+      "feature": 0.02,
+      "width": 128,
+      "policy": "global_narrow",
+      "seed": 31,
+      "model": "siren",
+      "depth": 3,
+      "lr": 0.0001,
+      "steps": 10000,
+      "batch_size": 2048,
+      "angle": 0,
+      "device": "cuda",
+      "eval_seed": 50000,
+      "eval_points": 32768,
+      "surface_samples": 32768,
+      "resolutions": [
+        96,
+        192
+      ],
+      "checkpoints": [
+        10000
+      ],
+      "loss": "weighted_band",
+      "baseline_config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 31,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      }
+    }
+  },
+  "regions": {
+    "whole_gap": {
+      "samples": 131070,
+      "sign_accuracy": 0.9806591868400574,
+      "sdf_mae": 0.0019904219079762697
+    },
+    "central_footprint": {
+      "samples": 83824,
+      "sign_accuracy": 0.9869250059127808,
+      "sdf_mae": 0.001781076774932444
+    },
+    "outer_footprint": {
+      "samples": 47246,
+      "sign_accuracy": 0.969542384147644,
+      "sdf_mae": 0.002361843129619956
+    },
+    "margin_0_0.001": {
+      "samples": 13170,
+      "sign_accuracy": 0.9134396314620972,
+      "sdf_mae": 0.002032474149018526
+    },
+    "margin_0.001_0.0025": {
+      "samples": 19595,
+      "sign_accuracy": 0.9620311260223389,
+      "sdf_mae": 0.0018228000262752175
+    },
+    "margin_0.0025_0.005": {
+      "samples": 32786,
+      "sign_accuracy": 0.9891417026519775,
+      "sdf_mae": 0.001528363092802465
+    },
+    "margin_0.005_0.011": {
+      "samples": 65519,
+      "sign_accuracy": 0.995497465133667,
+      "sdf_mae": 0.0022633171174675226
+    },
+    "midplane_central": {
+      "samples": 83824,
+      "sign_accuracy": 1.0
+    },
+    "midplane_outer": {
+      "samples": 47246,
+      "sign_accuracy": 0.9909198880195618
+    }
+  }
+}

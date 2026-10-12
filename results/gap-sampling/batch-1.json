@@ -1,0 +1,280 @@
+{
+  "schema": 1,
+  "split": "development",
+  "source_hashes": {
+    "neural_geometry/__init__.py": "59c5ed4664862b6c08b14d7f40c8fc307feceaff848ff73bb569d8d8f66cfa30",
+    "neural_geometry/adaptive.py": "68edc3c21f077a81565a1744ecc571125ab2d7f259ff717eaba63c47a34351e6",
+    "neural_geometry/evaluation.py": "8d808ea167e98ba3ab5895e14016c7f40a1cbd25c10786168eb33f930a9824d9",
+    "neural_geometry/geometry.py": "d5439529cc2b5599680cb0d694e4c7d1f19268997ec5db833f24368618fc0a44",
+    "neural_geometry/metrics.py": "1537f87e2828d2e23a28413f18afb47227ff6d3c93e78980ce02478d1077d03f",
+    "neural_geometry/models.py": "127be4fdcb345448c764b6c9897b81617c1433a72c8d249826a1b0d388ef02b9",
+    "neural_geometry/provenance.py": "88db9b7a5e23504b605deaff7f3145066441085143e31398a489d22d0fdbd996",
+    "neural_geometry/run.py": "5aae1e79bc569b684c1349e2760e70beb867724cb7cafe350af33ad3f3fb4a59",
+    "neural_geometry/sweep.py": "b5476ca8d98deb3b98048d6031e0696b3991c68d42410327205b975a8234aa9f",
+    "neural_geometry_scale/__init__.py": "97375066330634069181753103bee5ffe96b00295ff2f4e861b14423c2cb96c0",
+    "neural_geometry_scale/evaluation.py": "e4df239b9810581d3cc19ec8a3e031f79357c5e5d678936c4f1659e0d1bfbf83",
+    "neural_geometry_scale/geometry.py": "44a0771ccbafc90bc6647e0db620d0db4e22a664df1899f0a0d5ee0854e87d3f",
+    "neural_geometry_scale/study.py": "76de265f6bf57396709dd656d2a29c616bf93e4b20ef82ad58ebe25cfbd919b0",
+    "pyproject.toml": "338ea33b700cad7e2458d3dd35236e487c0b002ce412a9d18bdbb47c20f3ebb5",
+    "requirements-windows-cu126.txt": "a52cb62d2d7f65bbf826813478a99f3447f0f677d85f51d71425f8c87283040b",
+    "scripts/gap_training_controls.py": "13b3b7dab546ca5bf4a6edacd4a53376a2f66d3157e915610c7d0aa5394b2593",
+    "scripts/gap_lr_controls.py": "753c3065964fbbfe0c4c2cc420859d15aa8c56a6ef9e6dff8c5948c78d44e9c1",
+    "scripts/gap_density_controls.py": "641065cac18d3dd69aa0c9afcb2ff2f747ee590119c93e395fc253002aabf22f",
+    "scripts/gap_sampling_controls.py": "d80b4360f7217380ea2431bac842157c360794bfc35188ea13c7a97e5d81b158",
+    "tests/test_gap_sampling_controls.py": "333cad707a2b342486912c01b87d36b9062070d7a99b87f53b171c17c946fa8a"
+  },
+  "pairs": [
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 31,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "checkpoint": "runs\\gap-lr-continuations\\0c5c963ffeaeef61\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "sha256": "d4a6afba6b765d53da564c4499b8f3b6255351ff47f3fdbb6fca8dd56f6cf332",
+      "original_data": "retained-project\\runs\\gap-lr-continuations\\0c5c963ffeaeef61\\fixed-data\\data.pt",
+      "original_data_sha256": "372d28ad7b1b09465c2fe9c69e92dbeea8cab1ff0b949fbb8d58f77d5df5d5f0"
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 32,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "checkpoint": "runs\\gap-lr-continuations\\91663b919d79ec88\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "sha256": "339d2ec21ee079c476d3386ff782058e1f561b9d14fcd28efe5a92a2f4f0c487",
+      "original_data": "retained-project\\runs\\gap-lr-continuations\\91663b919d79ec88\\fixed-data\\data.pt",
+      "original_data_sha256": "031a96b6926a34ce3bdd5acb4317b84199cf3302646a9771b32b0c57132a8c74"
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 33,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "checkpoint": "runs\\gap-lr-continuations\\82223663a57a5723\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "sha256": "b4de0e3862c773f23f71e49609eacfa8e0275f312f7810f74778a48e543a23f3",
+      "original_data": "retained-project\\runs\\gap-lr-continuations\\82223663a57a5723\\fixed-data\\data.pt",
+      "original_data_sha256": "20af3badee4f716636a05e3ec91ac797bc1efdd8c21207ba3c028ed710a9ea9b"
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 31,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "checkpoint": "runs\\gap-lr-continuations\\103fbd5e827ee5ae\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "sha256": "b0c806b576acaef10afeb6a8dcbb5887966bde0fe851dd7399c4b271611c2edc",
+      "original_data": "retained-project\\runs\\gap-lr-continuations\\103fbd5e827ee5ae\\fixed-data\\data.pt",
+      "original_data_sha256": "31528cbaeb614e4a2d2b01cc1041fcdca1eb568c2640f2349019e137c5f40754"
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 32,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "checkpoint": "runs\\gap-lr-continuations\\f517dca3d5af2871\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "sha256": "3b30be973fefa0b5c68327f653c5c389889cc2fac8ab809ed6b88820e6f6e4a9",
+      "original_data": "retained-project\\runs\\gap-lr-continuations\\f517dca3d5af2871\\fixed-data\\data.pt",
+      "original_data_sha256": "d618a9ef2c284d1682a1f53937f12ef8be2a348bb9345fa6578284e2c1f10a08"
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 33,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "checkpoint": "runs\\gap-lr-continuations\\c88efd8a5355dcbf\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "sha256": "d981c4edf74e5a18f08422276fa930b43882499f48d00d5dad1d2d08a5f252e4",
+      "original_data": "retained-project\\runs\\gap-lr-continuations\\c88efd8a5355dcbf\\fixed-data\\data.pt",
+      "original_data_sha256": "0106f205dfbc4e3ea47a1125174251e92f04631a74d6e5653927f0ccd81d0253"
+    }
+  ],
+  "sizes": [
+    4096,
+    16384,
+    65536
+  ],
+  "origin": 20000,
+  "additional_updates": 10000,
+  "checkpoints": [
+    23000,
+    26000,
+    30000
+  ],
+  "chunk_size": 16384,
+  "objective": "Ordinary equal-point batch MSE; chunk sums divided by batch target element count, one Adam step per update.",
+  "nesting": "Balanced 4096-point blocks from one CPU generator seeded training_seed+91000. Exact old 4096-point dataset is prefix. Prefix counts 50% original, 25% full gap, 25% facing interior.",
+  "schedule": "Cosine restart identical to earlier fixed-data diagnostic: update 1 = 1e-4, update 10000 = 1e-6. Adam moments and step counts retained.",
+  "independent_seed": 61002,
+  "independent_points": 65536,
+  "independent_distribution": "Same block sampling/composition per sampler, common evaluation seed across training seeds and densities; disjoint coordinates checked.",
+  "resolutions": [
+    192,
+    384
+  ],
+  "gap_seed": 61000,
+  "gap_samples": 131072,
+  "primary_gate": "All original gap and plate probes correct; two components, Euler 4, closed edges, resolved analytic reference at BOTH 192 and 384.",
+  "fit_gate": "Each of original/gap/interior subsets RMSE <=0.001 and 100% training signs for abs(true SDF)>0.001. Descriptive diagnostic only; failure is not representational impossibility.",
+  "persistence": "Unchanged structural gate at both 26000 and 30000. Report all checkpoint failures/regressions; no claim between observed checkpoints.",
+  "decision": "Persistent restoration across all six pairs at a denser size supports coverage. Fitted finite data with failed geometry motivates between-sample bridge localisation. Unfitted dense data leaves optimisation/capacity unresolved. Mixed outcomes stay mixed.",
+  "compute": "10000 updates. Count batch points times updates; all 65536 pool labels retained. Report measured training and evaluation seconds separately. No storage or label savings claimed.",
+  "fresh_cases_sha256": "00823f0af25d4a8d27c976078d165b073e5b0cb48124bbf3cbdb6e6589890993",
+  "fresh_cases_evaluated": false,
+  "experiment": "sampling-efficiency",
+  "protocol": {
+    "batch": 1,
+    "hypothesis": "Cycling balanced 16384-point subsets through the same 65536-point dense pool preserves observed persistent structure while reducing point presentations fourfold and measured training time.",
+    "arms": [
+      {
+        "name": "dense",
+        "points": 65536,
+        "phase": 0
+      },
+      {
+        "name": "cycle-16384",
+        "points": 16384,
+        "phase": 0
+      }
+    ],
+    "controls": "All six development model/Adam states at 20000 updates; global_narrow/local seeds 31,32,33; exact historical dense pools; unchanged ordinary MSE, architecture, 10000-update cosine schedule, independent probes, resolutions 192/384 and structural gate. Rerun dense baseline concurrently in this batch, alternating arm order by pair. Historical 16384 static and 65536 full-data results provide context, not additional new runs.",
+    "decision_criteria": "Primary candidate success: unchanged structural gate at BOTH 26000 and 30000, at BOTH resolutions, in all six trajectories, with fewer presentations and aggregate measured training time at least 10% below concurrent dense control. Guardrails at both later checkpoints: mean sampled Chamfer at each grid <=1.05 times dense; mean independent gap RMSE <=1.10 times dense; mean full-gap sign accuracy no more than 0.5 percentage points below dense. Report every seed, regression, fit failure, and measured evaluation time; missing meshes fail. If all pass, test a smaller cycling batch next. Otherwise test a larger cycling batch if incomplete recovery suggests batch noise, or choose a coverage alternative with a new preregistration. Dense controls must reproduce historical model/Adam states at all checkpoints before interpreting candidate differences.",
+    "budget": "At most three new batches across this goal, total additional training/evaluation <=7200 seconds. Conservatively charge entire subprocess wall time including setup, hashes and I/O. Hard timeout for remaining allowance; retain partial output on failure. Expected batch cost about 20 minutes from prior measurements.",
+    "scope": "One existing development geometry only; fresh-case manifest and seeds 71-73 remain reserved. No fresh-case evaluation, new loss, novelty claim, confidence interval or continuous topology guarantee. Sampling changes stochastic optimisation as well as exposure schedule. Persistence is observed only at checkpoints.",
+    "pairing": "Common starting checkpoints, dense pool coordinates/labels, Adam and stored original sampling RNG within each pair; candidate changes the presentation stream deliberately. Each cycling update contains 50% original, 25% gap, 25% interior; each full cycle presents every dense point once. No evaluation points used in selection. Deterministic fixed block order is a limitation to probe in a later batch.",
+    "next_decision": "Select the next batch only after auditing this batch; do not evaluate reserved fresh cases. A negative result is retained and can close the goal."
+  },
+  "protocol_sha256": "6469c724c482e9846b574db87dd1b4d625f2d740b93f5d2f1401aab9dacee291",
+  "historical_manifest_sha256": "fe9c854accb705c7033c835770d8df6c7925ec627163aa64335cfdba41de9982",
+  "historical_summary_sha256": "858bfaa80f22cc3851e7a6bf9d4ea9743120f1c17aed2e31291476de82b78472",
+  "selection": "At update j=1..10000 select contiguous n-point balanced blocks at index (j-1+phase) modulo (65536/n). All pool points once per cycle. Fixed deterministic order, ordinary equal-point batch MSE; this changes gradient noise and ordering, not just coverage.",
+  "created_utc": "2026-10-08T19:34:11.446974+00:00"
+}

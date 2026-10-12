@@ -1,0 +1,53 @@
+{
+  "final_successes_by_policy": {
+    "global_narrow": 0,
+    "local": 0
+  },
+  "total_seeds": 3,
+  "baseline_reproduction": [
+    {
+      "seed": 31,
+      "policy": "global_narrow",
+      "weights_exact": true,
+      "baseline_checkpoint_sha256": "9d59b73b28f44556a95d47ccef528fe824b79327ad3eacc92e92422da22f1d52",
+      "checkpoint_sha256": "f56fff6b8647caff35b8f99b5639a2a2b895f2e0df9c61898d2c18f271c049f5"
+    },
+    {
+      "seed": 32,
+      "policy": "global_narrow",
+      "weights_exact": true,
+      "baseline_checkpoint_sha256": "0793e06bd902e133dcdb8a0be80500cc606ceb87e3729495da4fd2131963f3fc",
+      "checkpoint_sha256": "115d758f9d779203c1c766840f4f3a412e677c824961a9f8a45d2c7d3cae31a9"
+    },
+    {
+      "seed": 33,
+      "policy": "global_narrow",
+      "weights_exact": true,
+      "baseline_checkpoint_sha256": "e9291de7154f363395a15a93184f4d451ced21a0bfd6ff37676ede56397214ab",
+      "checkpoint_sha256": "53a3c8090b6a860351dbd11713923f45a7a09fdea86c098a08cccdfdbe61f981"
+    },
+    {
+      "seed": 31,
+      "policy": "local",
+      "weights_exact": true,
+      "baseline_checkpoint_sha256": "f00d703f5f311d9f68e540a14bcdc0c20c92e8fb6dab2212449aba75920d9ab9",
+      "checkpoint_sha256": "d963935951cfb8d7d51f0675f25ca05391c2b3fedffb605178e4b0a8e6ab8136"
+    },
+    {
+      "seed": 32,
+      "policy": "local",
+      "weights_exact": true,
+      "baseline_checkpoint_sha256": "9f54ee346c2a55846a5a5eb85b125788101de5d21a00d65b9327374b4c4f5cf6",
+      "checkpoint_sha256": "713044c2ebc9a4cb15dd272b5c3dd61dc00b560da8447f22965a40ac169329ce"
+    },
+    {
+      "seed": 33,
+      "policy": "local",
+      "weights_exact": true,
+      "baseline_checkpoint_sha256": "b332febeadfeb0d64342b26d4c47527da6a698debe2879a920724795245a13cb",
+      "checkpoint_sha256": "32492bf9fb58dac0650e4e27a27c5541f57fb2004f36db48a45b039892ccb12d"
+    }
+  ],
+  "next": "width128",
+  "limitation": "Three development seeds; neither finite probes nor mesh counts certify topology."
+}

@@ -1,0 +1,328 @@
+{
+  "trajectories": [
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "density": 4096,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit unresolved; optimisation/capacity remain open"
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "density": 16384,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit unresolved; optimisation/capacity remain open"
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "density": 65536,
+      "primary": [
+        true,
+        true,
+        true
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": true,
+      "first_observed_passing_suffix": 23000,
+      "final_classification": "persistent structural pass"
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "density": 4096,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        true,
+        true
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit passes; geometry unresolved"
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "density": 16384,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit unresolved; optimisation/capacity remain open"
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "density": 65536,
+      "primary": [
+        true,
+        true,
+        true
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": true,
+      "first_observed_passing_suffix": 23000,
+      "final_classification": "persistent structural pass"
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "density": 4096,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        false,
+        true
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit passes; geometry unresolved"
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "density": 16384,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit unresolved; optimisation/capacity remain open"
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "density": 65536,
+      "primary": [
+        false,
+        true,
+        true
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": true,
+      "first_observed_passing_suffix": 26000,
+      "final_classification": "persistent structural pass"
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "density": 4096,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        false,
+        true
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit passes; geometry unresolved"
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "density": 16384,
+      "primary": [
+        true,
+        true,
+        true
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": true,
+      "first_observed_passing_suffix": 23000,
+      "final_classification": "persistent structural pass"
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "density": 65536,
+      "primary": [
+        true,
+        true,
+        true
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": true,
+      "first_observed_passing_suffix": 23000,
+      "final_classification": "persistent structural pass"
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "density": 4096,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        true,
+        true
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit passes; geometry unresolved"
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "density": 16384,
+      "primary": [
+        true,
+        true,
+        true
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": true,
+      "first_observed_passing_suffix": 23000,
+      "final_classification": "persistent structural pass"
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "density": 65536,
+      "primary": [
+        true,
+        true,
+        true
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": true,
+      "first_observed_passing_suffix": 23000,
+      "final_classification": "persistent structural pass"
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "density": 4096,
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "training_fit": [
+        false,
+        false,
+        true
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit passes; geometry unresolved"
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "density": 16384,
+      "primary": [
+        true,
+        true,
+        false
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_passing_suffix": null,
+      "final_classification": "training fit unresolved; optimisation/capacity remain open"
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "density": 65536,
+      "primary": [
+        true,
+        true,
+        true
+      ],
+      "training_fit": [
+        false,
+        false,
+        false
+      ],
+      "sustained": true,
+      "first_observed_passing_suffix": 23000,
+      "final_classification": "persistent structural pass"
+    }
+  ]
+}

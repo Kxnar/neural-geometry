@@ -1,0 +1,19 @@
+{
+  "tests": {
+    "initial_full_suite": "56 passed; 1 test failed because external basetemp is outside supervisor ROOT",
+    "final_full_suite": "57 passed in 13.78 seconds with clone-local .publication-test-temp",
+    "targeted_repair": "Unchanged failed test rerun with .publication-test-temp below clone ROOT: 1 passed",
+    "distinct_passing_tests": 57,
+    "scientific_sources_changed_for_tests": false,
+    "imports_resolve_to_clean_clone": true,
+    "ci_adaptation": "python -m pytest --basetemp=.publication-test-temp, then stdlib HEAD Git-blob publication verification; sealed tests and scientific sources unchanged",
+    "initial_ci_failure": "GitHub Actions 38299765112: five collection errors because direct pytest launcher on Ubuntu could not import namespace scripts. CI launcher changed to python -m pytest, matching the passing local invocation."
+  },
+  "checks": {
+    "raw_pt_npy_pyc_staged": false,
+    "staged_file_over_50MiB": false,
+    "credential_pattern_scan_hits": 0,
+    "whitespace": "Preserved CRLF audited bytes accepted with cr-at-eol. Eleven residual findings (eight retained test-log lines and three audited Markdown lines) retained byte-exact; no scientific source whitespace findings.",
+    "full_scientific_replay": "Not run; raw artifacts are deliberately retained locally. Publication adds no new research experiments."
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "completed_batches": 3,
+  "charged_seconds_including_tests": 2302.94697389998,
+  "training_seconds": 1320.9849859997921,
+  "evaluation_seconds": 859.6845717999677,
+  "training_presentations": 5652480000,
+  "methods": [
+    {
+      "batch": 1,
+      "name": "dense",
+      "batch_points": 65536,
+      "phase": 0,
+      "persistent": 6,
+      "regressions": 0,
+      "passing_checkpoints": 17,
+      "checkpoints": 18,
+      "presentations_per_trajectory": 655360000,
+      "training_seconds": 664.9413298999425,
+      "evaluation_seconds": 227.58528879997903,
+      "final_gap_rmse": 0.0010828266191917162,
+      "final_gap_signs": 0.9970664381980896,
+      "final_pool_fit": 0,
+      "final_chamfer_192": 0.007775509068532359,
+      "final_chamfer_384": 0.007797139550178505,
+      "presentation_ratio": 1.0,
+      "training_time_ratio": 1.0,
+      "training_and_evaluation_ratio": 1.0
+    },
+    {
+      "batch": 1,
+      "name": "cycle-16384",
+      "batch_points": 16384,
+      "phase": 0,
+      "persistent": 6,
+      "regressions": 0,
+      "passing_checkpoints": 17,
+      "checkpoints": 18,
+      "presentations_per_trajectory": 163840000,
+      "training_seconds": 256.5522256999975,
+      "evaluation_seconds": 236.94287129995064,
+      "final_gap_rmse": 0.0011342035722918808,
+      "final_gap_signs": 0.9974390069643656,
+      "final_pool_fit": 0,
+      "final_chamfer_192": 0.007775655573606979,
+      "final_chamfer_384": 0.007782532445448979,
+      "presentation_ratio": 0.25,
+      "training_time_ratio": 0.38582686045188735,
+      "training_and_evaluation_ratio": 0.552919192167945
+    },
+    {
+      "batch": 2,
+      "name": "cycle-4096",
+      "batch_points": 4096,
+      "phase": 0,
+      "persistent": 5,
+      "regressions": 0,
+      "passing_checkpoints": 12,
+      "checkpoints": 18,
+      "presentations_per_trajectory": 40960000,
+      "training_seconds": 198.79042729991488,
+      "evaluation_seconds": 198.05691879999358,
+      "final_gap_rmse": 0.0012103704114754994,
+      "final_gap_signs": 0.9975763559341431,
+      "final_pool_fit": 0,
+      "final_chamfer_192": 0.007789943112310901,
+      "final_chamfer_384": 0.00782838646437366,
+      "presentation_ratio": 0.0625,
+      "training_time_ratio": 0.2989593492854896,
+      "training_and_evaluation_ratio": 0.4446336252446645
+    },
+    {
+      "batch": 3,
+      "name": "cycle-8192",
+      "batch_points": 8192,
+      "phase": 0,
+      "persistent": 5,
+      "regressions": 0,
+      "passing_checkpoints": 14,
+      "checkpoints": 18,
+      "presentations_per_trajectory": 81920000,
+      "training_seconds": 200.70100309993722,
+      "evaluation_seconds": 197.09949290004442,
+      "final_gap_rmse": 0.0011408279339472454,
+      "final_gap_signs": 0.9976424674193064,
+      "final_pool_fit": 0,
+      "final_chamfer_192": 0.007783433844556532,
+      "final_chamfer_384": 0.0078005177292929904,
+      "presentation_ratio": 0.125,
+      "training_time_ratio": 0.30183264910024143,
+      "training_and_evaluation_ratio": 0.4457015484640992
+    }
+  ],
+  "decisions": [
+    {
+      "batch": 1,
+      "arm": "cycle-16384",
+      "persistent_passes": 6,
+      "training_time_ratio": 0.38582686045188735,
+      "presentation_ratio": 0.25,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.0417386064353187,
+          "gap_sign_delta": -0.0008023579915364953,
+          "chamfer_ratio_192": 0.9998861416798857,
+          "chamfer_ratio_384": 1.0013696202590994,
+          "guards_pass": true
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.0474470724948703,
+          "gap_sign_delta": 0.00037256876627600466,
+          "chamfer_ratio_192": 1.0000188418627423,
+          "chamfer_ratio_384": 0.9981266072467317,
+          "guards_pass": true
+        }
+      ],
+      "qualifies": true
+    },
+    {
+      "batch": 2,
+      "arm": "cycle-4096",
+      "persistent_passes": 5,
+      "training_time_ratio": 0.2989593492854896,
+      "presentation_ratio": 0.0625,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.1997684711676977,
+          "gap_sign_delta": -0.004720121622085571,
+          "chamfer_ratio_192": 1.01409156996515,
+          "chamfer_ratio_384": 1.0165943778866406,
+          "guards_pass": false
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.11778782496037,
+          "gap_sign_delta": 0.0005099177360534668,
+          "chamfer_ratio_192": 1.0018563471087645,
+          "chamfer_ratio_384": 1.0040074842824174,
+          "guards_pass": false
+        }
+      ],
+      "qualifies": false
+    },
+    {
+      "batch": 3,
+      "arm": "cycle-8192",
+      "persistent_passes": 5,
+      "training_time_ratio": 0.30183264910024143,
+      "presentation_ratio": 0.125,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.0491883615754765,
+          "gap_sign_delta": -0.002099384864171383,
+          "chamfer_ratio_192": 1.001898517398132,
+          "chamfer_ratio_384": 1.0016084626989707,
+          "guards_pass": true
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.0535647293181845,
+          "gap_sign_delta": 0.0005760292212168006,
+          "chamfer_ratio_192": 1.00101919706534,
+          "chamfer_ratio_384": 1.0004332587730085,
+          "guards_pass": true
+        }
+      ],
+      "qualifies": false
+    }
+  ],
+  "best_qualified_method": "cycle-16384",
+  "total_checkpoints": 72,
+  "missing_meshes": 0,
+  "source_export_hashes": {
+    "docs\\gap-sampling\\batch-1": "3abf04b8820f74a438f14fbe4e38f90d9d7499865da02819fde25aac5af1f622",
+    "docs\\gap-sampling\\batch-2": "4c77053bc1567af927db24fac5f7e498ea659db5ef2521f27557bd8c53fbaebf",
+    "docs\\gap-sampling\\batch-3": "70f8a5fe2015e63dce170d95bf3cfc9fb225d3b5d7192c0d1a369b3813bf4484"
+  },
+  "fresh_cases_evaluated": false,
+  "additional_batches_permitted": 0
+}

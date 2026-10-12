@@ -1,0 +1,325 @@
+{
+  "task": {
+    "id": "siren-case1-seed71-cycling",
+    "case": {
+      "scene": "parallel_plates",
+      "feature": 0.012,
+      "angle": 37
+    },
+    "case_index": 1,
+    "seed": 71,
+    "arm": "cycling",
+    "config": {
+      "model": "siren",
+      "width": 128,
+      "depth": 3
+    },
+    "stage": "development"
+  },
+  "records": [
+    {
+      "step": 26000,
+      "primary_gate": false,
+      "field": {
+        "uniform_sdf_mae": 0.0027985642664134502,
+        "component_0": {
+          "sign_accuracy": 1.0,
+          "mae": 0.017597351223230362,
+          "error_margin_ratio_p95": 0.39780914783477783,
+          "error_margin_ratio_max": 0.6499754786491394,
+          "samples": 256
+        },
+        "component_1": {
+          "sign_accuracy": 1.0,
+          "mae": 0.014958467334508896,
+          "error_margin_ratio_p95": 0.3572677969932556,
+          "error_margin_ratio_max": 0.5003567934036255,
+          "samples": 256
+        },
+        "gap": {
+          "sign_accuracy": 1.0,
+          "mae": 0.0026914814952760935,
+          "error_margin_ratio_p95": 0.5660519599914551,
+          "error_margin_ratio_max": 0.7089704871177673,
+          "samples": 256
+        },
+        "all_probe_signs_correct": true
+      },
+      "independent": {
+        "all": {
+          "samples": 65536,
+          "rmse": 0.0025881461250034663,
+          "sign_accuracy": 0.9335174560546875,
+          "min_signed_prediction": -0.007401969283819199,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "original": {
+          "samples": 32768,
+          "rmse": 0.0033704777116454285,
+          "sign_accuracy": 0.932373046875,
+          "min_signed_prediction": -0.007401969283819199,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap": {
+          "samples": 16384,
+          "rmse": 0.0014451925645391453,
+          "sign_accuracy": 0.986328125,
+          "min_signed_prediction": -0.001831844449043274,
+          "min_true_margin": 3.203749656677246e-07
+        },
+        "interior": {
+          "samples": 16384,
+          "rmse": 0.001408964122852457,
+          "sign_accuracy": 0.88299560546875,
+          "min_signed_prediction": -0.0033965855836868286,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "gap_0": {
+          "samples": 16384,
+          "rmse": 0.0014451925645391453,
+          "sign_accuracy": 0.986328125,
+          "min_signed_prediction": -0.001831844449043274,
+          "min_true_margin": 3.203749656677246e-07
+        },
+        "component_0": {
+          "samples": 8306,
+          "rmse": 0.0013915966421535406,
+          "sign_accuracy": 0.8841801107633036,
+          "min_signed_prediction": -0.0033965855836868286,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "component_1": {
+          "samples": 8078,
+          "rmse": 0.0014266013465821716,
+          "sign_accuracy": 0.8817776677395395,
+          "min_signed_prediction": -0.003321215510368347,
+          "min_true_margin": 2.078711986541748e-06
+        }
+      },
+      "full_gap": {
+        "all": {
+          "samples": 131072,
+          "rmse": 0.0014529890184702497,
+          "sign_accuracy": 0.9848936835760771,
+          "min_signed_prediction": -0.0027532055974006653,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap": {
+          "samples": 131072,
+          "rmse": 0.0014529890184702497,
+          "sign_accuracy": 0.9848936835760771,
+          "min_signed_prediction": -0.0027532055974006653,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap_0": {
+          "samples": 131072,
+          "rmse": 0.0014529890184702497,
+          "sign_accuracy": 0.9848936835760771,
+          "min_signed_prediction": -0.0027532055974006653,
+          "min_true_margin": 1.1920928955078125e-07
+        }
+      },
+      "evaluations": {
+        "192": {
+          "resolution": 192,
+          "mesh_present": true,
+          "mesh": {
+            "components": 1,
+            "euler": -40,
+            "closed_edges": true
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": false,
+          "symmetric_chamfer": 0.00970372523049979
+        },
+        "384": {
+          "resolution": 384,
+          "mesh_present": true,
+          "mesh": {
+            "components": 2,
+            "euler": -16,
+            "closed_edges": true
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": false,
+          "symmetric_chamfer": 0.009733358875374161
+        }
+      },
+      "checkpoint": {
+        "sha256": "0060a48d999d974812b789308e5b5caf1955b4134c693160ec043b418131318e",
+        "model": "1a27d8f3b96bbf13a2b62c6987c82bff601e2bb7b2f4630dd704572813a114b7",
+        "optimizer": "f2b17e1f4739f683965193a4ef9c3e69506da0ebdb162b7b3e2b8a1a0055ff56",
+        "sample_rng": "cb5ff4a1b1f29db384dca2cf4290a7ca790730a5af9da243babaee38ce0f3265"
+      },
+      "evaluation_seconds": 12.2034364999854,
+      "training_seconds": 157.47472160001053,
+      "cumulative_pipeline_seconds": 176.3461282000062,
+      "failure_reasons": [
+        "grid192:topology_mismatch:{'components': 1, 'euler': -40, 'closed_edges': True}",
+        "grid384:topology_mismatch:{'components': 2, 'euler': -16, 'closed_edges': True}"
+      ]
+    },
+    {
+      "step": 30000,
+      "primary_gate": false,
+      "field": {
+        "uniform_sdf_mae": 0.0027583912014961243,
+        "component_0": {
+          "sign_accuracy": 1.0,
+          "mae": 0.01642542891204357,
+          "error_margin_ratio_p95": 0.4021717607975006,
+          "error_margin_ratio_max": 0.6457545757293701,
+          "samples": 256
+        },
+        "component_1": {
+          "sign_accuracy": 1.0,
+          "mae": 0.014034724794328213,
+          "error_margin_ratio_p95": 0.3284463882446289,
+          "error_margin_ratio_max": 0.492517352104187,
+          "samples": 256
+        },
+        "gap": {
+          "sign_accuracy": 1.0,
+          "mae": 0.0025953971780836582,
+          "error_margin_ratio_p95": 0.5194008350372314,
+          "error_margin_ratio_max": 0.6318128108978271,
+          "samples": 256
+        },
+        "all_probe_signs_correct": true
+      },
+      "independent": {
+        "all": {
+          "samples": 65536,
+          "rmse": 0.0025061283169930597,
+          "sign_accuracy": 0.939117431640625,
+          "min_signed_prediction": -0.007355485111474991,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "original": {
+          "samples": 32768,
+          "rmse": 0.0033055450440438133,
+          "sign_accuracy": 0.936187744140625,
+          "min_signed_prediction": -0.007355485111474991,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap": {
+          "samples": 16384,
+          "rmse": 0.0013195222783277424,
+          "sign_accuracy": 0.993408203125,
+          "min_signed_prediction": -0.0014076605439186096,
+          "min_true_margin": 3.203749656677246e-07
+        },
+        "interior": {
+          "samples": 16384,
+          "rmse": 0.0012362529860547923,
+          "sign_accuracy": 0.89068603515625,
+          "min_signed_prediction": -0.0036110617220401764,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "gap_0": {
+          "samples": 16384,
+          "rmse": 0.0013195222783277424,
+          "sign_accuracy": 0.993408203125,
+          "min_signed_prediction": -0.0014076605439186096,
+          "min_true_margin": 3.203749656677246e-07
+        },
+        "component_0": {
+          "samples": 8306,
+          "rmse": 0.0012285405648655551,
+          "sign_accuracy": 0.8900794606308693,
+          "min_signed_prediction": -0.0031394287943840027,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "component_1": {
+          "samples": 8078,
+          "rmse": 0.0012441332371425024,
+          "sign_accuracy": 0.8913097301312206,
+          "min_signed_prediction": -0.0036110617220401764,
+          "min_true_margin": 2.078711986541748e-06
+        }
+      },
+      "full_gap": {
+        "all": {
+          "samples": 131072,
+          "rmse": 0.001327188538776965,
+          "sign_accuracy": 0.9922789938277727,
+          "min_signed_prediction": -0.0024887174367904663,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap": {
+          "samples": 131072,
+          "rmse": 0.001327188538776965,
+          "sign_accuracy": 0.9922789938277727,
+          "min_signed_prediction": -0.0024887174367904663,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap_0": {
+          "samples": 131072,
+          "rmse": 0.001327188538776965,
+          "sign_accuracy": 0.9922789938277727,
+          "min_signed_prediction": -0.0024887174367904663,
+          "min_true_margin": 1.1920928955078125e-07
+        }
+      },
+      "evaluations": {
+        "192": {
+          "resolution": 192,
+          "mesh_present": true,
+          "mesh": {
+            "components": 1,
+            "euler": -26,
+            "closed_edges": true
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": false,
+          "symmetric_chamfer": 0.009692426793691603
+        },
+        "384": {
+          "resolution": 384,
+          "mesh_present": true,
+          "mesh": {
+            "components": 1,
+            "euler": -10,
+            "closed_edges": true
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": false,
+          "symmetric_chamfer": 0.009675259616899037
+        }
+      },
+      "checkpoint": {
+        "sha256": "04eb278a3e48d5c19101b24c3c47fd944452426285db5b681d4da2ff5a8def3b",
+        "model": "5079e408caf6b15de8e3f0af54071053c791b9a9065acf09081980a4b6d1ca1e",
+        "optimizer": "be4dd04d58a61d3536498720336305573963e7da63d0bcecbf6731ca021a18c1",
+        "sample_rng": "cb5ff4a1b1f29db384dca2cf4290a7ca790730a5af9da243babaee38ce0f3265"
+      },
+      "evaluation_seconds": 12.007352199987508,
+      "training_seconds": 169.9722485000384,
+      "cumulative_pipeline_seconds": 200.87279130000388,
+      "failure_reasons": [
+        "grid192:topology_mismatch:{'components': 1, 'euler': -26, 'closed_edges': True}",
+        "grid384:topology_mismatch:{'components': 1, 'euler': -10, 'closed_edges': True}"
+      ]
+    }
+  ]
+}

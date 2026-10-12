@@ -1,0 +1,14 @@
+model,feature,angle,seed,arm,persistent,worker_seconds
+fourier,0.012,17,71,cycling,False,273.31768970005214
+fourier,0.012,17,71,dense,False,337.60256339999614
+fourier,0.012,37,71,cycling,False,283.8181302000303
+fourier,0.012,37,71,dense,False,369.6820231999736
+fourier,0.03,17,71,cycling,False,273.86684199998854
+fourier,0.03,37,71,dense,False,350.58429629995953
+siren,0.012,17,71,cycling,False,181.2330633000238
+siren,0.012,17,71,dense,False,240.5503303000005
+siren,0.012,37,71,cycling,False,200.89637430000585
+siren,0.012,37,71,dense,False,262.73205120000057
+siren,0.03,17,71,cycling,True,179.29949390003458
+siren,0.03,17,71,dense,True,259.07736840000143
+siren,0.03,37,71,dense,True,244.4594414999592

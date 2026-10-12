@@ -1,0 +1,9 @@
+{
+  "command": "CUBLAS_WORKSPACE_CONFIG=:4096:8 .venv/Scripts/python.exe -m pytest -q",
+  "passed": 59,
+  "exit_code": 0,
+  "reported_seconds": 9.03,
+  "scope": "Full suite before freezing and launching the sweep; includes six new density-control tests. Runner and tests unchanged since this validation.",
+  "test_sha256": "8adc32d2ef372f89ff3d37e8d5e543e2b9531b90cc29d02f6b8dc97ada052882",
+  "runner_sha256": "641065cac18d3dd69aa0c9afcb2ff2f747ee590119c93e395fc253002aabf22f"
+}

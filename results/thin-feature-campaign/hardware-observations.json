@@ -1,0 +1,23 @@
+{
+  "scope": "Read-only spot observations; descriptive context, not a controlled hardware benchmark.",
+  "hardware_changes": false,
+  "numerical_tuning": false,
+  "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+  "observations": [
+    {
+      "during": "earlier development sample",
+      "gpu_utilization_percent": 72,
+      "temperature_celsius": 79,
+      "power_watts": 142.2,
+      "sm_clock_mhz": 1860
+    },
+    {
+      "during": "confirmation case3 seed71 dense, approximately 23700 updates",
+      "gpu_utilization_percent": 58,
+      "temperature_celsius": 86,
+      "power_watts": 131.2,
+      "sm_clock_mhz": 1845
+    }
+  ],
+  "interpretation": "These samples do not establish the cause of runtime variation. Claims use actual externally measured pipeline wall times."
+}

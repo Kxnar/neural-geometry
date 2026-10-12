@@ -1,0 +1,10 @@
+{
+  "final_successes_by_policy": {
+    "global_narrow": 0,
+    "local": 0
+  },
+  "total_seeds": 3,
+  "baseline_reproduction": [],
+  "next": "objective_controls",
+  "limitation": "Three development seeds; neither finite probes nor mesh counts certify topology."
+}

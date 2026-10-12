@@ -1,0 +1,79 @@
+{
+  "completed_checkpoints": 6,
+  "expected_checkpoints": 6,
+  "artifacts": {
+    "4436bccf1723b4d9/step-10000/attempt-0001": {
+      "checkpoint.pt": "f35223194313d7e811f5bfed2f256870b53f1ca2a618cc020ebdcc11349f9bbf",
+      "evaluation-r192.json": "302dbbd29467cea5299f977026caf528b702b8a06845de6681836b10e66ab03b",
+      "evaluation-r96.json": "be99a3d70eecc182f075631996b90650024d45d154dcc18014be422dbf00f1da",
+      "metrics.json": "0c8c3681fe01e55505ba03bfd9812d0b125edbf7c85cfd0563e484a176a1a56d",
+      "training-complete.json": "1ad8054e46d83a2df9988fb2959fc9e80372d793b1571db7acaa1f75b4759625",
+      "training.json": "c42a5fb4bf6f022de9dc238357dd42c30a1433e966a5dcc5a119338a819d9186",
+      "training.jsonl": "1cf234a7c7eb15dc86cfd40ce96d1dd11c697bbd61e9d2a148ae42bb5f539223"
+    },
+    "74d095d5e94dedc2/step-10000/attempt-0001": {
+      "checkpoint.pt": "104856fd0ad2837296cb3280fd381901370a0dfde587ad491a9e44d994fe46cb",
+      "evaluation-r192.json": "6d3db3da2b3614008fc2de0773cdce1aa12a4a751721c231dfdbacf2d6f2fe92",
+      "evaluation-r96.json": "a0cdc63939931be1316b2895c40a896ee41dd38e5dfa215a969e1efe737c4e30",
+      "metrics.json": "b2e583ca9c1fa4ab878a445ea45cbd50fabd5774510694e29dece34f4fab1bce",
+      "training-complete.json": "d6198ad2d249fefcad13d75626271732447c68c51e4a9b91c46538389d3e59b1",
+      "training.json": "77bf802b4b2313ce856ad24d3e5ee57d9c2e439280e9ce229d67818ae9016986",
+      "training.jsonl": "d42cfdabee73441b5af7216048fd5eb0d13427574766cad8f7404299f88fa7c9"
+    },
+    "071c200a68d41998/step-10000/attempt-0001": {
+      "checkpoint.pt": "742e7bc332c5f4cecc7b9f5cae0e9fc76a6998f7950700c09fd9a24b0bbe5fee",
+      "evaluation-r192.json": "e2aa42eca7d1794688c97d9eb93e9593aac09174d906a66c1c651f1658c13f1b",
+      "evaluation-r96.json": "62db2de3260d30992f0197d6688f375e2421e369c0495a22d023fb1f42420899",
+      "metrics.json": "f37099c35d0d8967d823ad3a2e4162722e338559252b379a20b6863db1edfc0f",
+      "training-complete.json": "7b4132901aa5ba210520d2dd5092a76cead177dbb22c942b8998873a324c4a22",
+      "training.json": "8e4dcba9cb4d54f90d33cf8c0cb0237ee7ebea33cd1715d345cdf3b38f8a54a2",
+      "training.jsonl": "4aa312663e70be7da8a371f896908cd05c4c464d689a10ecbd13d38d5f73cc68"
+    },
+    "90c6a97166b418ff/step-10000/attempt-0001": {
+      "checkpoint.pt": "a66ec38e2646015b0df944f2eda2d2c2240cbc2e0e0f8cfd60d75d77cfe175ea",
+      "evaluation-r192.json": "4e946e26afe4e87a8948948983bdde855eb52ef595dad2402632c92a5ed50e97",
+      "evaluation-r96.json": "7ce1301bdeec24d6833c9d74518584225ebeac56dd276523c84d2d40228a2d64",
+      "metrics.json": "28a174b76704bb9d4ff53f693b828d7f8b0c4823c8816f69a763ded5b5d9736a",
+      "training-complete.json": "1d27e62230f1c66f4d5fcf168cc98d5e6a52cb89159ceffc515d4d8b1e0915f3",
+      "training.json": "edd92933b10e43b10bd5df0fb8cfcb069394846e3202369233e04819ef5581b6",
+      "training.jsonl": "4226fd2053a9223ea15b64b327bd7599d492f61cb750b0fef7b3343b99a4f6db"
+    },
+    "f061c60433e014cb/step-10000/attempt-0001": {
+      "checkpoint.pt": "074968c550458fd1331921e811e803598fba1032bb0cbadfc9af29fc537baecf",
+      "evaluation-r192.json": "2c12bc976ce4df737eca61f8775d3e4283af84557e27f635f92f97d5bddf408b",
+      "evaluation-r96.json": "bcfe73a358748762b17c79e340aa6d6eac6b1e945562dd15721124134eb5ad34",
+      "metrics.json": "a7c375bd87e9d2d8096c3d64e30659028d4f608b361c830e7f0b1452022ef88f",
+      "training-complete.json": "aeedc6fd6806b45efd007e35f63b76be57a32206ed424cb7d551c160eb862b66",
+      "training.json": "e1d7f584abee408766cb4f20601e1c476dd5318ff63c78dddb07132b417649a0",
+      "training.jsonl": "95b7149c29a375efc6e5fd9254f729a0736673edad552449a8e3662bff0b3377"
+    },
+    "c2da3cc9a05b7018/step-10000/attempt-0001": {
+      "checkpoint.pt": "63e5f02490bdc06276af47ef56af5ba20b8968eb2158107fb007d996149369f8",
+      "evaluation-r192.json": "0a5045959326f51948436b3807c7a68a94108c30aae2aa25d556f16cd10802d4",
+      "evaluation-r96.json": "4ffd4e3cb93b44f1d42b6d9ff079562f5e65707a6d6733ce7506476c65c97f12",
+      "metrics.json": "580df0e6d6038bad0418899dcd79c515b0b9bc98fcc1dff66ca68f59983f6d63",
+      "training-complete.json": "fc1ce68227f73e9a137339dfa1a7a60860820ee4d2739c7aa049881bf258115c",
+      "training.json": "4b1292231a9fb31d40244cc31e9acc880edd60fcbcfb347378a542141df73650",
+      "training.jsonl": "e594546396d4cc836fca1978edbab333f5ed5cc7c527b6920239bf145b70c43d"
+    }
+  },
+  "source_hashes": {
+    "neural_geometry/__init__.py": "59c5ed4664862b6c08b14d7f40c8fc307feceaff848ff73bb569d8d8f66cfa30",
+    "neural_geometry/adaptive.py": "68edc3c21f077a81565a1744ecc571125ab2d7f259ff717eaba63c47a34351e6",
+    "neural_geometry/evaluation.py": "8d808ea167e98ba3ab5895e14016c7f40a1cbd25c10786168eb33f930a9824d9",
+    "neural_geometry/geometry.py": "d5439529cc2b5599680cb0d694e4c7d1f19268997ec5db833f24368618fc0a44",
+    "neural_geometry/metrics.py": "1537f87e2828d2e23a28413f18afb47227ff6d3c93e78980ce02478d1077d03f",
+    "neural_geometry/models.py": "127be4fdcb345448c764b6c9897b81617c1433a72c8d249826a1b0d388ef02b9",
+    "neural_geometry/provenance.py": "88db9b7a5e23504b605deaff7f3145066441085143e31398a489d22d0fdbd996",
+    "neural_geometry/run.py": "5aae1e79bc569b684c1349e2760e70beb867724cb7cafe350af33ad3f3fb4a59",
+    "neural_geometry/sweep.py": "b5476ca8d98deb3b98048d6031e0696b3991c68d42410327205b975a8234aa9f",
+    "neural_geometry_scale/__init__.py": "97375066330634069181753103bee5ffe96b00295ff2f4e861b14423c2cb96c0",
+    "neural_geometry_scale/evaluation.py": "e4df239b9810581d3cc19ec8a3e031f79357c5e5d678936c4f1659e0d1bfbf83",
+    "neural_geometry_scale/geometry.py": "44a0771ccbafc90bc6647e0db620d0db4e22a664df1899f0a0d5ee0854e87d3f",
+    "neural_geometry_scale/study.py": "76de265f6bf57396709dd656d2a29c616bf93e4b20ef82ad58ebe25cfbd919b0",
+    "pyproject.toml": "338ea33b700cad7e2458d3dd35236e487c0b002ce412a9d18bdbb47c20f3ebb5",
+    "requirements-windows-cu126.txt": "a52cb62d2d7f65bbf826813478a99f3447f0f677d85f51d71425f8c87283040b",
+    "scripts/gap_training_controls.py": "13b3b7dab546ca5bf4a6edacd4a53376a2f66d3157e915610c7d0aa5394b2593",
+    "scripts/gap_objective_controls.py": "101fbfbefc3d2cb2c232a4b76177ed07f76c1728f3e10feba99be11074132f62"
+  }
+}

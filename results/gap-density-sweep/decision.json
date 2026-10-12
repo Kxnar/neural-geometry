@@ -1,0 +1,20 @@
+{
+  "persistent_restoration_sizes": [
+    65536
+  ],
+  "persistent_restoration_sizes_by_sampler": {
+    "global_narrow": [
+      65536
+    ],
+    "local": [
+      65536
+    ]
+  },
+  "dense_persistent_passes": 6,
+  "dense_final_training_fit_passes": 0,
+  "all_structural_checkpoints_passing": 25,
+  "fresh_cases_evaluated": false,
+  "new_loss_advanced": false,
+  "next_step": "Pursue coverage and sampling efficiency with ordinary MSE; dense-data residual fit remains unresolved.",
+  "interpretation": "Coverage is supported by persistent restoration across all six pairs."
+}

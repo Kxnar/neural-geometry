@@ -1,0 +1,31 @@
+{
+  "batch": 2,
+  "arms": [
+    {
+      "arm": "cycle-4096",
+      "persistent_passes": 5,
+      "training_time_ratio": 0.2989593492854896,
+      "presentation_ratio": 0.0625,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.1997684711676977,
+          "gap_sign_delta": -0.004720121622085571,
+          "chamfer_ratio_192": 1.01409156996515,
+          "chamfer_ratio_384": 1.0165943778866406,
+          "guards_pass": false
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.11778782496037,
+          "gap_sign_delta": 0.0005099177360534668,
+          "chamfer_ratio_192": 1.0018563471087645,
+          "chamfer_ratio_384": 1.0040074842824174,
+          "guards_pass": false
+        }
+      ],
+      "qualifies": false
+    }
+  ],
+  "fresh_cases_evaluated": false
+}

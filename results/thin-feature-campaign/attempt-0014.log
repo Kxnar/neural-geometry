@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "retained-workspace\scripts\thin_feature_campaign.py", line 602, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "retained-workspace\scripts\thin_feature_campaign.py", line 595, in main
+    elif a.command=='worker': worker(a.manifest,a.task)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "retained-workspace\scripts\thin_feature_campaign.py", line 364, in worker
+    write(out/'progress.json',dict(step=step,elapsed_seconds=time.perf_counter()-start,arm=task['arm']))
+  File "retained-workspace\scripts\thin_feature_campaign.py", line 53, in write
+    os.replace(temp, path)
+PermissionError: [WinError 5] Access is denied: 'retained-workspace\\runs\\thin-feature-campaign\\development\\fourier-case2-seed71-dense\\progress.json.tmp' -> 'retained-workspace\\runs\\thin-feature-campaign\\development\\fourier-case2-seed71-dense\\progress.json'

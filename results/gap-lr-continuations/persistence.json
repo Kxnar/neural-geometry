@@ -1,0 +1,208 @@
+{
+  "trajectories": [
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "schedule": "constant",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "schedule": "cosine",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "schedule": "constant",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "schedule": "cosine",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "schedule": "constant",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "schedule": "cosine",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "schedule": "constant",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "schedule": "cosine",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "schedule": "constant",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "schedule": "cosine",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "schedule": "constant",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "schedule": "cosine",
+      "primary": [
+        false,
+        false,
+        false
+      ],
+      "full_gap": [
+        false,
+        false,
+        false
+      ],
+      "sustained": false,
+      "first_observed_sustained_suffix": null
+    }
+  ]
+}

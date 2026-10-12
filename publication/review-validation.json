@@ -1,0 +1,15 @@
+{
+  "scope": "Current public tree metadata cleanup; no new scientific experiments",
+  "original_references": "Historical seals and hash tables preserved; edited public copies have explicit original-to-public mappings",
+  "numerical_validation": "CSV and figure bytes unchanged; structured evidence permits only specified path/credit metadata changes; scientific source AST checks exclude module documentation, comments and credit metadata",
+  "recipe_validation": "Replacement-only byte-offset recipes, deduplicated by original/public digest pair; private original archive retained outside repository",
+  "tests": "62 local tests passed in 24.76 seconds, including transformed/unchanged/omitted/tampered publication evidence",
+  "private_original_checks": "2839 original public-tree records and all41 edit recipes verified against private ZIP;587 retained raw artifacts verified",
+  "current_tree_audit": {
+    "files_scanned": 2842,
+    "png_metadata_chunks_scanned": 13,
+    "decoded_replacement_recipes_checked": true,
+    "residuals": 0
+  },
+  "history_scope": "Earlier Git revisions are retained; this audit covers the current public tree"
+}

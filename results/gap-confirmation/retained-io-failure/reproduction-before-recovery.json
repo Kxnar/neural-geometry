@@ -1,0 +1,202 @@
+{
+  "checkpoints": [
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    }
+  ]
+}

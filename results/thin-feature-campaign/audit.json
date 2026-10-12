@@ -1,0 +1,17 @@
+{
+  "confirmation_completed": 54,
+  "expected": 54,
+  "complete": true,
+  "prefix_pairing": true,
+  "failed_attempts": 3,
+  "stage_charges": {
+    "development": 3597.1432590999757,
+    "confirmation": 12333.340993099846,
+    "qa": 46.60788450000109
+  },
+  "events": 558,
+  "completed_source_snapshots_verified": true,
+  "partial_trajectories": [],
+  "original_reservation_unchanged": true,
+  "old_consumption_unchanged": true
+}

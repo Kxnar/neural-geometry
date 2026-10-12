@@ -1,0 +1,19 @@
+{
+  "full_suite": "53 passed in 10.07s",
+  "command": ".venv/Scripts/python.exe -m pytest -q",
+  "checks": [
+    "CPU and CUDA continuation matches uninterrupted model and Adam tensors",
+    "Cosine endpoints and monotonicity",
+    "Full footprint outer-region detection and margin partition",
+    "Fixed data deterministic regeneration and analytic labels",
+    "Exact full-batch fixed-data updates and unchanged sampling RNG",
+    "54 completed checkpoints and all artifact hashes verified",
+    "All six continuation pairs have matching point-label streams",
+    "Fresh reservation hash unchanged"
+  ],
+  "test_source_sha256": "efcf082b175ff15c82c194c6a75472268c84e476e5cd64975d8b712b88037a4d",
+  "plots_visually_reviewed": [
+    "gap-stability.png",
+    "margin-errors.png"
+  ]
+}

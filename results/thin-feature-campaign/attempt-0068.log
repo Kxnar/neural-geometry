@@ -1,0 +1,5 @@
+{"task": "siren-case7-seed72-cycling", "step": 23000, "primary": false, "elapsed": 152.78862020000815}
+{"task": "siren-case7-seed72-cycling", "step": 26000, "primary": false, "elapsed": 174.50527630001307}
+{"io_retry": "waiting", "operation": "atomic_replace", "winerror": 5, "destination": "retained-workspace\\runs\\thin-feature-campaign\\confirmation\\siren-case7-seed72-cycling\\progress.json", "delay_seconds": 0.025, "attempt": 1}
+{"io_retry": "recovered", "operation": "atomic_replace", "source": "retained-workspace\\runs\\thin-feature-campaign\\confirmation\\siren-case7-seed72-cycling\\progress.json.tmp", "destination": "retained-workspace\\runs\\thin-feature-campaign\\confirmation\\siren-case7-seed72-cycling\\progress.json", "retries": 1, "elapsed_seconds": 0.02691050001885742}
+{"task": "siren-case7-seed72-cycling", "step": 30000, "primary": false, "elapsed": 199.51651570003014}

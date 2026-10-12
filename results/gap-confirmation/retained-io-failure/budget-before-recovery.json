@@ -1,0 +1,73 @@
+{
+  "limit_seconds": 7200,
+  "maximum_batches": 3,
+  "attempts": [
+    {
+      "batch": null,
+      "command": [
+        "-m",
+        "pytest",
+        "tests/test_gap_confirmation.py",
+        "-q"
+      ],
+      "started_utc": "2026-10-08T21:30:34.912779+00:00",
+      "finished": true,
+      "charged_seconds": 4.285989600000903,
+      "exit_code": 1,
+      "finished_utc": "2026-10-08T21:30:39.199699+00:00",
+      "log": "results/gap-confirmation/tests-1.log"
+    },
+    {
+      "batch": null,
+      "command": [
+        "-m",
+        "pytest",
+        "tests/test_gap_confirmation.py",
+        "-q",
+        "--basetemp",
+        "retained-workspace\\runs\\gap-confirmation\\test-temp-2"
+      ],
+      "started_utc": "2026-10-08T21:30:56.544481+00:00",
+      "finished": true,
+      "charged_seconds": 3.411157700000331,
+      "exit_code": 1,
+      "finished_utc": "2026-10-08T21:30:59.956792+00:00",
+      "log": "results/gap-confirmation/tests-2.log"
+    },
+    {
+      "batch": null,
+      "command": [
+        "-m",
+        "pytest",
+        "tests/test_gap_confirmation.py",
+        "-q",
+        "--basetemp",
+        "retained-workspace\\runs\\gap-confirmation\\test-temp-3"
+      ],
+      "started_utc": "2026-10-08T21:31:14.003465+00:00",
+      "finished": true,
+      "charged_seconds": 6.262412999989465,
+      "exit_code": 0,
+      "finished_utc": "2026-10-08T21:31:20.267029+00:00",
+      "log": "results/gap-confirmation/tests-3.log"
+    },
+    {
+      "batch": 1,
+      "command": [
+        "-m",
+        "scripts.gap_confirmation",
+        "run",
+        "--manifest",
+        "retained-workspace\\results\\gap-confirmation\\batch-1-manifest.json",
+        "--out",
+        "retained-workspace\\runs\\gap-confirmation\\batch-1"
+      ],
+      "started_utc": "2026-10-08T21:31:36.436750+00:00",
+      "finished": true,
+      "charged_seconds": 1588.4590978999913,
+      "exit_code": 1,
+      "finished_utc": "2026-10-08T21:58:04.897440+00:00",
+      "log": "results/gap-confirmation/batch-1-stdout.log"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "python": "3.11.16",
+  "torch": "2.7.1+cu126",
+  "numpy": "2.4.6",
+  "gpu": "NVIDIA GeForce RTX 2080 Super",
+  "device": "cuda",
+  "note": "Same interpreter and device as duration and width controls."
+}

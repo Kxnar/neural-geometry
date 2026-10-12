@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "frozen_date": "2026-10-08",
+  "status": "reserved_unevaluated",
+  "seeds": [
+    71,
+    72,
+    73
+  ],
+  "eval_seed": 91000,
+  "cases": [
+    {
+      "scene": "parallel_plates",
+      "feature": 0.012,
+      "angle": 17
+    },
+    {
+      "scene": "parallel_plates",
+      "feature": 0.03,
+      "angle": 37
+    },
+    {
+      "scene": "parallel_plates",
+      "feature": 0.06,
+      "angle": 23
+    },
+    {
+      "scene": "mixed_thickness",
+      "feature": 0.015,
+      "angle": 23
+    },
+    {
+      "scene": "mixed_thickness",
+      "feature": 0.03,
+      "angle": 37
+    },
+    {
+      "scene": "mixed_thickness",
+      "feature": 0.06,
+      "angle": 17
+    },
+    {
+      "scene": "multiscale_plate_stack",
+      "angle": 17,
+      "axis": "z",
+      "half_extents": [
+        [
+          0.5,
+          0.5,
+          0.025
+        ],
+        [
+          0.5,
+          0.5,
+          0.07
+        ],
+        [
+          0.5,
+          0.5,
+          0.12
+        ]
+      ],
+      "centers": [
+        [
+          0,
+          0,
+          -0.227
+        ],
+        [
+          0,
+          0,
+          -0.12
+        ],
+        [
+          0,
+          0,
+          0.12
+        ]
+      ],
+      "full_gaps": [
+        0.012,
+        0.05
+      ],
+      "expected_components": 3,
+      "expected_euler": 6
+    },
+    {
+      "scene": "multiscale_plate_stack",
+      "angle": 37,
+      "axis": "z",
+      "half_extents": [
+        [
+          0.5,
+          0.5,
+          0.025
+        ],
+        [
+          0.5,
+          0.5,
+          0.07
+        ],
+        [
+          0.5,
+          0.5,
+          0.12
+        ]
+      ],
+      "centers": [
+        [
+          0,
+          0,
+          -0.227
+        ],
+        [
+          0,
+          0,
+          -0.12
+        ],
+        [
+          0,
+          0,
+          0.12
+        ]
+      ],
+      "full_gaps": [
+        0.012,
+        0.05
+      ],
+      "expected_components": 3,
+      "expected_euler": 6
+    }
+  ],
+  "advancement": {
+    "primary": "aggregate resolved structural success rate strictly exceeds every simple control",
+    "family_guard": "no geometry family has lower structural success than any simple control",
+    "surface_guard": "mean valid surface distance no more than 5 percent worse than best simple control; missing meshes count as structural failures",
+    "losses": "MSE, frozen simple weighted-MSE controls, proposed sign-aware loss if that branch is reached",
+    "pairing": "identical points across loss arms within sampler and seed, verify stream hashes",
+    "scope": "descriptive analytic evidence only; freeze full executable manifest and implementation before evaluation"
+  }
+}

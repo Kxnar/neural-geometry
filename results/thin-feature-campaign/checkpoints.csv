@@ -1,0 +1,325 @@
+task,family,step,resolution,primary,reference_resolved,mesh_present,components,euler,closed_edges,chamfer,failure_reasons
+siren-case2-seed71-cycling,parallel_plates,23000,192,True,True,True,2,4,True,0.009925785087943643,
+siren-case2-seed71-cycling,parallel_plates,23000,384,True,True,True,2,4,True,0.009967702081329728,
+siren-case2-seed71-cycling,parallel_plates,26000,192,True,True,True,2,4,True,0.00991823062388223,
+siren-case2-seed71-cycling,parallel_plates,26000,384,True,True,True,2,4,True,0.009903868215273181,
+siren-case2-seed71-cycling,parallel_plates,30000,192,True,True,True,2,4,True,0.00985383182402889,
+siren-case2-seed71-cycling,parallel_plates,30000,384,True,True,True,2,4,True,0.009924680240810483,
+siren-case2-seed71-dense,parallel_plates,23000,192,True,True,True,2,4,True,0.009912249878622773,
+siren-case2-seed71-dense,parallel_plates,23000,384,True,True,True,2,4,True,0.009863606925966426,
+siren-case2-seed71-dense,parallel_plates,26000,192,True,True,True,2,4,True,0.009882858317079683,
+siren-case2-seed71-dense,parallel_plates,26000,384,True,True,True,2,4,True,0.009922036563188512,
+siren-case2-seed71-dense,parallel_plates,30000,192,True,True,True,2,4,True,0.009869423032712316,
+siren-case2-seed71-dense,parallel_plates,30000,384,True,True,True,2,4,True,0.009912872200252758,
+siren-case2-seed71-random,parallel_plates,23000,192,True,True,True,2,4,True,0.009916873038024274,
+siren-case2-seed71-random,parallel_plates,23000,384,True,True,True,2,4,True,0.009884720083466778,
+siren-case2-seed71-random,parallel_plates,26000,192,True,True,True,2,4,True,0.009870721406840928,
+siren-case2-seed71-random,parallel_plates,26000,384,True,True,True,2,4,True,0.009915950403804014,
+siren-case2-seed71-random,parallel_plates,30000,192,True,True,True,2,4,True,0.009852747232566525,
+siren-case2-seed71-random,parallel_plates,30000,384,True,True,True,2,4,True,0.00986335248784968,
+siren-case2-seed72-cycling,parallel_plates,23000,192,True,True,True,2,4,True,0.009895721053804755,
+siren-case2-seed72-cycling,parallel_plates,23000,384,True,True,True,2,4,True,0.009911028043948947,
+siren-case2-seed72-cycling,parallel_plates,26000,192,True,True,True,2,4,True,0.009857188695054997,
+siren-case2-seed72-cycling,parallel_plates,26000,384,True,True,True,2,4,True,0.00984353575371688,
+siren-case2-seed72-cycling,parallel_plates,30000,192,True,True,True,2,4,True,0.009892306199353202,
+siren-case2-seed72-cycling,parallel_plates,30000,384,True,True,True,2,4,True,0.009850713503756325,
+siren-case2-seed72-dense,parallel_plates,23000,192,True,True,True,2,4,True,0.009908330747867483,
+siren-case2-seed72-dense,parallel_plates,23000,384,True,True,True,2,4,True,0.00994640695448138,
+siren-case2-seed72-dense,parallel_plates,26000,192,True,True,True,2,4,True,0.009874901603622994,
+siren-case2-seed72-dense,parallel_plates,26000,384,True,True,True,2,4,True,0.00985416990937658,
+siren-case2-seed72-dense,parallel_plates,30000,192,True,True,True,2,4,True,0.00984190044600661,
+siren-case2-seed72-dense,parallel_plates,30000,384,True,True,True,2,4,True,0.009903022145190881,
+siren-case2-seed72-random,parallel_plates,23000,192,True,True,True,2,4,True,0.00989612402437906,
+siren-case2-seed72-random,parallel_plates,23000,384,True,True,True,2,4,True,0.009942937660607613,
+siren-case2-seed72-random,parallel_plates,26000,192,True,True,True,2,4,True,0.009789305866225421,
+siren-case2-seed72-random,parallel_plates,26000,384,True,True,True,2,4,True,0.009842737023816626,
+siren-case2-seed72-random,parallel_plates,30000,192,True,True,True,2,4,True,0.00990050487111642,
+siren-case2-seed72-random,parallel_plates,30000,384,True,True,True,2,4,True,0.00992609434954864,
+siren-case2-seed73-cycling,parallel_plates,23000,192,True,True,True,2,4,True,0.009861902585693279,
+siren-case2-seed73-cycling,parallel_plates,23000,384,True,True,True,2,4,True,0.009834958963682625,
+siren-case2-seed73-cycling,parallel_plates,26000,192,True,True,True,2,4,True,0.009928874691024943,
+siren-case2-seed73-cycling,parallel_plates,26000,384,True,True,True,2,4,True,0.009889913334899105,
+siren-case2-seed73-cycling,parallel_plates,30000,192,True,True,True,2,4,True,0.009813587648642721,
+siren-case2-seed73-cycling,parallel_plates,30000,384,True,True,True,2,4,True,0.009865201639737607,
+siren-case2-seed73-dense,parallel_plates,23000,192,True,True,True,2,4,True,0.009878488193707357,
+siren-case2-seed73-dense,parallel_plates,23000,384,True,True,True,2,4,True,0.00993961285597526,
+siren-case2-seed73-dense,parallel_plates,26000,192,True,True,True,2,4,True,0.009925591436878739,
+siren-case2-seed73-dense,parallel_plates,26000,384,True,True,True,2,4,True,0.009882026041200054,
+siren-case2-seed73-dense,parallel_plates,30000,192,True,True,True,2,4,True,0.009875014973068011,
+siren-case2-seed73-dense,parallel_plates,30000,384,True,True,True,2,4,True,0.009822387111477036,
+siren-case2-seed73-random,parallel_plates,23000,192,True,True,True,2,4,True,0.009868598837391105,
+siren-case2-seed73-random,parallel_plates,23000,384,True,True,True,2,4,True,0.009891908617282738,
+siren-case2-seed73-random,parallel_plates,26000,192,True,True,True,2,4,True,0.009873537336359657,
+siren-case2-seed73-random,parallel_plates,26000,384,True,True,True,2,4,True,0.009828688039889797,
+siren-case2-seed73-random,parallel_plates,30000,192,True,True,True,2,4,True,0.009905734630050279,
+siren-case2-seed73-random,parallel_plates,30000,384,True,True,True,2,4,True,0.009837818672707319,
+siren-case3-seed71-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.006063122232122501,
+siren-case3-seed71-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.006074369413559168,
+siren-case3-seed71-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.005994090659359292,
+siren-case3-seed71-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.006014477616309853,
+siren-case3-seed71-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.005929086390122438,
+siren-case3-seed71-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.005974641780864003,
+siren-case3-seed71-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.0060427647979534,
+siren-case3-seed71-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.006051030728477326,
+siren-case3-seed71-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.005982297820837337,
+siren-case3-seed71-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.006019056094337308,
+siren-case3-seed71-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.0059393864282464934,
+siren-case3-seed71-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.006005679120091485,
+siren-case3-seed71-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006084574473348451,
+siren-case3-seed71-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.006047645466126788,
+siren-case3-seed71-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.006006888204968053,
+siren-case3-seed71-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.006033426460149755,
+siren-case3-seed71-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.005944480755556971,
+siren-case3-seed71-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.005990149901901311,
+siren-case3-seed72-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.006124212421319426,
+siren-case3-seed72-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.0061394805973389,
+siren-case3-seed72-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.005972074006628212,
+siren-case3-seed72-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.005992966508412077,
+siren-case3-seed72-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.005972399514623257,
+siren-case3-seed72-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.006002650834624347,
+siren-case3-seed72-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.006014574748093606,
+siren-case3-seed72-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.006078154580212913,
+siren-case3-seed72-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.006027471311678859,
+siren-case3-seed72-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.005980540066326097,
+siren-case3-seed72-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.005965346038572339,
+siren-case3-seed72-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.005990671832664241,
+siren-case3-seed72-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006046828765746275,
+siren-case3-seed72-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.0061162678289257266,
+siren-case3-seed72-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.005986922823087243,
+siren-case3-seed72-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.006013977116848673,
+siren-case3-seed72-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.005967307393049586,
+siren-case3-seed72-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.006016165939493854,
+siren-case3-seed73-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.006134824565667231,
+siren-case3-seed73-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.006233409128513148,
+siren-case3-seed73-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.005964361828534189,
+siren-case3-seed73-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.005992014590586003,
+siren-case3-seed73-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.005947253128054734,
+siren-case3-seed73-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.0059404258590729266,
+siren-case3-seed73-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.005990430660491928,
+siren-case3-seed73-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.006067086272537584,
+siren-case3-seed73-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.005943364746524278,
+siren-case3-seed73-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.005954437488974961,
+siren-case3-seed73-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.005971197748778443,
+siren-case3-seed73-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.005972981053962167,
+siren-case3-seed73-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006033104429282513,
+siren-case3-seed73-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.00604479028593794,
+siren-case3-seed73-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.00594886995632989,
+siren-case3-seed73-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.0059825483508112905,
+siren-case3-seed73-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.005962259895118624,
+siren-case3-seed73-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.005960489183352917,
+siren-case4-seed71-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.00621530424021265,
+siren-case4-seed71-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.00624479193304227,
+siren-case4-seed71-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.006130179035658146,
+siren-case4-seed71-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.006102414298465717,
+siren-case4-seed71-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.006096670628747556,
+siren-case4-seed71-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.006132287968847521,
+siren-case4-seed71-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.006166294295481198,
+siren-case4-seed71-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.006203595860895942,
+siren-case4-seed71-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.006121823745837962,
+siren-case4-seed71-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.006129143694471746,
+siren-case4-seed71-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.00610030777759719,
+siren-case4-seed71-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.006104404704084299,
+siren-case4-seed71-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006259127060302189,
+siren-case4-seed71-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.006224236884210175,
+siren-case4-seed71-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.006142011444378818,
+siren-case4-seed71-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.006135740196964142,
+siren-case4-seed71-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.006109482431441677,
+siren-case4-seed71-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.006119768464280327,
+siren-case4-seed72-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.0062159498995429776,
+siren-case4-seed72-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.0062156398246629736,
+siren-case4-seed72-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.00613841154391799,
+siren-case4-seed72-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.006104495667797631,
+siren-case4-seed72-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.006093682083950575,
+siren-case4-seed72-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.006063794788440212,
+siren-case4-seed72-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.0061930369603005325,
+siren-case4-seed72-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.0061660942367134375,
+siren-case4-seed72-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.0060929459063809085,
+siren-case4-seed72-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.006122449200570834,
+siren-case4-seed72-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.006064230019438274,
+siren-case4-seed72-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.006050262722571085,
+siren-case4-seed72-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006194621353812041,
+siren-case4-seed72-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.006201906966282287,
+siren-case4-seed72-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.006108976271819466,
+siren-case4-seed72-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.0061436480065991195,
+siren-case4-seed72-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.006068250596688403,
+siren-case4-seed72-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.006064858904143948,
+siren-case4-seed73-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.0061673667004295335,
+siren-case4-seed73-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.0062137541498202865,
+siren-case4-seed73-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.006146322977597861,
+siren-case4-seed73-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.0061645788004681505,
+siren-case4-seed73-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.006106872748064297,
+siren-case4-seed73-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.006085548275201207,
+siren-case4-seed73-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.006185185264869556,
+siren-case4-seed73-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.006218951909779782,
+siren-case4-seed73-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.006132351014272395,
+siren-case4-seed73-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.006131091942440861,
+siren-case4-seed73-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.006053068204805823,
+siren-case4-seed73-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.00610542267310981,
+siren-case4-seed73-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006180725618037976,
+siren-case4-seed73-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.006226179956425373,
+siren-case4-seed73-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.0061218604939190764,
+siren-case4-seed73-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.00613355336902243,
+siren-case4-seed73-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.006053838414984955,
+siren-case4-seed73-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.006096353223933704,
+siren-case5-seed71-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.006377589090620089,
+siren-case5-seed71-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.0063978264647905295,
+siren-case5-seed71-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.0062819844020590284,
+siren-case5-seed71-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.006303586404200232,
+siren-case5-seed71-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.006287591280008501,
+siren-case5-seed71-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.006309710156775561,
+siren-case5-seed71-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.0063502344795127764,
+siren-case5-seed71-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.006379967871009717,
+siren-case5-seed71-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.0063111274704951165,
+siren-case5-seed71-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.006287273405937751,
+siren-case5-seed71-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.006339005835353016,
+siren-case5-seed71-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.006274478135939383,
+siren-case5-seed71-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006378502426745682,
+siren-case5-seed71-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.006436909340664416,
+siren-case5-seed71-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.00630010378528233,
+siren-case5-seed71-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.006328748740425564,
+siren-case5-seed71-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.006288973909377926,
+siren-case5-seed71-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.006302901861375752,
+siren-case5-seed72-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.00635014511607845,
+siren-case5-seed72-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.006327298772039091,
+siren-case5-seed72-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.006267831976673322,
+siren-case5-seed72-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.006272495718851407,
+siren-case5-seed72-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.006240371893315923,
+siren-case5-seed72-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.00626381650517855,
+siren-case5-seed72-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.006334565595691439,
+siren-case5-seed72-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.006330842075467408,
+siren-case5-seed72-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.006237087339528493,
+siren-case5-seed72-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.006247332326101616,
+siren-case5-seed72-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.0062725300685211784,
+siren-case5-seed72-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.00624602963237445,
+siren-case5-seed72-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006392084910505187,
+siren-case5-seed72-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.006376375066535815,
+siren-case5-seed72-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.006286143259446553,
+siren-case5-seed72-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.006319136280360566,
+siren-case5-seed72-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.006228999896679548,
+siren-case5-seed72-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.006267950836882773,
+siren-case5-seed73-cycling,mixed_thickness,23000,192,True,True,True,2,4,True,0.006403619972517742,
+siren-case5-seed73-cycling,mixed_thickness,23000,384,True,True,True,2,4,True,0.006410205915045621,
+siren-case5-seed73-cycling,mixed_thickness,26000,192,True,True,True,2,4,True,0.0062924342894388014,
+siren-case5-seed73-cycling,mixed_thickness,26000,384,True,True,True,2,4,True,0.0063135977083707134,
+siren-case5-seed73-cycling,mixed_thickness,30000,192,True,True,True,2,4,True,0.006269508143491651,
+siren-case5-seed73-cycling,mixed_thickness,30000,384,True,True,True,2,4,True,0.006323211193709626,
+siren-case5-seed73-dense,mixed_thickness,23000,192,True,True,True,2,4,True,0.006374929064016731,
+siren-case5-seed73-dense,mixed_thickness,23000,384,True,True,True,2,4,True,0.006350390093413587,
+siren-case5-seed73-dense,mixed_thickness,26000,192,True,True,True,2,4,True,0.006287200717715397,
+siren-case5-seed73-dense,mixed_thickness,26000,384,True,True,True,2,4,True,0.006280212511781975,
+siren-case5-seed73-dense,mixed_thickness,30000,192,True,True,True,2,4,True,0.006261721834654696,
+siren-case5-seed73-dense,mixed_thickness,30000,384,True,True,True,2,4,True,0.0062692313853909675,
+siren-case5-seed73-random,mixed_thickness,23000,192,True,True,True,2,4,True,0.006366696753275432,
+siren-case5-seed73-random,mixed_thickness,23000,384,True,True,True,2,4,True,0.006435132071137717,
+siren-case5-seed73-random,mixed_thickness,26000,192,True,True,True,2,4,True,0.0063363096944436675,
+siren-case5-seed73-random,mixed_thickness,26000,384,True,True,True,2,4,True,0.006327260464844592,
+siren-case5-seed73-random,mixed_thickness,30000,192,True,True,True,2,4,True,0.006278432216649865,
+siren-case5-seed73-random,mixed_thickness,30000,384,True,True,True,2,4,True,0.006268378940376719,
+siren-case6-seed71-cycling,multiscale_plate_stack,23000,192,False,True,True,2,-64,True,0.009837033747053569,"grid192:topology_mismatch:{'components': 2, 'euler': -64, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -34, 'closed_edges': True}"
+siren-case6-seed71-cycling,multiscale_plate_stack,23000,384,False,True,True,2,-34,True,0.009869841868246205,"grid192:topology_mismatch:{'components': 2, 'euler': -64, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -34, 'closed_edges': True}"
+siren-case6-seed71-cycling,multiscale_plate_stack,26000,192,False,True,True,3,-62,True,0.009812824211793074,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -62, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed71-cycling,multiscale_plate_stack,26000,384,False,True,True,3,-12,True,0.009883539728393138,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -62, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed71-cycling,multiscale_plate_stack,30000,192,False,True,True,4,-22,True,0.009825640979498111,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 4, 'euler': -22, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': 0, 'closed_edges': True}"
+siren-case6-seed71-cycling,multiscale_plate_stack,30000,384,False,True,True,4,0,True,0.009931364757656491,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 4, 'euler': -22, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': 0, 'closed_edges': True}"
+siren-case6-seed71-dense,multiscale_plate_stack,23000,192,False,True,True,2,-56,True,0.009861714484126545,"grid192:topology_mismatch:{'components': 2, 'euler': -56, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -8, 'closed_edges': True}"
+siren-case6-seed71-dense,multiscale_plate_stack,23000,384,False,True,True,2,-8,True,0.009821176156628765,"grid192:topology_mismatch:{'components': 2, 'euler': -56, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -8, 'closed_edges': True}"
+siren-case6-seed71-dense,multiscale_plate_stack,26000,192,False,True,True,3,-34,True,0.009851045120364433,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -34, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -4, 'closed_edges': True}"
+siren-case6-seed71-dense,multiscale_plate_stack,26000,384,False,True,True,3,-4,True,0.009819723565793461,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -34, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -4, 'closed_edges': True}"
+siren-case6-seed71-dense,multiscale_plate_stack,30000,192,False,True,True,3,-18,True,0.009870072358446825,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -18, 'closed_edges': True}"
+siren-case6-seed71-dense,multiscale_plate_stack,30000,384,False,True,True,3,6,True,0.009842348996510503,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -18, 'closed_edges': True}"
+siren-case6-seed71-random,multiscale_plate_stack,23000,192,False,True,True,2,-74,True,0.009896495497125605,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 2, 'euler': -74, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed71-random,multiscale_plate_stack,23000,384,False,True,True,2,-12,True,0.009855769492663913,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 2, 'euler': -74, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed71-random,multiscale_plate_stack,26000,192,False,True,True,3,-48,True,0.009771326192143378,"grid192:topology_mismatch:{'components': 3, 'euler': -48, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed71-random,multiscale_plate_stack,26000,384,False,True,True,3,-12,True,0.009828049662244686,"grid192:topology_mismatch:{'components': 3, 'euler': -48, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed71-random,multiscale_plate_stack,30000,192,False,True,True,4,-20,True,0.009850487408676643,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 4, 'euler': -20, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': -4, 'closed_edges': True}"
+siren-case6-seed71-random,multiscale_plate_stack,30000,384,False,True,True,4,-4,True,0.009880168537478895,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 4, 'euler': -20, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': -4, 'closed_edges': True}"
+siren-case6-seed72-cycling,multiscale_plate_stack,23000,192,False,True,True,2,-52,True,0.009834181637554874,"grid192:topology_mismatch:{'components': 2, 'euler': -52, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed72-cycling,multiscale_plate_stack,23000,384,False,True,True,2,-12,True,0.009847317178302577,"grid192:topology_mismatch:{'components': 2, 'euler': -52, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed72-cycling,multiscale_plate_stack,26000,192,False,True,True,2,-38,True,0.009865601233435686,"grid192:topology_mismatch:{'components': 2, 'euler': -38, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -6, 'closed_edges': True}"
+siren-case6-seed72-cycling,multiscale_plate_stack,26000,384,False,True,True,2,-6,True,0.009837191182879354,"grid192:topology_mismatch:{'components': 2, 'euler': -38, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -6, 'closed_edges': True}"
+siren-case6-seed72-cycling,multiscale_plate_stack,30000,192,False,True,True,2,-22,True,0.009745071892964478,"grid192:topology_mismatch:{'components': 2, 'euler': -22, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 2, 'closed_edges': True}"
+siren-case6-seed72-cycling,multiscale_plate_stack,30000,384,False,True,True,2,2,True,0.009870248012704644,"grid192:topology_mismatch:{'components': 2, 'euler': -22, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 2, 'closed_edges': True}"
+siren-case6-seed72-dense,multiscale_plate_stack,23000,192,False,True,True,2,-58,True,0.009798707503762907,"grid192:topology_mismatch:{'components': 2, 'euler': -58, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -18, 'closed_edges': True}"
+siren-case6-seed72-dense,multiscale_plate_stack,23000,384,False,True,True,2,-18,True,0.009809867012405323,"grid192:topology_mismatch:{'components': 2, 'euler': -58, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -18, 'closed_edges': True}"
+siren-case6-seed72-dense,multiscale_plate_stack,26000,192,False,True,True,3,-46,True,0.0097885513219539,"grid192:topology_mismatch:{'components': 3, 'euler': -46, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed72-dense,multiscale_plate_stack,26000,384,False,True,True,3,-12,True,0.009780265120769993,"grid192:topology_mismatch:{'components': 3, 'euler': -46, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -12, 'closed_edges': True}"
+siren-case6-seed72-dense,multiscale_plate_stack,30000,192,False,True,True,3,-14,True,0.009729798082568053,"grid192:topology_mismatch:{'components': 3, 'euler': -14, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 4, 'closed_edges': True}"
+siren-case6-seed72-dense,multiscale_plate_stack,30000,384,False,True,True,3,4,True,0.009798596729581794,"grid192:topology_mismatch:{'components': 3, 'euler': -14, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 4, 'closed_edges': True}"
+siren-case6-seed72-random,multiscale_plate_stack,23000,192,False,True,True,2,-48,True,0.009861069040079419,"grid192:topology_mismatch:{'components': 2, 'euler': -48, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -30, 'closed_edges': True}"
+siren-case6-seed72-random,multiscale_plate_stack,23000,384,False,True,True,2,-30,True,0.00995539632552175,"grid192:topology_mismatch:{'components': 2, 'euler': -48, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -30, 'closed_edges': True}"
+siren-case6-seed72-random,multiscale_plate_stack,26000,192,False,True,True,2,-16,True,0.009775867695207495,"grid192:topology_mismatch:{'components': 2, 'euler': -16, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -2, 'closed_edges': True}"
+siren-case6-seed72-random,multiscale_plate_stack,26000,384,False,True,True,2,-2,True,0.009849436115363493,"grid192:topology_mismatch:{'components': 2, 'euler': -16, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -2, 'closed_edges': True}"
+siren-case6-seed72-random,multiscale_plate_stack,30000,192,False,True,True,2,-14,True,0.009752109048246166,"grid192:topology_mismatch:{'components': 2, 'euler': -14, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 2, 'closed_edges': True}"
+siren-case6-seed72-random,multiscale_plate_stack,30000,384,False,True,True,2,2,True,0.009787367739405736,"grid192:topology_mismatch:{'components': 2, 'euler': -14, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 2, 'closed_edges': True}"
+siren-case6-seed73-cycling,multiscale_plate_stack,23000,192,False,True,True,3,-46,True,0.009835444372331137,"grid192:topology_mismatch:{'components': 3, 'euler': -46, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -6, 'closed_edges': True}"
+siren-case6-seed73-cycling,multiscale_plate_stack,23000,384,False,True,True,3,-6,True,0.009855429774448502,"grid192:topology_mismatch:{'components': 3, 'euler': -46, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -6, 'closed_edges': True}"
+siren-case6-seed73-cycling,multiscale_plate_stack,26000,192,False,True,True,3,-40,True,0.00980285608264461,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -40, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 0, 'closed_edges': True}"
+siren-case6-seed73-cycling,multiscale_plate_stack,26000,384,False,True,True,3,0,True,0.00988735387139983,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -40, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 0, 'closed_edges': True}"
+siren-case6-seed73-cycling,multiscale_plate_stack,30000,192,False,True,True,5,-22,True,0.009869813487435642,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 5, 'euler': -22, 'closed_edges': True};grid384:topology_mismatch:{'components': 5, 'euler': 6, 'closed_edges': True}"
+siren-case6-seed73-cycling,multiscale_plate_stack,30000,384,False,True,True,5,6,True,0.009885450284640511,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 5, 'euler': -22, 'closed_edges': True};grid384:topology_mismatch:{'components': 5, 'euler': 6, 'closed_edges': True}"
+siren-case6-seed73-dense,multiscale_plate_stack,23000,192,False,True,True,3,-36,True,0.009830817128450048,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -36, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -10, 'closed_edges': True}"
+siren-case6-seed73-dense,multiscale_plate_stack,23000,384,False,True,True,3,-10,True,0.009818656815976452,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -36, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -10, 'closed_edges': True}"
+siren-case6-seed73-dense,multiscale_plate_stack,26000,192,False,True,True,6,-14,True,0.009834277953943236,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 6, 'euler': -14, 'closed_edges': True};grid384:topology_mismatch:{'components': 6, 'euler': 6, 'closed_edges': True}"
+siren-case6-seed73-dense,multiscale_plate_stack,26000,384,False,True,True,6,6,True,0.009856404683369858,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 6, 'euler': -14, 'closed_edges': True};grid384:topology_mismatch:{'components': 6, 'euler': 6, 'closed_edges': True}"
+siren-case6-seed73-dense,multiscale_plate_stack,30000,192,False,True,True,8,-2,True,0.009907758830783523,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 8, 'euler': -2, 'closed_edges': True};grid384:topology_mismatch:{'components': 8, 'euler': 14, 'closed_edges': True}"
+siren-case6-seed73-dense,multiscale_plate_stack,30000,384,False,True,True,8,14,True,0.00993881559172634,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 8, 'euler': -2, 'closed_edges': True};grid384:topology_mismatch:{'components': 8, 'euler': 14, 'closed_edges': True}"
+siren-case6-seed73-random,multiscale_plate_stack,23000,192,False,True,True,3,-170,True,0.009847043807472824,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -170, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -52, 'closed_edges': True}"
+siren-case6-seed73-random,multiscale_plate_stack,23000,384,False,True,True,3,-52,True,0.009858367533685686,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -170, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -52, 'closed_edges': True}"
+siren-case6-seed73-random,multiscale_plate_stack,26000,192,False,True,True,3,-24,True,0.00986138308920042,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -24, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 0, 'closed_edges': True}"
+siren-case6-seed73-random,multiscale_plate_stack,26000,384,False,True,True,3,0,True,0.009830242090464642,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -24, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 0, 'closed_edges': True}"
+siren-case6-seed73-random,multiscale_plate_stack,30000,192,False,True,True,5,-12,True,0.009860383730751123,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 5, 'euler': -12, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': 4, 'closed_edges': True}"
+siren-case6-seed73-random,multiscale_plate_stack,30000,384,False,True,True,4,4,True,0.009865200703938579,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 5, 'euler': -12, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed71-cycling,multiscale_plate_stack,23000,192,False,True,True,2,-166,True,0.009933676061334273,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 2, 'euler': -166, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -52, 'closed_edges': True}"
+siren-case7-seed71-cycling,multiscale_plate_stack,23000,384,False,True,True,2,-52,True,0.00982422871137868,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 2, 'euler': -166, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -52, 'closed_edges': True}"
+siren-case7-seed71-cycling,multiscale_plate_stack,26000,192,False,True,True,4,-96,True,0.009784772515993322,"grid192:topology_mismatch:{'components': 4, 'euler': -96, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': -28, 'closed_edges': True}"
+siren-case7-seed71-cycling,multiscale_plate_stack,26000,384,False,True,True,4,-28,True,0.009843361567656209,"grid192:topology_mismatch:{'components': 4, 'euler': -96, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': -28, 'closed_edges': True}"
+siren-case7-seed71-cycling,multiscale_plate_stack,30000,192,False,True,True,5,-32,True,0.009812281274276267,"grid192:topology_mismatch:{'components': 5, 'euler': -32, 'closed_edges': True};grid384:topology_mismatch:{'components': 5, 'euler': 6, 'closed_edges': True}"
+siren-case7-seed71-cycling,multiscale_plate_stack,30000,384,False,True,True,5,6,True,0.009908876591630728,"grid192:topology_mismatch:{'components': 5, 'euler': -32, 'closed_edges': True};grid384:topology_mismatch:{'components': 5, 'euler': 6, 'closed_edges': True}"
+siren-case7-seed71-dense,multiscale_plate_stack,23000,192,False,True,True,2,-52,True,0.00984371437251978,"grid192:topology_mismatch:{'components': 2, 'euler': -52, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -12, 'closed_edges': True}"
+siren-case7-seed71-dense,multiscale_plate_stack,23000,384,False,True,True,2,-12,True,0.009879716944105589,"grid192:topology_mismatch:{'components': 2, 'euler': -52, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -12, 'closed_edges': True}"
+siren-case7-seed71-dense,multiscale_plate_stack,26000,192,False,True,True,3,-142,True,0.009730262389278306,"grid192:topology_mismatch:{'components': 3, 'euler': -142, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -30, 'closed_edges': True}"
+siren-case7-seed71-dense,multiscale_plate_stack,26000,384,False,True,True,3,-30,True,0.00982832496161512,"grid192:topology_mismatch:{'components': 3, 'euler': -142, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -30, 'closed_edges': True}"
+siren-case7-seed71-dense,multiscale_plate_stack,30000,192,False,True,True,3,-24,True,0.009828782354719571,"grid192:topology_mismatch:{'components': 3, 'euler': -24, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -4, 'closed_edges': True}"
+siren-case7-seed71-dense,multiscale_plate_stack,30000,384,False,True,True,3,-4,True,0.009800320141542656,"grid192:topology_mismatch:{'components': 3, 'euler': -24, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -4, 'closed_edges': True}"
+siren-case7-seed71-random,multiscale_plate_stack,23000,192,False,True,True,6,-176,True,0.009884871879241523,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 6, 'euler': -176, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -76, 'closed_edges': True}"
+siren-case7-seed71-random,multiscale_plate_stack,23000,384,False,True,True,3,-76,True,0.0098549786306022,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 6, 'euler': -176, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -76, 'closed_edges': True}"
+siren-case7-seed71-random,multiscale_plate_stack,26000,192,False,True,True,3,-68,True,0.009820363412929065,"grid192:topology_mismatch:{'components': 3, 'euler': -68, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -12, 'closed_edges': True}"
+siren-case7-seed71-random,multiscale_plate_stack,26000,384,False,True,True,3,-12,True,0.009833432408525251,"grid192:topology_mismatch:{'components': 3, 'euler': -68, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -12, 'closed_edges': True}"
+siren-case7-seed71-random,multiscale_plate_stack,30000,192,False,True,True,4,-28,True,0.009769586383043342,"grid192:topology_mismatch:{'components': 4, 'euler': -28, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 0, 'closed_edges': True}"
+siren-case7-seed71-random,multiscale_plate_stack,30000,384,False,True,True,3,0,True,0.00977716451790939,"grid192:topology_mismatch:{'components': 4, 'euler': -28, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 0, 'closed_edges': True}"
+siren-case7-seed72-cycling,multiscale_plate_stack,23000,192,False,True,True,2,-38,True,0.00985103331899033,"grid192:topology_mismatch:{'components': 2, 'euler': -38, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -8, 'closed_edges': True}"
+siren-case7-seed72-cycling,multiscale_plate_stack,23000,384,False,True,True,2,-8,True,0.009878622391549125,"grid192:topology_mismatch:{'components': 2, 'euler': -38, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -8, 'closed_edges': True}"
+siren-case7-seed72-cycling,multiscale_plate_stack,26000,192,False,True,True,2,-60,True,0.009776830604637753,"grid192:topology_mismatch:{'components': 2, 'euler': -60, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -4, 'closed_edges': True}"
+siren-case7-seed72-cycling,multiscale_plate_stack,26000,384,False,True,True,2,-4,True,0.009815733745391337,"grid192:topology_mismatch:{'components': 2, 'euler': -60, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -4, 'closed_edges': True}"
+siren-case7-seed72-cycling,multiscale_plate_stack,30000,192,False,True,True,3,-18,True,0.009805469777788617,"grid192:topology_mismatch:{'components': 3, 'euler': -18, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': 2, 'closed_edges': True}"
+siren-case7-seed72-cycling,multiscale_plate_stack,30000,384,False,True,True,4,2,True,0.009769993507981104,"grid192:topology_mismatch:{'components': 3, 'euler': -18, 'closed_edges': True};grid384:topology_mismatch:{'components': 4, 'euler': 2, 'closed_edges': True}"
+siren-case7-seed72-dense,multiscale_plate_stack,23000,192,False,True,True,2,-72,True,0.009788539063023776,"grid192:topology_mismatch:{'components': 2, 'euler': -72, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -24, 'closed_edges': True}"
+siren-case7-seed72-dense,multiscale_plate_stack,23000,384,False,True,True,2,-24,True,0.009832988896944561,"grid192:topology_mismatch:{'components': 2, 'euler': -72, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -24, 'closed_edges': True}"
+siren-case7-seed72-dense,multiscale_plate_stack,26000,192,False,True,True,2,-24,True,0.009784334757601454,"grid192:topology_mismatch:{'components': 2, 'euler': -24, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 0, 'closed_edges': True}"
+siren-case7-seed72-dense,multiscale_plate_stack,26000,384,False,True,True,2,0,True,0.00973704087216433,"grid192:topology_mismatch:{'components': 2, 'euler': -24, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 0, 'closed_edges': True}"
+siren-case7-seed72-dense,multiscale_plate_stack,30000,192,False,True,True,5,-2,True,0.009820588847820833,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 5, 'euler': -2, 'closed_edges': True};grid384:topology_mismatch:{'components': 5, 'euler': 6, 'closed_edges': True}"
+siren-case7-seed72-dense,multiscale_plate_stack,30000,384,False,True,True,5,6,True,0.009824626619837186,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 5, 'euler': -2, 'closed_edges': True};grid384:topology_mismatch:{'components': 5, 'euler': 6, 'closed_edges': True}"
+siren-case7-seed72-random,multiscale_plate_stack,23000,192,False,True,True,2,-40,True,0.009922337511063008,"grid192:topology_mismatch:{'components': 2, 'euler': -40, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -10, 'closed_edges': True}"
+siren-case7-seed72-random,multiscale_plate_stack,23000,384,False,True,True,2,-10,True,0.00997024279568304,"grid192:topology_mismatch:{'components': 2, 'euler': -40, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -10, 'closed_edges': True}"
+siren-case7-seed72-random,multiscale_plate_stack,26000,192,False,True,True,3,-68,True,0.009814662833844308,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -68, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed72-random,multiscale_plate_stack,26000,384,False,True,True,3,4,True,0.009830433310227229,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -68, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed72-random,multiscale_plate_stack,30000,192,False,True,True,3,-22,True,0.00980504189658386,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -22, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 0, 'closed_edges': True}"
+siren-case7-seed72-random,multiscale_plate_stack,30000,384,False,True,True,3,0,True,0.00981770975681016,"original_probe_sign_failure;grid192:topology_mismatch:{'components': 3, 'euler': -22, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': 0, 'closed_edges': True}"
+siren-case7-seed73-cycling,multiscale_plate_stack,23000,192,False,True,True,2,-70,True,0.009785603481422721,"grid192:topology_mismatch:{'components': 2, 'euler': -70, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -18, 'closed_edges': True}"
+siren-case7-seed73-cycling,multiscale_plate_stack,23000,384,False,True,True,2,-18,True,0.009826982695056247,"grid192:topology_mismatch:{'components': 2, 'euler': -70, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -18, 'closed_edges': True}"
+siren-case7-seed73-cycling,multiscale_plate_stack,26000,192,False,True,True,2,-34,True,0.009738660551770181,"grid192:topology_mismatch:{'components': 2, 'euler': -34, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 2, 'closed_edges': True}"
+siren-case7-seed73-cycling,multiscale_plate_stack,26000,384,False,True,True,2,2,True,0.009786825582567564,"grid192:topology_mismatch:{'components': 2, 'euler': -34, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 2, 'closed_edges': True}"
+siren-case7-seed73-cycling,multiscale_plate_stack,30000,192,False,True,True,2,-16,True,0.009809863890943678,"grid192:topology_mismatch:{'components': 2, 'euler': -16, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed73-cycling,multiscale_plate_stack,30000,384,False,True,True,2,4,True,0.00976919915746394,"grid192:topology_mismatch:{'components': 2, 'euler': -16, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed73-dense,multiscale_plate_stack,23000,192,False,True,True,2,-74,True,0.00973223337085478,"grid192:topology_mismatch:{'components': 2, 'euler': -74, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -2, 'closed_edges': True}"
+siren-case7-seed73-dense,multiscale_plate_stack,23000,384,False,True,True,2,-2,True,0.009845951185217562,"grid192:topology_mismatch:{'components': 2, 'euler': -74, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -2, 'closed_edges': True}"
+siren-case7-seed73-dense,multiscale_plate_stack,26000,192,False,True,True,2,-10,True,0.009722328629756884,"grid192:topology_mismatch:{'components': 2, 'euler': -10, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed73-dense,multiscale_plate_stack,26000,384,False,True,True,2,4,True,0.009798863245880349,"grid192:topology_mismatch:{'components': 2, 'euler': -10, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed73-dense,multiscale_plate_stack,30000,192,False,True,True,2,0,True,0.009751062820091019,"grid192:topology_mismatch:{'components': 2, 'euler': 0, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed73-dense,multiscale_plate_stack,30000,384,False,True,True,2,4,True,0.009758901606345106,"grid192:topology_mismatch:{'components': 2, 'euler': 0, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': 4, 'closed_edges': True}"
+siren-case7-seed73-random,multiscale_plate_stack,23000,192,False,True,True,2,-68,True,0.009852045029172052,"grid192:topology_mismatch:{'components': 2, 'euler': -68, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -22, 'closed_edges': True}"
+siren-case7-seed73-random,multiscale_plate_stack,23000,384,False,True,True,2,-22,True,0.009912957789698255,"grid192:topology_mismatch:{'components': 2, 'euler': -68, 'closed_edges': True};grid384:topology_mismatch:{'components': 2, 'euler': -22, 'closed_edges': True}"
+siren-case7-seed73-random,multiscale_plate_stack,26000,192,False,True,True,3,-70,True,0.009713048435567508,"grid192:topology_mismatch:{'components': 3, 'euler': -70, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -10, 'closed_edges': True}"
+siren-case7-seed73-random,multiscale_plate_stack,26000,384,False,True,True,3,-10,True,0.009787150794437687,"grid192:topology_mismatch:{'components': 3, 'euler': -70, 'closed_edges': True};grid384:topology_mismatch:{'components': 3, 'euler': -10, 'closed_edges': True}"
+siren-case7-seed73-random,multiscale_plate_stack,30000,192,False,True,True,3,-2,True,0.009738369776332141,"grid192:topology_mismatch:{'components': 3, 'euler': -2, 'closed_edges': True}"
+siren-case7-seed73-random,multiscale_plate_stack,30000,384,False,True,True,3,6,True,0.009807807818807725,"grid192:topology_mismatch:{'components': 3, 'euler': -2, 'closed_edges': True}"

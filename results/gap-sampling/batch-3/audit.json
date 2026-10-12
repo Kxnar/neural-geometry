@@ -1,0 +1,218 @@
+{
+  "checkpoints_verified": 18,
+  "parent_chains_verified": true,
+  "adam_steps_verified": true,
+  "frozen_source_verified": true,
+  "pools_regenerated": true,
+  "independent_overlap": 0,
+  "reservation_unchanged": true,
+  "streams_verified": [
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "cycle-8192",
+      "complete_cycle_coverage": true,
+      "balanced_each_update": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "cycle-8192",
+      "complete_cycle_coverage": true,
+      "balanced_each_update": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "cycle-8192",
+      "complete_cycle_coverage": true,
+      "balanced_each_update": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "cycle-8192",
+      "complete_cycle_coverage": true,
+      "balanced_each_update": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "cycle-8192",
+      "complete_cycle_coverage": true,
+      "balanced_each_update": true
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "cycle-8192",
+      "complete_cycle_coverage": true,
+      "balanced_each_update": true
+    }
+  ],
+  "dense_exact_reproduction": [],
+  "artifacts": {
+    "runs\\gap-sampling\\batch-3\\0c5c963ffeaeef61\\cycle-8192\\step-23000\\attempt-0001": {
+      "checkpoint.pt": "7e99e23d4c536d8c7bbd364a94d2d9aa92dcc3b8463b17a6a7ab8a638f08ed7d",
+      "evaluation-r192.json": "30608378d39f832c42033a1ac888ae7f1fccd392823bd8ff864bae824f32b148",
+      "evaluation-r384.json": "0808f6816ba38dd499b09c724761d682f99ced3038fe03e85b79d9d34a2c558c",
+      "metrics.json": "82b47659204fbf95535113e20a00687eb00a07fb11e5f62efb6cf2f0512919fc",
+      "training-complete.json": "b783529ec30294ebc59669f44c497c5c94545f343ce7ee88798d02739d457517",
+      "training.json": "bc36bfcf1325b99f5713b6f08608d7e8855fd8b410a9cab431e1df6294912a1e",
+      "training.jsonl": "ac7c85f51e3d5617b95b9be1780203b9f82f92e47c93ecb9e2dbbf1505d1446f"
+    },
+    "runs\\gap-sampling\\batch-3\\0c5c963ffeaeef61\\cycle-8192\\step-26000\\attempt-0001": {
+      "checkpoint.pt": "4c0fc6af19280795cd5d7199c3b7cf60d53a7a50cf010870d4e67b9f91c1099a",
+      "evaluation-r192.json": "b1c5f27f5945713200dd2b423417d0c2e1455d1e5c7bb5f999f3d6f8acce2bdc",
+      "evaluation-r384.json": "b3cf6bb5df861e0475ef719f7448d6729869fa354358b89e37fb5bd0bbb1ff6c",
+      "metrics.json": "2fb0417d0def220e42b4f6cdbe49e9beefe7581c76017a8f6305e9d1850b3fe7",
+      "training-complete.json": "fa463294146d336f357ce1f15fab10a4b3f30dd94a544262921c1fea9f6b4383",
+      "training.json": "f7eea77ed7f82cc96bd2669d6ac5de0d228dd92f17907a1ceab372c65809c025",
+      "training.jsonl": "03f013f457defc522ddf6425b10320ffb6612a5420b39fcc7efff0911053766b"
+    },
+    "runs\\gap-sampling\\batch-3\\0c5c963ffeaeef61\\cycle-8192\\step-30000\\attempt-0001": {
+      "checkpoint.pt": "128c2c349f8935aed138bc24d72d61ce09fe11104d44e746bf5801938897526a",
+      "evaluation-r192.json": "cf66a3b560818a93fdf3634efcb1083a8a3651d4e63701f6bd11184989fda618",
+      "evaluation-r384.json": "8976fa86c7fab9d3747cd6ebf611cb73e1493cb44a59efd7a2c03f21af7e809f",
+      "metrics.json": "773cb4199093f01cdc1ea7a1c72c102e0266fd015fad68dd2a8aac84bcbd9d52",
+      "training-complete.json": "a07eee1cb179f32cb66882d87677f2aa795c5159d85cfd6219c3bd464c39774d",
+      "training.json": "1a75a7146f76debb53e56ada9d001de71904cf1b6cbd9539a8605b13fc1229f8",
+      "training.jsonl": "89ea65b0fbb4dc7d657cfb0338a2249277489c8ddfddc3e8d758a691e3713eee"
+    },
+    "runs\\gap-sampling\\batch-3\\91663b919d79ec88\\cycle-8192\\step-23000\\attempt-0001": {
+      "checkpoint.pt": "dbcc1929a0bb28c73b76b44c53d0e7a025db4c9c2b32cbb46e0259500e0d926c",
+      "evaluation-r192.json": "4b061a6e0a7bfd6066ca97019ad540ace4d7a0db1cbccf41631b4cefc1189b30",
+      "evaluation-r384.json": "e078c6d9d1f6b61a7416f81f36ea2b7fed23315430c5db4f7cdb3b8223551a9f",
+      "metrics.json": "6cdbfbba156e30ad9512133b6140a25b252de37daaf150d9f35e48165fd56bb7",
+      "training-complete.json": "3b9c2417823f71c0d43aa1d69fb825a23c5f8ffe9104b0cda35f51ab0b089aa8",
+      "training.json": "f16f868c930529bc2bd465778ea93296b76f89db764d8a697ad3bf4f05e83cda",
+      "training.jsonl": "a3592cad8ba8769587d1014c72ea7dd5e38488db6b50025e425f44246dd0e576"
+    },
+    "runs\\gap-sampling\\batch-3\\91663b919d79ec88\\cycle-8192\\step-26000\\attempt-0001": {
+      "checkpoint.pt": "f2c105c17b2af895ad2a59333d50250b38fbb0cc3e48022b603af7ba7621d8d9",
+      "evaluation-r192.json": "76a75d0acc710f76fe0caa8ef390c792ab352168bfba47def3d5e263e48ff4c1",
+      "evaluation-r384.json": "3528bb8cf3df2f8d7a8c84e3859759f1c3547406c0c3f65ac25be54a56b6d4bf",
+      "metrics.json": "6a6792d50fa064948f125846b089c87d3fb405fe6847fa56065b4062379c822e",
+      "training-complete.json": "31e993d1423bc0580b0b8323715c40dbc58834cdf2abd5db75f9b8d1a7ce9be7",
+      "training.json": "733dad7b2ce7a6bbefc8ce484eaccc9a20cfbb611b1b35296f6c325785fe621a",
+      "training.jsonl": "aaac10d40977f0b30066ea634ec44e22cf215c32f182e51a92f3ae613b88abc0"
+    },
+    "runs\\gap-sampling\\batch-3\\91663b919d79ec88\\cycle-8192\\step-30000\\attempt-0001": {
+      "checkpoint.pt": "b6eb971a52fac95c180a847d406e7be6b38cefb622da70351bfe861fdc8e5aac",
+      "evaluation-r192.json": "4a08c995d7358b7c8db9b69770bf5adc1a466e504d3e095b3c1fdcb3ffc9aee2",
+      "evaluation-r384.json": "8979c7256e0184e3edaeae97717e39853dd88bc368fc8bc080b2c5969ea308bc",
+      "metrics.json": "36db9338608b18695caad90e9e23c7bd11e1f09fc447e240c05cb95d41014702",
+      "training-complete.json": "bfc637c109baf76590ee185a9a8f3a4541e50f5288b68656e2a358edf647db26",
+      "training.json": "9e8a94fde77820ac497e3e87e1a7bb495d51d26171d96f8daf3755705d155a25",
+      "training.jsonl": "d4a8ea60a5484ac33bdbfcb2b05cc025c517f5db003f279dfe181bc643dded40"
+    },
+    "runs\\gap-sampling\\batch-3\\82223663a57a5723\\cycle-8192\\step-23000\\attempt-0001": {
+      "checkpoint.pt": "ff599e42d5f98ff308475de01bb4f91283b260d4144b724b975316aa2b0d45b9",
+      "evaluation-r192.json": "38ca156f7d0827806478adbcdfebb0202414bcab82f7e0d22dfbd6695c5c67e0",
+      "evaluation-r384.json": "abd3e1616862c8a274e9fda681da3150c99f236d52491e6d036b271082b791e7",
+      "metrics.json": "0a1a62565c8785aa02374f49ed0e9fae3fef41dd553eec6021cb380411cc04c9",
+      "training-complete.json": "ff419d60b7e853ada2690d513e76ad7cee13e50e7d4276cb1dac6283cfbd3782",
+      "training.json": "73b6f987ba856271af7860fa2458ce36845ca01f1070d75a0750355ef058d849",
+      "training.jsonl": "bee63d621102635c0efcdea79cdc6439c9b0a85ffb653409385e621da21dfb35"
+    },
+    "runs\\gap-sampling\\batch-3\\82223663a57a5723\\cycle-8192\\step-26000\\attempt-0001": {
+      "checkpoint.pt": "8c3b8bbf99871a84fa10745dd55947f5a6431306d9de2bdb65212a179e51727e",
+      "evaluation-r192.json": "00e1e8a52d3638be35555d80da56788884dfed4687dedfe656c35517fcb4bbcc",
+      "evaluation-r384.json": "b1fe7e0c63d1e3338da116283e961f31c2e06ee723e05a7df1d2dba1fcb3f7b4",
+      "metrics.json": "5a6fff88393cb9618ea1ea8c1fc1f88a18c377641a8830140684b3e734a9d791",
+      "training-complete.json": "5ba16eac65d8fb222a4a73937eda97bdf826927bb242e38a4401a88544164e5e",
+      "training.json": "4db4a124d92fad97b545faa9ced5b610e9e6d1cea9458b917dc4152b9978346f",
+      "training.jsonl": "2b796bf83d500ad62adfe323e587dcfbf1e906af5cbade054cdbc064ce0159de"
+    },
+    "runs\\gap-sampling\\batch-3\\82223663a57a5723\\cycle-8192\\step-30000\\attempt-0001": {
+      "checkpoint.pt": "13b4dd66396ae026bbf2254513f077e781f7b0ee696bdfabe3ba806964a87261",
+      "evaluation-r192.json": "191ae07de33c0304ffbf1842165a27aa7e54f5a8e0b24d96e8795fe52b8457ac",
+      "evaluation-r384.json": "f0ab844b2d93651cc4ee0cd83e33ec5995a410d347e1f535189ca7dfa724e791",
+      "metrics.json": "b22342b3b8f8e6669c9f92b60057d7ab550906ffbf136282df26bf3a310959b3",
+      "training-complete.json": "4d8a18f0e4c1a79e9da93ff2a42663e0552e26bd77c9bce6e019d57f173f1260",
+      "training.json": "0a95d7d72ff4d0ba8bdc70569a38f49eebae4cd5fc9f94f381881a7e5376ba80",
+      "training.jsonl": "7a94e9e911b0f1ad7adc6e1a12a7a9a1c910431f7ff1116321af5ca712b16a48"
+    },
+    "runs\\gap-sampling\\batch-3\\103fbd5e827ee5ae\\cycle-8192\\step-23000\\attempt-0001": {
+      "checkpoint.pt": "ef050dc5252e4d3775237be33395beb83d03e06b01618d0ccd0505002d9fba4c",
+      "evaluation-r192.json": "008ccd662f39853656ceb2d71fa08fc4af6ea397121dfad9b541c349d285ca26",
+      "evaluation-r384.json": "7e7ef68ae4d6d2a6215963d0a266a1683cf0efa0348705763d4c0eb5c51fd320",
+      "metrics.json": "1cadab99cde2a82cf4d5257a5fc709c1ed74c8fe7a2c8701280e595bc5c0f029",
+      "training-complete.json": "eac6f2a6abf7557954973617e5fff61c4ee8b54e72e621b9c82bc49dd6647aa4",
+      "training.json": "6fbeea5298a8d2d3130ce45321eefba333071c80693af4c415eef5ed453aa139",
+      "training.jsonl": "f5c33a36bc22721b1fb0f6e02928dc33e8d5e97e8721c693c2d3b2b443e63a85"
+    },
+    "runs\\gap-sampling\\batch-3\\103fbd5e827ee5ae\\cycle-8192\\step-26000\\attempt-0001": {
+      "checkpoint.pt": "eec23a3b94a13543ac7f6fca95623745db869dd8558dbf5e236c29e67ccd885b",
+      "evaluation-r192.json": "2041bb73e47dd37ff514aa29fa752383afe80b92d98df7624d1374af19a2a339",
+      "evaluation-r384.json": "6203d1f21319fb6cf8ba967cf54a1fdb8a2d71f76a8d8ca7c82ed9c317ff67e9",
+      "metrics.json": "441f5b412dd61ab99eee6b072cbae85c913b5add827db22bb7d1ef330aaeaf9f",
+      "training-complete.json": "0546c93d102f6870f3fa6652b738f24a81bd0c61b58870a2e8131b345b706d50",
+      "training.json": "79905e967a6c156b24531f7f8caa6fb4a2ed375ab27ddf5823c90acf792c85f3",
+      "training.jsonl": "9f987e94cf186a42782e8d278528fa0f70f4f2aa238bc43ef31e930d0d7f0291"
+    },
+    "runs\\gap-sampling\\batch-3\\103fbd5e827ee5ae\\cycle-8192\\step-30000\\attempt-0001": {
+      "checkpoint.pt": "1c471b369cc341ca912aba7943bb922e6c91b237d1f22a633536a633323a5153",
+      "evaluation-r192.json": "034b799262433b1af0818c04abca13b2f7db2a4f661a0b424a20ff44a26532a1",
+      "evaluation-r384.json": "8607a83c4341455a5b714f15c749bb1aa35ab68c1d74663dbf1f01708dbe51e3",
+      "metrics.json": "fe699e1f7d31a1f0c0995cf0033728b82f2f69f2f070f53c8a4eafc21aca38fa",
+      "training-complete.json": "a48163036fcb23146d64f8129c28d60f52993452d8067a00b3066848a9bf7422",
+      "training.json": "8f5b8af7780638c634b14b976c96fcbd0d89d8f5b708d0f229616aff3dea5b8f",
+      "training.jsonl": "59aba62608fe4b33cd1a21fcdb7b1205b93fa6bf3f63b7146142389f47ccc8b9"
+    },
+    "runs\\gap-sampling\\batch-3\\f517dca3d5af2871\\cycle-8192\\step-23000\\attempt-0001": {
+      "checkpoint.pt": "c7cd0d9ffd3610d713bf12b4bc04e654259796ff64d5f54bfc18c8b682a6307e",
+      "evaluation-r192.json": "7741e6477045f4186510dce3d426aeb04bbdc1e98061ff461dc6d72a820d382a",
+      "evaluation-r384.json": "29ba92c6e3e166153a266cf1a178272a3bd1d722487b5a4527fb61220a3b2fa7",
+      "metrics.json": "b4ededd10ecdd776bac0ea28922e1daa19cd278ffec8153f055056186fc06ea4",
+      "training-complete.json": "dc1a9fa8519f1234e8fb8de9a251226cad6722eba74b20952755dc96b76da7ab",
+      "training.json": "5bcae8ca150a59e2bfd8dfde464442afdad5da2efbe554c893b9129367335d20",
+      "training.jsonl": "8a41733ea8184dfb8cd0335cef9194b55bba453456101aa0db1f5cd130e1257e"
+    },
+    "runs\\gap-sampling\\batch-3\\f517dca3d5af2871\\cycle-8192\\step-26000\\attempt-0001": {
+      "checkpoint.pt": "442945b4f28806ec39e05f2d3dd6e6e0afb9f3d2224eb33554718ccdfc7c28e9",
+      "evaluation-r192.json": "d71e59bf2cb7f2d5d5c46ba7ad6850251b90ea4d70dd3c5505380ec5ade9ca82",
+      "evaluation-r384.json": "3762aaab5bda23131a4f8a0d187f8f4b081dba9702c71f83256f26c2643ce20b",
+      "metrics.json": "4c6d20856edf0c89b35b882e3a7f6bfe67c8f627d3216a861b2bb28f8f4b341d",
+      "training-complete.json": "dc82a3e3f35c8c1596f511500b5eaa505775eb7e52581cae5d7acd5f80ea4bcf",
+      "training.json": "a03e0f6da6a1bf89e03ccb8cd308a0addd36ece29bd712e11406f2bc537589e9",
+      "training.jsonl": "282b63f1f2187f0f2ec4b4018d0b022e1e2f3b929ee3c24403ab79c32eabc2cb"
+    },
+    "runs\\gap-sampling\\batch-3\\f517dca3d5af2871\\cycle-8192\\step-30000\\attempt-0001": {
+      "checkpoint.pt": "965b497273168ce3ad60423b970b8e434fc7ad74a397ccd69f89ad8e0053b91a",
+      "evaluation-r192.json": "c1bd72a6490822eac57a9af8096967ef4540fbf381d978402b66a0a6d6297694",
+      "evaluation-r384.json": "751db4ec44f8f1ea44c9d5ee2d99a9535ba23ccefe2e9cc68b8cf3fef90767da",
+      "metrics.json": "fceeb9b54d3a63516df4617d59209655eaa0d8f1c197e02b2222b2147b32b01c",
+      "training-complete.json": "d84e417c8d7c4ffc0b555d3ddfaf59667e0b6acfb5ba5f0cd9c9299fcb5a3ef6",
+      "training.json": "7698bca5332a39117419f4cfe821447c344f216071b89afea5cdd73765b94e1a",
+      "training.jsonl": "7fed93cfe5240763422668c70111cc27c477f5512060ca7f54ad582eb287fc7e"
+    },
+    "runs\\gap-sampling\\batch-3\\c88efd8a5355dcbf\\cycle-8192\\step-23000\\attempt-0001": {
+      "checkpoint.pt": "112cccfb9f668c98c3afab12cfb7ec08d5b2ab32c45efb0baa0ea2470b977d9d",
+      "evaluation-r192.json": "cb3d0dfbf98f24770a6617139183868422c16967f9b620b80dc23836fe800df6",
+      "evaluation-r384.json": "dbe8c16d9fbd3d721d53042906bd67ab39270c3c4edd73c30edd878f039e2785",
+      "metrics.json": "95401326202e0bcced54c0bc1a32a8164a961c3e49977b2f79cbbe00394cb182",
+      "training-complete.json": "8eef4a190b83b22780a5760ed5909af2b60266fa41d7685776b1938939f9e30a",
+      "training.json": "b1372fc10a0a4ef9ca2a3317d3684a5ef977094a57a38ae50d3243869646e4d6",
+      "training.jsonl": "8646ee7158ed7213ad67da9310eee960fe1503dde986ff3e2144a58ded02ba08"
+    },
+    "runs\\gap-sampling\\batch-3\\c88efd8a5355dcbf\\cycle-8192\\step-26000\\attempt-0001": {
+      "checkpoint.pt": "1c077dcd1091ba7f7c77974faefbf7be4a0cbc162631f2b12c18355a880a4d79",
+      "evaluation-r192.json": "df09f12c8f74b9381b0fd23e5841620015941c9fa4e792af36863e0f37d5fef2",
+      "evaluation-r384.json": "be6f1f6ba95caaa49d61e813e18230d8e1fafdcc26dec46b5830c4992cdd38a4",
+      "metrics.json": "b9f8393ce93f746c1dec1682797b67ddb266170e05314c61a1e1e2162b18f803",
+      "training-complete.json": "77f68887fe8c7a85e37838fa99af78625533e07546d89600bd8f43299d3f8e46",
+      "training.json": "e0be75ce371deb503366ceba3d352cad1d1fc059db07c9107e0f929feb1c1667",
+      "training.jsonl": "261a5f758588e10fc081c6ea63dacc123a9430f3b967641dbe7de655db88e3c9"
+    },
+    "runs\\gap-sampling\\batch-3\\c88efd8a5355dcbf\\cycle-8192\\step-30000\\attempt-0001": {
+      "checkpoint.pt": "a8f8e5c149b1359afe68c363b34cdee80dd4b477d339ef4b3d8226e3e38b9b8c",
+      "evaluation-r192.json": "94f29102f3ff98c8c298a63158f2e0bf907e15aba8d2024d901327052eaa36e2",
+      "evaluation-r384.json": "7ae9ec1c7438f03f5ae0bd6a1548865e620d4d2bbd7f2e92d5e5e21bac21334c",
+      "metrics.json": "5c202afac64b0d765e062dfd26b00e3c35b432936ea67a86bf56ad3448e1a290",
+      "training-complete.json": "1ebe247552147b53d06931e10b00668bd078886278f3a1ca46101126479151e6",
+      "training.json": "47f543b93a8646d28f6e33b0bf4ab85bc0ae9ba2fe29fd4b041340f2c6a714af",
+      "training.jsonl": "3de2b8569438b07b8a8e175425c48433ddd498c47bf562d1373a0b0cf22a3791"
+    }
+  }
+}

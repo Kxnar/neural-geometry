@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-08T22:08:42.042379+00:00",
+  "source_hashes": {
+    "neural_geometry/__init__.py": "59c5ed4664862b6c08b14d7f40c8fc307feceaff848ff73bb569d8d8f66cfa30",
+    "neural_geometry/adaptive.py": "68edc3c21f077a81565a1744ecc571125ab2d7f259ff717eaba63c47a34351e6",
+    "neural_geometry/evaluation.py": "8d808ea167e98ba3ab5895e14016c7f40a1cbd25c10786168eb33f930a9824d9",
+    "neural_geometry/geometry.py": "d5439529cc2b5599680cb0d694e4c7d1f19268997ec5db833f24368618fc0a44",
+    "neural_geometry/metrics.py": "1537f87e2828d2e23a28413f18afb47227ff6d3c93e78980ce02478d1077d03f",
+    "neural_geometry/models.py": "127be4fdcb345448c764b6c9897b81617c1433a72c8d249826a1b0d388ef02b9",
+    "neural_geometry/provenance.py": "88db9b7a5e23504b605deaff7f3145066441085143e31398a489d22d0fdbd996",
+    "neural_geometry/run.py": "5aae1e79bc569b684c1349e2760e70beb867724cb7cafe350af33ad3f3fb4a59",
+    "neural_geometry/sweep.py": "b5476ca8d98deb3b98048d6031e0696b3991c68d42410327205b975a8234aa9f",
+    "neural_geometry_scale/__init__.py": "97375066330634069181753103bee5ffe96b00295ff2f4e861b14423c2cb96c0",
+    "neural_geometry_scale/evaluation.py": "e4df239b9810581d3cc19ec8a3e031f79357c5e5d678936c4f1659e0d1bfbf83",
+    "neural_geometry_scale/geometry.py": "44a0771ccbafc90bc6647e0db620d0db4e22a664df1899f0a0d5ee0854e87d3f",
+    "neural_geometry_scale/study.py": "76de265f6bf57396709dd656d2a29c616bf93e4b20ef82ad58ebe25cfbd919b0",
+    "pyproject.toml": "338ea33b700cad7e2458d3dd35236e487c0b002ce412a9d18bdbb47c20f3ebb5",
+    "requirements-windows-cu126.txt": "a52cb62d2d7f65bbf826813478a99f3447f0f677d85f51d71425f8c87283040b",
+    "scripts/gap_training_controls.py": "13b3b7dab546ca5bf4a6edacd4a53376a2f66d3157e915610c7d0aa5394b2593",
+    "scripts/gap_lr_controls.py": "753c3065964fbbfe0c4c2cc420859d15aa8c56a6ef9e6dff8c5948c78d44e9c1",
+    "scripts/gap_density_controls.py": "641065cac18d3dd69aa0c9afcb2ff2f747ee590119c93e395fc253002aabf22f",
+    "scripts/gap_confirmation.py": "639ec483e3d5e5ad21d6c11d027f0cae57c7d6349258dbd1b96a6a3f4a3378fc",
+    "tests/test_gap_confirmation.py": "7a3fd81521fc098c3cfbfc7ef99811aeaa1189b73d5c4ced11ccfbf29a25949d",
+    "scripts/gap_reserved_confirmation.py": "e82da6c91c4b5f72cf7e26d6cd1fa7e90a0b45c3e2e9c6cd370b3ca0dd846b24",
+    "scripts/recover_gap_confirmation_io.py": "b897a24851fe1f5d24b576fb0f2222c81e1c86446810dd02e9fb7ce746b81d06",
+    "tests/test_gap_reserved_confirmation.py": "db51a15fbc8164d068084ffa9e5e98c9c69ef8b3d8e936cfd9f7bb117107a978"
+  },
+  "case_allowlist": [
+    {
+      "scene": "parallel_plates",
+      "feature": 0.012,
+      "angle": 17
+    },
+    {
+      "scene": "parallel_plates",
+      "feature": 0.03,
+      "angle": 37
+    }
+  ],
+  "seeds": [
+    71,
+    72,
+    73
+  ],
+  "policy": "global_narrow",
+  "arms": [
+    {
+      "name": "dense",
+      "points": 65536
+    },
+    {
+      "name": "canonical",
+      "points": 16384
+    },
+    {
+      "name": "static",
+      "points": 16384
+    },
+    {
+      "name": "random",
+      "points": 16384
+    }
+  ],
+  "reservation_sha256": "00823f0af25d4a8d27c976078d165b073e5b0cb48124bbf3cbdb6e6589890993",
+  "order_gate_manifest_sha256": "1d809bd13e9e8e4ac3019d5bc12096b3fef8af13136b696c8f507af78f015caf",
+  "gate_decision_sha256": "5af1a697fa84ed6aca680fbcdeb0323d12be395d0ea7a60b635c652ebb31be31",
+  "checkpoints": [
+    26000,
+    30000
+  ],
+  "resolutions": [
+    192,
+    384
+  ],
+  "gap_seed": 91001,
+  "gap_samples": 131072,
+  "independent_seed": 91002,
+  "independent_points": 65536,
+  "config_template": {
+    "scene": "parallel_plates",
+    "feature": 0.02,
+    "width": 128,
+    "policy": "global_narrow",
+    "seed": 31,
+    "model": "siren",
+    "depth": 3,
+    "lr": 0.0001,
+    "steps": 10000,
+    "batch_size": 2048,
+    "angle": 0,
+    "device": "cuda",
+    "eval_seed": 91000,
+    "eval_points": 32768,
+    "surface_samples": 32768,
+    "resolutions": [
+      192,
+      384
+    ],
+    "checkpoints": [
+      1000,
+      3000,
+      10000
+    ]
+  },
+  "prefix": "Per geometry/seed ONCE:10k stochastic ordinaryMSE constant1e-4/batch2048, then10k identical cosine continuation retainingAdam/RNG. Fork20k parent.",
+  "recovery": "10k additional updates samecosine1e-4->1e-6. Dense65536, canonical16384 cycle, staticbalancedprefix16384, uniformrandom16384 withoutreplacement eachupdate CPUgen800000+caseindex*100+seed; precompute int32 schedule.",
+  "objective": "Ordinary equal-point MSE all arms; identical pool, labels, parent model/Adam/samplingRNG, independent data withinpair. No evaluation-based selection.",
+  "geometry": "Localgap halfwidthfeature/2 and facinginterior depth.01; rotate localpointstoworld. Footprint split localabs(xy)>.48. Fullmarginbinscovercompletegap.",
+  "criterion": "Canonical persistent ALL6 pairs; no densepass/candidatefail; atboth26k/30k meanindependentgapRMSE<=1.10xdense, meanChamferatEACHgrid<=1.05xdense, fullgapsigndelta>=-.005; aggregaterecoverytraining<=.90xdense. Missing/nonfinite/unresolved/incomplete cannot pass.",
+  "simple_controls": "Staticbalanced and genuinelyunstratified random. If randommatches, no balancingnecessity/superiorityclaim.",
+  "scope": "Two unseen angled parallelplate geometries,3pairedseeds,ONEfamily. Six othercompletecases untouched. Persistentonly26/30 and192/384 finitegrids.",
+  "stopping": "Complete both frozen batches budgetpermitting regardlessbatch2outcome. Retainallfailures; NOretuning/replacements/resolutionchange/seedsubset.",
+  "budget": "Scientific batches1,2,3 ONLY; totalchargedwholeexperiment+modeltestsubprocesswall<=7200seconds. LinkedI/Orecovery is same logicalbatch1."
+}

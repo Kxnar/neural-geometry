@@ -1,0 +1,342 @@
+{
+  "task": {
+    "id": "siren-case3-seed71-dense",
+    "case": {
+      "scene": "parallel_plates",
+      "feature": 0.03,
+      "angle": 37
+    },
+    "case_index": 3,
+    "seed": 71,
+    "arm": "dense",
+    "config": {
+      "model": "siren",
+      "width": 128,
+      "depth": 3
+    },
+    "stage": "development"
+  },
+  "records": [
+    {
+      "step": 26000,
+      "primary_gate": true,
+      "field": {
+        "uniform_sdf_mae": 0.002320812549442053,
+        "component_0": {
+          "sign_accuracy": 1.0,
+          "mae": 0.012990124523639679,
+          "error_margin_ratio_p95": 0.2827581763267517,
+          "error_margin_ratio_max": 0.3923300504684448,
+          "samples": 256
+        },
+        "component_1": {
+          "sign_accuracy": 1.0,
+          "mae": 0.012575890868902206,
+          "error_margin_ratio_p95": 0.265522301197052,
+          "error_margin_ratio_max": 0.38421759009361267,
+          "samples": 256
+        },
+        "gap": {
+          "sign_accuracy": 1.0,
+          "mae": 0.002975276904180646,
+          "error_margin_ratio_p95": 0.2726241946220398,
+          "error_margin_ratio_max": 0.31109824776649475,
+          "samples": 256
+        },
+        "all_probe_signs_correct": true
+      },
+      "independent": {
+        "all": {
+          "samples": 65536,
+          "rmse": 0.002064067882472227,
+          "sign_accuracy": 0.97760009765625,
+          "min_signed_prediction": -0.006686102598905563,
+          "min_true_margin": 2.980232238769531e-07
+        },
+        "original": {
+          "samples": 32768,
+          "rmse": 0.0027400092169524966,
+          "sign_accuracy": 0.97821044921875,
+          "min_signed_prediction": -0.006686102598905563,
+          "min_true_margin": 2.980232238769531e-07
+        },
+        "gap": {
+          "samples": 16384,
+          "rmse": 0.0011899708470574112,
+          "sign_accuracy": 0.98974609375,
+          "min_signed_prediction": -0.001229211688041687,
+          "min_true_margin": 8.121132850646973e-07
+        },
+        "interior": {
+          "samples": 16384,
+          "rmse": 0.0007811358774232108,
+          "sign_accuracy": 0.9642333984375,
+          "min_signed_prediction": -0.00460558757185936,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "gap_0": {
+          "samples": 16384,
+          "rmse": 0.0011899708470574112,
+          "sign_accuracy": 0.98974609375,
+          "min_signed_prediction": -0.001229211688041687,
+          "min_true_margin": 8.121132850646973e-07
+        },
+        "component_0": {
+          "samples": 8306,
+          "rmse": 0.0007822519638074175,
+          "sign_accuracy": 0.9633999518420419,
+          "min_signed_prediction": -0.00460558757185936,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "component_1": {
+          "samples": 8078,
+          "rmse": 0.00077998662445449,
+          "sign_accuracy": 0.9650903689031939,
+          "min_signed_prediction": -0.00436532124876976,
+          "min_true_margin": 2.086162567138672e-06
+        }
+      },
+      "full_gap": {
+        "all": {
+          "samples": 131072,
+          "rmse": 0.0011931813527245498,
+          "sign_accuracy": 0.9905623669614179,
+          "min_signed_prediction": -0.0016767270863056183,
+          "min_true_margin": 2.980232238769531e-07
+        },
+        "gap": {
+          "samples": 131072,
+          "rmse": 0.0011931813527245498,
+          "sign_accuracy": 0.9905623669614179,
+          "min_signed_prediction": -0.0016767270863056183,
+          "min_true_margin": 2.980232238769531e-07
+        },
+        "gap_0": {
+          "samples": 131072,
+          "rmse": 0.0011931813527245498,
+          "sign_accuracy": 0.9905623669614179,
+          "min_signed_prediction": -0.0016767270863056183,
+          "min_true_margin": 2.980232238769531e-07
+        }
+      },
+      "evaluations": {
+        "192": {
+          "resolution": 192,
+          "mesh_present": true,
+          "mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": true,
+          "symmetric_chamfer": 0.009882109691678149
+        },
+        "384": {
+          "resolution": 384,
+          "mesh_present": true,
+          "mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": true,
+          "symmetric_chamfer": 0.009835747056316749
+        }
+      },
+      "checkpoint": {
+        "sha256": "f9542c7d1e03e38edf0d437168c3226226ef5915f7c44ee3ab8e929e120a442d",
+        "model": "274b4bfe1676bacd086da1c51e5b111d63cb63fb36798839fef6c3bf8187e666",
+        "optimizer": "013723fafd60e8e2c8567dd36333f370a6885c22f955087e4fa909f9548b4baf",
+        "sample_rng": "cb5ff4a1b1f29db384dca2cf4290a7ca790730a5af9da243babaee38ce0f3265"
+      },
+      "evaluation_seconds": 11.486001499986742,
+      "training_seconds": 178.10183120000875,
+      "cumulative_pipeline_seconds": 195.3226495999843,
+      "failure_reasons": []
+    },
+    {
+      "step": 30000,
+      "primary_gate": true,
+      "field": {
+        "uniform_sdf_mae": 0.002372805494815111,
+        "component_0": {
+          "sign_accuracy": 1.0,
+          "mae": 0.012850619852542877,
+          "error_margin_ratio_p95": 0.2960665225982666,
+          "error_margin_ratio_max": 0.4183959662914276,
+          "samples": 256
+        },
+        "component_1": {
+          "sign_accuracy": 1.0,
+          "mae": 0.013225452043116093,
+          "error_margin_ratio_p95": 0.27464473247528076,
+          "error_margin_ratio_max": 0.4126003682613373,
+          "samples": 256
+        },
+        "gap": {
+          "sign_accuracy": 1.0,
+          "mae": 0.0027429102919995785,
+          "error_margin_ratio_p95": 0.25064414739608765,
+          "error_margin_ratio_max": 0.30198344588279724,
+          "samples": 256
+        },
+        "all_probe_signs_correct": true
+      },
+      "independent": {
+        "all": {
+          "samples": 65536,
+          "rmse": 0.0020876131585430818,
+          "sign_accuracy": 0.98126220703125,
+          "min_signed_prediction": -0.006425231695175171,
+          "min_true_margin": 2.980232238769531e-07
+        },
+        "original": {
+          "samples": 32768,
+          "rmse": 0.0028123826028550836,
+          "sign_accuracy": 0.980499267578125,
+          "min_signed_prediction": -0.006425231695175171,
+          "min_true_margin": 2.980232238769531e-07
+        },
+        "gap": {
+          "samples": 16384,
+          "rmse": 0.0010582619134306085,
+          "sign_accuracy": 0.9879150390625,
+          "min_signed_prediction": -0.0013132169842720032,
+          "min_true_margin": 8.121132850646973e-07
+        },
+        "interior": {
+          "samples": 16384,
+          "rmse": 0.0007025700760687197,
+          "sign_accuracy": 0.97613525390625,
+          "min_signed_prediction": -0.004271425306797028,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "gap_0": {
+          "samples": 16384,
+          "rmse": 0.0010582619134306085,
+          "sign_accuracy": 0.9879150390625,
+          "min_signed_prediction": -0.0013132169842720032,
+          "min_true_margin": 8.121132850646973e-07
+        },
+        "component_0": {
+          "samples": 8306,
+          "rmse": 0.0007052866423247447,
+          "sign_accuracy": 0.9748374668914038,
+          "min_signed_prediction": -0.004271425306797028,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "component_1": {
+          "samples": 8078,
+          "rmse": 0.000699765838646337,
+          "sign_accuracy": 0.9774696707105719,
+          "min_signed_prediction": -0.003842957317829132,
+          "min_true_margin": 2.086162567138672e-06
+        }
+      },
+      "full_gap": {
+        "all": {
+          "samples": 131072,
+          "rmse": 0.0010602449202981238,
+          "sign_accuracy": 0.9879988708409946,
+          "min_signed_prediction": -0.001599147915840149,
+          "min_true_margin": 2.980232238769531e-07
+        },
+        "gap": {
+          "samples": 131072,
+          "rmse": 0.0010602449202981238,
+          "sign_accuracy": 0.9879988708409946,
+          "min_signed_prediction": -0.001599147915840149,
+          "min_true_margin": 2.980232238769531e-07
+        },
+        "gap_0": {
+          "samples": 131072,
+          "rmse": 0.0010602449202981238,
+          "sign_accuracy": 0.9879988708409946,
+          "min_signed_prediction": -0.001599147915840149,
+          "min_true_margin": 2.980232238769531e-07
+        }
+      },
+      "evaluations": {
+        "192": {
+          "resolution": 192,
+          "mesh_present": true,
+          "mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": true,
+          "symmetric_chamfer": 0.00982580912442452
+        },
+        "384": {
+          "resolution": 384,
+          "mesh_present": true,
+          "mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": true,
+          "symmetric_chamfer": 0.009801640840665735
+        }
+      },
+      "checkpoint": {
+        "sha256": "2e5c78d3dc602203347f8c5bd5e4fadf65d3993ee22aa3ffa3693a757a50fbfa",
+        "model": "5ae093c9c12eae7ced8f7e7d2f48722b08348b94bd6129a1390eecd5425be79c",
+        "optimizer": "ae512a9d65114dea17bc3cf112b17d326a3055a6b6d4d13ca9f8965e44cfd24f",
+        "sample_rng": "cb5ff4a1b1f29db384dca2cf4290a7ca790730a5af9da243babaee38ce0f3265"
+      },
+      "evaluation_seconds": 11.608604099950753,
+      "training_seconds": 215.57629950001137,
+      "cumulative_pipeline_seconds": 244.42977239994798,
+      "failure_reasons": []
+    }
+  ],
+  "persistence": {
+    "persistent": true,
+    "onset": 26000
+  },
+  "worker_seconds": 244.4594414999592,
+  "selection_stream_sha256": "7f4785df7fa8c6ce455611e5a047646bdb8be154bd49f7c2411ccf2acf334d91",
+  "files": {
+    "checkpoint-26000.pt": "f9542c7d1e03e38edf0d437168c3226226ef5915f7c44ee3ab8e929e120a442d",
+    "checkpoint-30000.pt": "2e5c78d3dc602203347f8c5bd5e4fadf65d3993ee22aa3ffa3693a757a50fbfa",
+    "data.json": "24a1f3428900fcba32e0c443622667113c18805b4f072ec890774663dd9b6601",
+    "full-gap.pt": "f4dca85fbd8ac565b8f88d306aebaf8dbd6453233f812a140fad83327a33f867",
+    "independent.pt": "8b6df53c42f2863d5ccf2a13e0bb64b4fd21df240de749deb10b24793d25adab",
+    "initial.pt": "5226a08dc4c9481d275e34cb7006ed31c4029d67be3bc887069d085a4765e6ea",
+    "metrics-26000.json": "a11edde3a63f2a696fd46ba61c507d7199f623d63b89823f23ffc9f426c918fb",
+    "metrics-30000.json": "860491511fef3ea1391a0f2f8bedf942fb8721dad878aeb65301a0622fcd3d7b",
+    "model.json": "85cdf0a97305da2406b87a662632cea148de7b14fd3515f91561cfc380ccd65e",
+    "pool.pt": "a5accfd486fcb1a3f35564b7bf2441156c86972bf73ea54c06e214513e40f490",
+    "prefix-20000.pt": "b68f1c6106090cf54f271948b0c53933a5344f5da222929fb101c0c072115616",
+    "prefix.json": "27983263bf1d56cee4dd46db9efb128d065861d1067b0965f20148111d958b6b",
+    "progress.json": "8315f9716f8fb8a95c73a89ae98b6b1db3af345a87edf7b887ba93216f8c829c",
+    "summary.json": "f72d566daa23e068c05e53f2598fe0fe1dccc49c414a8c353a9532bfd7e81fda",
+    "training.jsonl": "d3ac95e59c33ee08078c2ac69c4d262adf3943f3bdf4a6595f1dc0c7a3104247"
+  }
+}

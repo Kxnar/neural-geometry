@@ -1,0 +1,335 @@
+{
+  "complete": true,
+  "trajectories": [
+    {
+      "case_index": 0,
+      "seed": 71,
+      "arm": "dense",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 71,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 71,
+      "arm": "static",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 71,
+      "arm": "random",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 72,
+      "arm": "dense",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 72,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 72,
+      "arm": "static",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 72,
+      "arm": "random",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 73,
+      "arm": "dense",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 73,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 73,
+      "arm": "static",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 73,
+      "arm": "random",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 71,
+      "arm": "dense",
+      "complete": true,
+      "gate_26000": true,
+      "gate_30000": true,
+      "persistent": true,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 71,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": true,
+      "gate_30000": true,
+      "persistent": true,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 71,
+      "arm": "static",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 71,
+      "arm": "random",
+      "complete": true,
+      "gate_26000": true,
+      "gate_30000": true,
+      "persistent": true,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 72,
+      "arm": "dense",
+      "complete": true,
+      "gate_26000": true,
+      "gate_30000": true,
+      "persistent": true,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 72,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": true,
+      "gate_30000": true,
+      "persistent": true,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 72,
+      "arm": "static",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 72,
+      "arm": "random",
+      "complete": true,
+      "gate_26000": true,
+      "gate_30000": true,
+      "persistent": true,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 73,
+      "arm": "dense",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 73,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": true,
+      "gate_30000": true,
+      "persistent": true,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 73,
+      "arm": "static",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 1,
+      "seed": 73,
+      "arm": "random",
+      "complete": true,
+      "gate_26000": true,
+      "gate_30000": true,
+      "persistent": true,
+      "reference_resolved": true
+    }
+  ],
+  "arms": [
+    {
+      "arm": "canonical",
+      "persistent_passes": 3,
+      "training_time_ratio": 0.3390981999908813,
+      "dense_persistent_losses": [],
+      "reference_resolved": true,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.0726513523407892,
+          "gap_sign_delta": -0.0017814735571543006,
+          "chamfer_ratio_192": 0.9993971461406072,
+          "chamfer_ratio_384": 1.0015773720268624,
+          "passes": true
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.0541044320516333,
+          "gap_sign_delta": -9.40859317779541e-05,
+          "chamfer_ratio_192": 0.9989982031687848,
+          "chamfer_ratio_384": 1.0021654675868552,
+          "passes": true
+        }
+      ],
+      "qualifies": false
+    },
+    {
+      "arm": "static",
+      "persistent_passes": 0,
+      "training_time_ratio": 0.3372272302557699,
+      "dense_persistent_losses": [
+        {
+          "case_index": 1,
+          "seed": 71
+        },
+        {
+          "case_index": 1,
+          "seed": 72
+        }
+      ],
+      "reference_resolved": true,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.086355035192613,
+          "gap_sign_delta": -0.007896482944488525,
+          "chamfer_ratio_192": 1.122818243208441,
+          "chamfer_ratio_384": 1.1245417416766201,
+          "passes": false
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.0517096418790706,
+          "gap_sign_delta": -0.0024287005265553052,
+          "chamfer_ratio_192": 1.1418745661374141,
+          "chamfer_ratio_384": 1.1499515939176943,
+          "passes": false
+        }
+      ],
+      "qualifies": false
+    },
+    {
+      "arm": "random",
+      "persistent_passes": 3,
+      "training_time_ratio": 0.34855438145791307,
+      "dense_persistent_losses": [],
+      "reference_resolved": true,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.0652823740819897,
+          "gap_sign_delta": -0.007913023233413696,
+          "chamfer_ratio_192": 1.001782995438362,
+          "chamfer_ratio_384": 1.0005983812704342,
+          "passes": false
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.0245847416077545,
+          "gap_sign_delta": -0.0008290509382883338,
+          "chamfer_ratio_192": 0.9980372071139761,
+          "chamfer_ratio_384": 1.0001227703298987,
+          "passes": true
+        }
+      ],
+      "qualifies": false
+    }
+  ],
+  "canonical_qualifies": false
+}

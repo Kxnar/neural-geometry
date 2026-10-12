@@ -1,0 +1,28 @@
+{
+  "verified_at_utc": "2026-10-08T17:14:19.721716+00:00",
+  "test_command": ".venv/Scripts/python.exe -m pytest -q",
+  "test_result": "46 passed in 8.11s",
+  "checkpoint_counts": {
+    "long": 18,
+    "wide": 18,
+    "weighted_band": 6,
+    "weighted_margin": 6,
+    "sign_margin": 6
+  },
+  "total_trajectories": 30,
+  "all_plate_probes_correct": true,
+  "original_1000_update_weights_exact": true,
+  "fresh_cases_hash_verified": true,
+  "implementation_hashes": {
+    "scripts/analyse_gap_controls.py": "729d7bfba2a391bba3aa427023f4702f86b1e5f46afa96df4966334ae57729f7",
+    "scripts/gap_objective_controls.py": "101fbfbefc3d2cb2c232a4b76177ed07f76c1728f3e10feba99be11074132f62",
+    "scripts/gap_resolution_check.py": "9b8adc83d274126e7e3cfc23f66f305db329e35c5d31d86c12e0223480fccde3",
+    "scripts/gap_spatial_diagnostics.py": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+    "scripts/gap_training_controls.py": "13b3b7dab546ca5bf4a6edacd4a53376a2f66d3157e915610c7d0aa5394b2593",
+    "scripts/plot_gap_objectives.py": "92f33637246ae6716a025dcfa1dceed3fe5ce7c432916366488766e3a56c0159",
+    "scripts/report_gap_research.py": "102a5531b5842012707b4bec3bfdacf9a1574de9aefc3a00b5a2744b12dfd55f",
+    "tests/test_gap_objectives.py": "69d43e0c310da981fae6768f7f3bba599702432cddfd6bfb01c92f092609c1bf",
+    "tests/test_gap_spatial_diagnostics.py": "fd2b8188ffde0525e3fdb6e9a8676e95e07923e31df66356c9b06085fa287b0a",
+    "tests/test_gap_training.py": "1de82553af0d56896aebb0fe70869dc43c457832dd1c67f6d28de7027297fb84"
+  }
+}

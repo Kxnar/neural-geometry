@@ -1,0 +1,36 @@
+..............................F.....                                     [100%]
+================================== FAILURES ===================================
+_____________________ test_fourier_wiring_hash_checkpoint _____________________
+
+tmp_path = WindowsPath('retained-workspace/runs/thin-feature-campaign/test-temp/test_fourier_wiring_hash_check0')
+
+    def test_fourier_wiring_hash_checkpoint(tmp_path):
+>       model=c.factory(c.CONFIGS[1],13,'cpu'); again=c.factory(c.CONFIGS[1],13,'cpu')
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_thin_feature_campaign.py:34: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+config = {'model': 'fourier', 'width': 128, 'depth': 3, 'frequencies': 64, ...}
+seed = 13, device = 'cpu'
+
+    def factory(config, seed, device):
+        torch.manual_seed(seed)
+>       return Field(**config).to(device)
+               ^^^^^^^^^^^^^^^
+E       TypeError: Field.__init__() got an unexpected keyword argument 'model'
+
+scripts\thin_feature_campaign.py:78: TypeError
+============================== warnings summary ===============================
+retained-project\.venv\Lib\site-packages\_pytest\cacheprovider.py:469
+  retained-project\.venv\Lib\site-packages\_pytest\cacheprovider.py:469: PytestCacheWarning: could not create cache path retained-workspace\.pytest_cache\v\cache\nodeids: [WinError 5] Access is denied: 'retained-workspace\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+retained-project\.venv\Lib\site-packages\_pytest\cacheprovider.py:423
+  retained-project\.venv\Lib\site-packages\_pytest\cacheprovider.py:423: PytestCacheWarning: could not create cache path retained-workspace\.pytest_cache\v\cache\lastfailed: [WinError 5] Access is denied: 'retained-workspace\\.pytest_cache\\v\\cache'
+    config.cache.set("cache/lastfailed", self.lastfailed)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_thin_feature_campaign.py::test_fourier_wiring_hash_checkpoint
+1 failed, 35 passed, 2 warnings in 8.80s

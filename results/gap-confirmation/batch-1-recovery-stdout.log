@@ -1,0 +1,3 @@
+{"pair": "local:33", "arm": "shuffle", "step": 30000, "primary": true, "recovered_without_model_work": true, "completed": 46, "expected": 48}
+{"pair": "local:33", "arm": "dense", "step": 26000, "primary": true, "recovered_without_model_work": false, "completed": 47, "expected": 48}
+{"pair": "local:33", "arm": "dense", "step": 30000, "primary": true, "recovered_without_model_work": false, "completed": 48, "expected": 48}

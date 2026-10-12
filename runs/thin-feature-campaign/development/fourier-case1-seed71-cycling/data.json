@@ -1,0 +1,10 @@
+{
+  "hashes": {
+    "pool": "16904630b5d626408082939f9ca2c9a2b503487a5a585cf5c2a25c3961de73e9",
+    "independent": "67672ced1dc900f39c9031acb55ff67093f2b7b04bd41aa9862f1d3df069b415",
+    "full-gap": "886e3d2e978fbd30e61d9a88118c7f3749f1e1e2391eb7e438ca7829caa70d48"
+  },
+  "overlap": 0,
+  "preparation_seconds": 3.0922739999950863,
+  "oracle_regions": true
+}

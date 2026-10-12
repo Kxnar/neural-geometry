@@ -1,0 +1,148 @@
+{
+  "trajectories": [
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "dense",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "cycle-16384",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "dense",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "cycle-16384",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "dense",
+      "gates": [
+        false,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "cycle-16384",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "dense",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "cycle-16384",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "dense",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "cycle-16384",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "dense",
+      "gates": [
+        true,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "cycle-16384",
+      "gates": [
+        false,
+        true,
+        true
+      ],
+      "persistent": true,
+      "regression": false
+    }
+  ]
+}

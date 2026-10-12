@@ -1,0 +1,9 @@
+{
+  "report_source_sha256": "102a5531b5842012707b4bec3bfdacf9a1574de9aefc3a00b5a2744b12dfd55f",
+  "files": {
+    "report.md": "d5b539431b33b9374475fcf14288baf5c6306e90c103140dd14aec60a5a9ed36",
+    "final-checkpoints.csv": "c6746e8ab9938f3e96e93b92fb99c2a579af647b33919d2cd635c54f635a6ecc",
+    "final-summary.json": "7e3acf049e40f35aff2e800406e0312870cef5fd803585d531ae35469e282130",
+    "fresh-cases.json": "00823f0af25d4a8d27c976078d165b073e5b0cb48124bbf3cbdb6e6589890993"
+  }
+}

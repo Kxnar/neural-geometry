@@ -1,0 +1,7 @@
+{
+  "consistent_repair": false,
+  "expected_continuations": 12,
+  "completed_checkpoints": 36,
+  "next_step": "fixed-data ordinary-MSE diagnostic",
+  "fresh_cases_evaluated": false
+}

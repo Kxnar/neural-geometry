@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-08T22:02:28.587239+00:00",
+  "source_sha256": "b897a24851fe1f5d24b576fb0f2222c81e1c86446810dd02e9fb7ce746b81d06",
+  "original_manifest_sha256": "1d809bd13e9e8e4ac3019d5bc12096b3fef8af13136b696c8f507af78f015caf",
+  "adaptation": "I/O-only atomic-write retry and same-batch continuation. Promote hash-verified saved metrics. No repeated numerical work, criteria/input/order changes.",
+  "allowed_new_stages": [
+    [
+      "local",
+      33,
+      "dense",
+      26000
+    ],
+    [
+      "local",
+      33,
+      "dense",
+      30000
+    ]
+  ],
+  "missing_stage_timing": "Retain null; do not infer timing."
+}

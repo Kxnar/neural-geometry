@@ -1,0 +1,149 @@
+{
+  "step": 30000,
+  "primary_gate": true,
+  "field": {
+    "uniform_sdf_mae": 0.0023938475642353296,
+    "component_0": {
+      "sign_accuracy": 1.0,
+      "mae": 0.006051238626241684,
+      "error_margin_ratio_p95": 0.16893237829208374,
+      "error_margin_ratio_max": 0.22838521003723145,
+      "samples": 256
+    },
+    "component_1": {
+      "sign_accuracy": 1.0,
+      "mae": 0.008339844644069672,
+      "error_margin_ratio_p95": 0.16771748661994934,
+      "error_margin_ratio_max": 0.22240065038204193,
+      "samples": 256
+    },
+    "gap": {
+      "sign_accuracy": 1.0,
+      "mae": 0.005026437342166901,
+      "error_margin_ratio_p95": 0.03652266412973404,
+      "error_margin_ratio_max": 0.04295133799314499,
+      "samples": 256
+    },
+    "all_probe_signs_correct": true
+  },
+  "independent": {
+    "all": {
+      "samples": 65536,
+      "rmse": 0.0022188265106220313,
+      "sign_accuracy": 0.987060546875,
+      "min_signed_prediction": -0.005525447428226471,
+      "min_true_margin": 8.940696716308594e-07
+    },
+    "original": {
+      "samples": 32768,
+      "rmse": 0.003012672826963892,
+      "sign_accuracy": 0.9920654296875,
+      "min_signed_prediction": -0.005525447428226471,
+      "min_true_margin": 7.517635822296143e-06
+    },
+    "gap": {
+      "samples": 16384,
+      "rmse": 0.0009559753253984956,
+      "sign_accuracy": 0.99853515625,
+      "min_signed_prediction": -0.0015812478959560394,
+      "min_true_margin": 9.834766387939453e-07
+    },
+    "interior": {
+      "samples": 16384,
+      "rmse": 0.0007915051418232145,
+      "sign_accuracy": 0.965576171875,
+      "min_signed_prediction": -0.002946026623249054,
+      "min_true_margin": 8.940696716308594e-07
+    },
+    "gap_0": {
+      "samples": 16384,
+      "rmse": 0.0009559753253984956,
+      "sign_accuracy": 0.99853515625,
+      "min_signed_prediction": -0.0015812478959560394,
+      "min_true_margin": 9.834766387939453e-07
+    },
+    "component_0": {
+      "samples": 8192,
+      "rmse": 0.0008519586757889419,
+      "sign_accuracy": 0.96240234375,
+      "min_signed_prediction": -0.002946026623249054,
+      "min_true_margin": 1.2479722499847412e-06
+    },
+    "component_1": {
+      "samples": 8192,
+      "rmse": 0.0007260352565909775,
+      "sign_accuracy": 0.96875,
+      "min_signed_prediction": -0.002943560481071472,
+      "min_true_margin": 8.940696716308594e-07
+    }
+  },
+  "full_gap": {
+    "all": {
+      "samples": 131072,
+      "rmse": 0.000958186504575736,
+      "sign_accuracy": 0.9986648559570312,
+      "min_signed_prediction": -0.0016684867441654205,
+      "min_true_margin": 4.5299530029296875e-06
+    },
+    "gap": {
+      "samples": 131072,
+      "rmse": 0.000958186504575736,
+      "sign_accuracy": 0.9986648559570312,
+      "min_signed_prediction": -0.0016684867441654205,
+      "min_true_margin": 4.5299530029296875e-06
+    },
+    "gap_0": {
+      "samples": 131072,
+      "rmse": 0.000958186504575736,
+      "sign_accuracy": 0.9986648559570312,
+      "min_signed_prediction": -0.0016684867441654205,
+      "min_true_margin": 4.5299530029296875e-06
+    }
+  },
+  "evaluations": {
+    "192": {
+      "resolution": 192,
+      "mesh_present": true,
+      "mesh": {
+        "components": 2,
+        "euler": 4,
+        "closed_edges": true
+      },
+      "reference_mesh": {
+        "components": 2,
+        "euler": 4,
+        "closed_edges": true
+      },
+      "reference_resolved": true,
+      "structure_match": true,
+      "symmetric_chamfer": 0.006287591280008501
+    },
+    "384": {
+      "resolution": 384,
+      "mesh_present": true,
+      "mesh": {
+        "components": 2,
+        "euler": 4,
+        "closed_edges": true
+      },
+      "reference_mesh": {
+        "components": 2,
+        "euler": 4,
+        "closed_edges": true
+      },
+      "reference_resolved": true,
+      "structure_match": true,
+      "symmetric_chamfer": 0.006309710156775561
+    }
+  },
+  "checkpoint": {
+    "sha256": "261936414d74d1734e23b3e958fa589a1c2f350dfbdc9d298da5c39e9b431651",
+    "model": "d06853c18765726a881f2971c8c6026cb582b13e68474086c86b2b745e8758f6",
+    "optimizer": "16a58d1ea8affa157aef30048ab4634390986f106bb92bcfcdadb6511123bc05",
+    "sample_rng": "cb5ff4a1b1f29db384dca2cf4290a7ca790730a5af9da243babaee38ce0f3265"
+  },
+  "evaluation_seconds": 9.320493899984285,
+  "training_seconds": 157.58447420003358,
+  "cumulative_pipeline_seconds": 189.78977929998655,
+  "failure_reasons": []
+}

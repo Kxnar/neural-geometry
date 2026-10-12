@@ -1,0 +1,12 @@
+{
+  "sha256": "a3894b667a22103e7e8815ce5b70046459d1e73a7c502470d6bfc4c3d30efaa2",
+  "model": "5486c6892efc3f816dbdf7cedfbcd04ad40b818b0df05f4c8f48b2f2e0d84151",
+  "optimizer": "074f5437bd5e7dd208a0ae04e85fd8c3486e88c816fe55b994455bca80bcaa8d",
+  "sample_rng": "74ab42412a0b5570fb5dd5f3d4e0c1bbac374963e32c1ebba1c6efef9b5b7f4a",
+  "initial": {
+    "sha256": "67eabe19707f1a1cc7b27011f73023f1c7a7cf2462f5ff559de13c1b7c323f91",
+    "model": "4793afcb35c74b03c8ad0036fa0ea9d2036b677fc26a12301f2c671c38401b1a",
+    "optimizer": "e429a675d9772a7f87fcc6665d6ede653c6bda3d6d748932e0717764581c1a72",
+    "sample_rng": "a7e0dba3ff2f46516ec895e545a903de93eb44d0fd932bcfff985a83da14a172"
+  }
+}

@@ -1,0 +1,530 @@
+{
+  "scope": "Final review outputs and output-only analysis source; self excluded",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 11290,
+      "sha256": "d286a92ea98685805e5b439b9ea8af1258a7228a9025b52d3d26ac93e5ef6aba"
+    },
+    {
+      "path": "results/thin-feature-campaign/analysis.json",
+      "bytes": 16053,
+      "sha256": "55d4912032aa8e23b3a69b9763b79b9ac683106211bc33a95ec95ff28c2bf2fb"
+    },
+    {
+      "path": "results/thin-feature-campaign/artifact-inventory.json",
+      "bytes": 862065,
+      "sha256": "975ceb2dd80b4181fbf098ba28b4bacc5b8fbd6782463eb364eb0ba739891742"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0001.log",
+      "bytes": 2686,
+      "sha256": "d71f391f85c762ba971b977245217b0245fd571da4283ab9d14109ccc65435a6"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0002.log",
+      "bytes": 883,
+      "sha256": "dd6440e32deb7b9b80fbb7e078299687fbb02e843fb53a014f3da605f82ea968"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0003.log",
+      "bytes": 3743,
+      "sha256": "4bbaf347d4eba9896d2cc0e49ee9bbf282eb6ecf2e0a3fb915846fa5c7e07230"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0004.log",
+      "bytes": 102,
+      "sha256": "40ce9f41b29020756ff2c76b2e72ebee50bd8a64afa37c6ced37c6e711cbdcdb"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0005.log",
+      "bytes": 204,
+      "sha256": "667a76508a3640de5611a17e13930bb03bb9ffa0f5135118aaf12f39c2740e3e"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0006.log",
+      "bytes": 207,
+      "sha256": "d0760b82b4b1e83161547d588d0250c386a586bb03c22735b2dc2890f20432cd"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0007.log",
+      "bytes": 208,
+      "sha256": "f39977168b1bfa76ed67c73029a4447a8d6a6dfc9d888aa5c316e72bc20a6ac6"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0008.log",
+      "bytes": 212,
+      "sha256": "7087284e4d095a1495ecb00d882b637f3d13ebf598fee4b3e28fbf78a10e32f1"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0009.log",
+      "bytes": 204,
+      "sha256": "a60d4ee736eb9e8fc58557ec4a0a8be65b5b9133d4ce2832ac1caa24b5cb59c7"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0010.log",
+      "bytes": 207,
+      "sha256": "897c5fb9c48f7d30af9071b0fdc322ba5eee83c4680f42c6986ab323819a88e5"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0011.log",
+      "bytes": 207,
+      "sha256": "a18db7e3b8d6d887d505c0a205b901ee66657d2f0271b52bf5d58e9a3f1768cf"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0012.log",
+      "bytes": 212,
+      "sha256": "a933ae0a53b68e35c8011b14d86586ab13f21e646c0bacf2a15d16d8d5e3d6c7"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0013.log",
+      "bytes": 202,
+      "sha256": "e0819f86873cfac650495044b5cd0bfc5995732dbf014abab0fada17f9b1439a"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0014.log",
+      "bytes": 1261,
+      "sha256": "13a39ddcd936e96515a3104394373ce600e86d5487048b0eb5a640b69206080f"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0015.log",
+      "bytes": 206,
+      "sha256": "a1cde941c262baa7692ea35f9e5d925b94ec37d595e366fca4e9343e4ebf610d"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0016.log",
+      "bytes": 211,
+      "sha256": "e631aac7f16a61c499d1690fc9b841b540427cdad7460c46eda6422164813c24"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0017.log",
+      "bytes": 201,
+      "sha256": "b75bbd263b4062878db5f353d5dd157f58cfdcc869f014fcd0770543666792ee"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0018.log",
+      "bytes": 208,
+      "sha256": "a9bf0c7cc878fead47bc21ee44b5dc2cb53a3a9f0bde270e22e81393eb0416eb"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0019.log",
+      "bytes": 100,
+      "sha256": "53effc4eedc99874571cceda37cb5e22d200dc9831107359f09032748e4918ff"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0020.log",
+      "bytes": 309,
+      "sha256": "28067e5f34e8fa3002164f5ef0152f145219879dbc765884baa26008f73afcf6"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0021.log",
+      "bytes": 303,
+      "sha256": "cc6103bce52be37aa9a1745a9e4bd2b9b922173e5896882528f20016ae5fa84e"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0022.log",
+      "bytes": 306,
+      "sha256": "76a56d71afa81bb1c2aef1f6366b97365404ad2c26d9076e5478e5fd5dbddd61"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0023.log",
+      "bytes": 301,
+      "sha256": "9f822892e1da4d6fff009c73c7ff2ee04f2eabdd20f8e20e617ca8ccb07a6c08"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0024.log",
+      "bytes": 303,
+      "sha256": "f4b73938612101c0bf2e4d4d5e146b0b532395fc51c1409d0e6ee208e8f7c691"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0025.log",
+      "bytes": 309,
+      "sha256": "a2abd506a22566f609dde2ca2bd8ecff3c6b94160706e9432ee904bc110d62a7"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0026.log",
+      "bytes": 305,
+      "sha256": "9b5dd738e98536ee5cb4fef2a8ed814868965dec2fb2369c96923608ffbff9e4"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0027.log",
+      "bytes": 307,
+      "sha256": "5057ac632363b0942cc000a43013c002ba7f3b9717f9f28ef936d376e8e87cbd"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0028.log",
+      "bytes": 301,
+      "sha256": "749d3d11679e829b2846ed0b0454dbfca56ab5621ef92566bb8987b2ae01e7c9"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0029.log",
+      "bytes": 303,
+      "sha256": "273252d44418f19d21735dbedc1a8560663d1fde5ec70c1aeb77009be76325fe"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0030.log",
+      "bytes": 305,
+      "sha256": "f7c8c695205aac8d9f490e67d36281844ff61a03cfe277c53907d788b5bdf3a2"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0031.log",
+      "bytes": 308,
+      "sha256": "a833bd3fb96674f31bd38e8a25cd9296230a30e6335f61d5827e6752d299f585"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0032.log",
+      "bytes": 305,
+      "sha256": "a364da91a1ac4a2051e77c1ed63732f59cb2b810c795d6cb61a1f00e0ad7d281"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0033.log",
+      "bytes": 309,
+      "sha256": "866052dee7969484945c14db829da7d84603974e15d802058bacaffe61262ccf"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0034.log",
+      "bytes": 303,
+      "sha256": "18022c6f11b0c9408de352fcdf27f66abb11d1ee8cba99de1c6d760618a7c96d"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0035.log",
+      "bytes": 308,
+      "sha256": "c44bb66680b0f28675b44e0ae889e7c1c342746c39ee3c3f97d1318a20ddbc97"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0036.log",
+      "bytes": 302,
+      "sha256": "283559a4c6e4ba8509fe7ba79abd3a9fb3d13b477d296b1ecc982b2f33a1b4a0"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0037.log",
+      "bytes": 304,
+      "sha256": "9034d5342999db273a1b2324ccbbac2f0df826cdc181810cc0754f99dc27aca1"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0038.log",
+      "bytes": 305,
+      "sha256": "1684eb3eb7d6f9c5709202445795506e8e8063534d6da15c6414244094b9bbf4"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0039.log",
+      "bytes": 307,
+      "sha256": "6ed3182f8e207903a958bafe8ef0d89928abdd680182f29b069430ad88d8eca4"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0040.log",
+      "bytes": 303,
+      "sha256": "fb8bf678495461544c48664aece44efd2fb901a3c48a8eac9f543c4274300a1e"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0041.log",
+      "bytes": 308,
+      "sha256": "b96603d4daa211e0f32dd0af742b490eca938f738f8c247c1ecb538daf7acfe4"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0042.log",
+      "bytes": 300,
+      "sha256": "6f04967d7ab2336418a1332d4da249b15c58514ee1ec2d719edc4fcb6d03c5d7"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0043.log",
+      "bytes": 305,
+      "sha256": "68a92d556cdab0d8db0009e77f1707ac9d207d12c6bbd6c595bdfda7bf2c9169"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0044.log",
+      "bytes": 302,
+      "sha256": "1999020bc16f860e99864002f092833f1c98e039282ef40d3fb19f4bbf8d2d09"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0045.log",
+      "bytes": 305,
+      "sha256": "6f2fb54f389cf9b90bdc4fa94b1fef5407f42479085ab1af2119224a3e2a306f"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0046.log",
+      "bytes": 309,
+      "sha256": "ef9db6d9f5dbda39b97f28e2764508bba3080b6f13e393e73e759adc724c29fb"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0047.log",
+      "bytes": 308,
+      "sha256": "ed2a72723f6ba61c1709a9b0cfcc87a484aa2e675b82f1ca48911ad8eede60fc"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0048.log",
+      "bytes": 303,
+      "sha256": "16f527e02d7551f1dc2d1d7f74a94125ed126453d8f2e0236f820400a0c56f25"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0049.log",
+      "bytes": 305,
+      "sha256": "b4033ce329ea32b03f56583c643a68ed7109236d6594d1d656c9c680112a0fb5"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0050.log",
+      "bytes": 302,
+      "sha256": "b11b451da083a14073dbd0e52693f3855912bea912df162859c51572a055fd7f"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0051.log",
+      "bytes": 305,
+      "sha256": "7daa2d0f3282f03062cf4b56df60de58f38fb2d6128f942b3247cc2709d9f28e"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0052.log",
+      "bytes": 307,
+      "sha256": "c52e4db1fd972c038173867904f41ce47323356ac9d9d6d46c98f0745c73532a"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0053.log",
+      "bytes": 306,
+      "sha256": "a83a7c2f9c1a0e3d4face67668d55dd8c07462abff16fb044534b7cf7026c7f0"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0054.log",
+      "bytes": 309,
+      "sha256": "d67ca1e03f93fe1ed186b2b9d78da647b5bf2ee64a4ef3f43cbc9504ba4de5de"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0055.log",
+      "bytes": 303,
+      "sha256": "bc1982689e39a7bb8cadb88d18401bf02eea5da0330b4dc1df497c5ecc3c2111"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0056.log",
+      "bytes": 305,
+      "sha256": "b91db9829c44c8300aea0c4015e52d7cb2fdb3257b0083a783831a0be34afd64"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0057.log",
+      "bytes": 307,
+      "sha256": "5752ae4aeb48ebad7cb5821ba086b439297199da66416f7ab8f3f735700abc40"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0058.log",
+      "bytes": 311,
+      "sha256": "482f4ceb14495165a6bfbc993872808bda34e8cc24801d514945f042ccee9eb2"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0059.log",
+      "bytes": 307,
+      "sha256": "154bf3c89834fdcfe341b243bdb60d74d0dbe01c6c270483d7ebc975e071ccaf"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0060.log",
+      "bytes": 312,
+      "sha256": "7d551c7b2465329ccf6d07b57a58c75892a8e5928f37a531951f03cae28539c0"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0061.log",
+      "bytes": 306,
+      "sha256": "8028b770cd36e313f64fecf2a61a87f3fcce480ce3c7b7c3d592a07b81c3b540"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0062.log",
+      "bytes": 310,
+      "sha256": "2940f361f391eced3dd27a30b9abffeea7706e7ec4cbede563768e90a54f667e"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0063.log",
+      "bytes": 305,
+      "sha256": "1d12a492cb59210846a8050eff4bdb0e1ec3767d9a3a184f53329496153cb0ac"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0064.log",
+      "bytes": 307,
+      "sha256": "65e892d68a58cbc01100408533c2e84e35a256be61d0d4947ec15e78e293b307"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0065.log",
+      "bytes": 309,
+      "sha256": "c53c8da5038fdb2ddfa37ce098fef87c92a5b036dc7ccf533aa185cc4c867c78"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0066.log",
+      "bytes": 311,
+      "sha256": "2396bcf943702ed68cc1463e4180c1959f601282c20dcaede0237d75b77b2113"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0067.log",
+      "bytes": 306,
+      "sha256": "ff93381b88be8257c53b3484f038eca7c13b7ae551785980f60ce6f144b87f61"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0068.log",
+      "bytes": 1012,
+      "sha256": "163f892e4764a3fbe2d0087c0753b62ed17b68cb54e968d4d422e07818d963a9"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0069.log",
+      "bytes": 306,
+      "sha256": "13867cbe6426997937c17eb3e6ea18e767999b9a68557c0d6e70a6c23313a4ce"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0070.log",
+      "bytes": 309,
+      "sha256": "aa8d06dd177b51d3eeffc34304a6561aecd5bcdd78a77aff0942c86a8d14024e"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0071.log",
+      "bytes": 306,
+      "sha256": "86a3afea369ec764636f16337b8f443054e69cf8deb27be39247f08424b846ad"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0072.log",
+      "bytes": 307,
+      "sha256": "7b41c8c078d74c6c0cd3d7b98981246c7e92517a3c0fcae3b0309350c50ba5a2"
+    },
+    {
+      "path": "results/thin-feature-campaign/attempt-0073.log",
+      "bytes": 1013,
+      "sha256": "299fa56007d0e55cd7afecf8b77b63bd78f6f7c79e6ba494a38c8a52febdb29f"
+    },
+    {
+      "path": "results/thin-feature-campaign/audit.json",
+      "bytes": 446,
+      "sha256": "310cf04c94e5e4301119332800cabc95142efb9d6f93ace7e65b0303e91415d2"
+    },
+    {
+      "path": "results/thin-feature-campaign/budget.json",
+      "bytes": 56364,
+      "sha256": "a4e7fddf6ad9090d3fc92d5c46909a9ade89eb56e3e9e542e01320ad310fe5a8"
+    },
+    {
+      "path": "results/thin-feature-campaign/checkpoints.csv",
+      "bytes": 51227,
+      "sha256": "f036523a3bb30ac870c15dccf5819bfc20c542caa27c33f5a7fb1b8ad5648f72"
+    },
+    {
+      "path": "results/thin-feature-campaign/confirmation-manifest.json",
+      "bytes": 36257,
+      "sha256": "6299ae7b1ccb9f36c633a911add22032f24ce24587b2c22d4a91e5386f3e7cc9"
+    },
+    {
+      "path": "results/thin-feature-campaign/confirmation-manifest.json.sha256",
+      "bytes": 66,
+      "sha256": "ee198dcdea6dd40cbcf2f6a0c63c6029a359020ba698b5dc7dcd6aaf864ef171"
+    },
+    {
+      "path": "results/thin-feature-campaign/confirmation-status.json",
+      "bytes": 94,
+      "sha256": "33f69a835837d11950afcf0df3deeb1750e4fbefdc3d39dd289bdd6cdaa95bc9"
+    },
+    {
+      "path": "results/thin-feature-campaign/development-factors.csv",
+      "bytes": 676,
+      "sha256": "53a0ea0f480ba2d1cd6787415cd5bd5f6f08f780bb467adad0f93276ee9ce9ba"
+    },
+    {
+      "path": "results/thin-feature-campaign/development-manifest.json",
+      "bytes": 9864,
+      "sha256": "8ced86a0306b563c2461c7c16889cae89d82c5659010d6da63bd0d3a1a2c2ca7"
+    },
+    {
+      "path": "results/thin-feature-campaign/development-manifest.json.sha256",
+      "bytes": 66,
+      "sha256": "c2808c8546de6b2001790bcd4e1f65fb5b26c560aaff6afcda2c61fc41ca68c2"
+    },
+    {
+      "path": "results/thin-feature-campaign/development-results.csv",
+      "bytes": 717,
+      "sha256": "f86fc079757da27378cccb506891fe6d056b7119c3c5ef6174b7bce6f2f9e4c5"
+    },
+    {
+      "path": "results/thin-feature-campaign/development-status.json",
+      "bytes": 94,
+      "sha256": "555e90190ab78a01ca06908223b74235c6468f466a1a8437b8d2340702e2e3bc"
+    },
+    {
+      "path": "results/thin-feature-campaign/hardware-observations.json",
+      "bytes": 802,
+      "sha256": "c2f322302f5885bc18ec718e558abf7d4bc180adac047f66e2d599723f1fcd3f"
+    },
+    {
+      "path": "results/thin-feature-campaign/io-recovery.md",
+      "bytes": 1483,
+      "sha256": "f9c1cb1f59bb2bd3c9e9c4fba1af8942bc054c20d2edf4764974cdcf7687a2fa"
+    },
+    {
+      "path": "results/thin-feature-campaign/paired-results.csv",
+      "bytes": 1804,
+      "sha256": "a093878683ef41bd28b176017c7f4e391b196d121d65c1e142f88f4285f8384e"
+    },
+    {
+      "path": "results/thin-feature-campaign/plan.md",
+      "bytes": 6328,
+      "sha256": "eff24171f35165fb2ede1897e0f3ce7364f700783e80cb4d429694f86192e758"
+    },
+    {
+      "path": "results/thin-feature-campaign/protocol-initial-preserved.json",
+      "bytes": 2405,
+      "sha256": "b145022e339f2f11d57737247e4f8581505461cc0831c220cced96243822e1c1"
+    },
+    {
+      "path": "results/thin-feature-campaign/protocol.json",
+      "bytes": 2648,
+      "sha256": "9a2ebcbc9d902049d92f9259b56dc59b167505cec2b34f2708151f6be7a3f220"
+    },
+    {
+      "path": "results/thin-feature-campaign/regions.csv",
+      "bytes": 284303,
+      "sha256": "35326af31984f0b2db4d81191ad9be423c7d73b777a2153ed32d031ba68a6590"
+    },
+    {
+      "path": "results/thin-feature-campaign/report.md",
+      "bytes": 6830,
+      "sha256": "bf5508ea0d1464bd3866c96056e4ab4a057a40fca84f8971c0a87730d7fbc0c6"
+    },
+    {
+      "path": "results/thin-feature-campaign/reservation-events.jsonl",
+      "bytes": 141696,
+      "sha256": "e90b46bd0c800e56fc7bba98e3e8c9041e4a46b769bc64efb98ce94e5bc2020a"
+    },
+    {
+      "path": "results/thin-feature-campaign/sealed-generator-report.md",
+      "bytes": 2508,
+      "sha256": "e49c99bb02b69c970948836c0456a3f7cfc182112f885bb9756c28f9534a1173"
+    },
+    {
+      "path": "results/thin-feature-campaign/selection.json",
+      "bytes": 2359,
+      "sha256": "af0dbf7b041adaed909f3fe55e6fca19fe5c15cb3bb8eca29d0b69ae1949c9b9"
+    },
+    {
+      "path": "results/thin-feature-campaign/summary.png",
+      "bytes": 130258,
+      "sha256": "3c99e5c575ff6b7c652b1eb3e1ce86517e66625127b45a660338a8e320d51d16"
+    },
+    {
+      "path": "results/thin-feature-campaign/supplement.json",
+      "bytes": 13797,
+      "sha256": "9ad3bf56b30d16ed2356bacda2bf6ed0ee28df25ae467e8eefd4bbb1bf5bd326"
+    },
+    {
+      "path": "results/thin-feature-campaign/supplement.md",
+      "bytes": 2148,
+      "sha256": "ac8fa3372eadf040d99d34631a6e25fa4b6fdba058c3e670b8db454439e38047"
+    },
+    {
+      "path": "results/thin-feature-campaign/trajectories.csv",
+      "bytes": 7004,
+      "sha256": "0c52e1f4511349646390b7b384ef102bb77d2bec0237cdb86db13dfc58ee5a7a"
+    },
+    {
+      "path": "results/thin-feature-campaign/validation-manifest.json",
+      "bytes": 5044,
+      "sha256": "509dcb3c4e359bf25ef4293fde77af93cf18d885b6fd6a44efe9b8e792a095bd"
+    },
+    {
+      "path": "results/thin-feature-campaign/validation-manifest.json.sha256",
+      "bytes": 66,
+      "sha256": "7f738ca11274f3f2beefdfa3e60be711ca13bf955d396f85888cb991b407d044"
+    },
+    {
+      "path": "scripts/summarize_thin_feature_campaign.py",
+      "bytes": 20553,
+      "sha256": "9c0a1a35e4a4ec94e173157776c0b47addafb34de7c06a3e7608f7958f0d47c0"
+    }
+  ]
+}

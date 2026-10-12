@@ -1,0 +1,39 @@
+{
+  "limit_seconds": 7200,
+  "maximum_batches": 3,
+  "attempts": [
+    {
+      "batch": 1,
+      "manifest": "docs\\gap-sampling\\batch-1.json",
+      "manifest_sha256": "fbec4e97ed5ae9c6513589d4c0a47df05d3b647700a36997fe3fa8796302e52b",
+      "out": "runs\\gap-sampling\\batch-1",
+      "started_utc": "2026-10-08T19:34:19.452618+00:00",
+      "finished": true,
+      "charged_seconds": 1472.3278015000105,
+      "exit_code": 0,
+      "finished_utc": "2026-10-08T19:58:51.781058+00:00"
+    },
+    {
+      "batch": 2,
+      "manifest": "docs\\gap-sampling\\batch-2.json",
+      "manifest_sha256": "e86b519fc2db6b7deab612f6614beb5c52f3df0ad794b42d08f7793416664cbd",
+      "out": "runs\\gap-sampling\\batch-2",
+      "started_utc": "2026-10-08T20:00:50.699444+00:00",
+      "finished": true,
+      "charged_seconds": 408.88124659997993,
+      "exit_code": 0,
+      "finished_utc": "2026-10-08T20:07:39.581519+00:00"
+    },
+    {
+      "batch": 3,
+      "manifest": "docs\\gap-sampling\\batch-3.json",
+      "manifest_sha256": "aa30116e1e7654ba2c707a469e4496a5b793a94d2d90900d67f21a37c2245741",
+      "out": "runs\\gap-sampling\\batch-3",
+      "started_utc": "2026-10-08T20:08:31.756062+00:00",
+      "finished": true,
+      "charged_seconds": 411.5079257999896,
+      "exit_code": 0,
+      "finished_utc": "2026-10-08T20:15:23.265636+00:00"
+    }
+  ]
+}

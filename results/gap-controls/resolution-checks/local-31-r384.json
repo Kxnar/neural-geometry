@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "config": {
+      "scene": "parallel_plates",
+      "feature": 0.02,
+      "width": 128,
+      "policy": "local",
+      "seed": 31,
+      "model": "siren",
+      "depth": 3,
+      "lr": 0.0001,
+      "steps": 10000,
+      "batch_size": 2048,
+      "angle": 0,
+      "device": "cuda",
+      "eval_seed": 50000,
+      "eval_points": 32768,
+      "surface_samples": 32768,
+      "resolutions": [
+        96,
+        192
+      ],
+      "checkpoints": [
+        10000
+      ],
+      "loss": "weighted_band",
+      "baseline_config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 31,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      }
+    },
+    "checkpoint_sha256": "b5450dae762f9c0051d78da18eff298065a046c66e51cbd4f18410e362899823",
+    "source_sha256": "9b8adc83d274126e7e3cfc23f66f305db329e35c5d31d86c12e0223480fccde3",
+    "evaluation_source_sha256": "e4df239b9810581d3cc19ec8a3e031f79357c5e5d678936c4f1659e0d1bfbf83",
+    "resolution": 384,
+    "scope": "post-hoc sensitivity; primary gate stays at 192"
+  },
+  "metrics": {
+    "resolution": 384,
+    "mesh_present": true,
+    "symmetric_chamfer": 0.008148211160916224,
+    "reference_sampling_floor": 0.007637420941681176,
+    "mesh": {
+      "components": 1,
+      "euler": -2,
+      "closed_edges": true
+    },
+    "reference_mesh": {
+      "components": 2,
+      "euler": 4,
+      "closed_edges": true
+    },
+    "reference_resolved": true,
+    "structure_match": false,
+    "grid_iou": 0.9768737150669053,
+    "grid_reference_inside": 4020400
+  }
+}

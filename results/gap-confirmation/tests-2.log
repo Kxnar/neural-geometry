@@ -1,0 +1,49 @@
+....EEE.....                                                             [100%]
+=================================== ERRORS ====================================
+___ ERROR at setup of test_noncycle_resume_exact_model_adam_rng[canonical] ____
+
+self = WindowsPath('retained-workspace/runs/gap-confirmation/test-temp-2')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'retained-workspace\\runs\\gap-confirmation\\test-temp-2'
+
+python-runtime\cpython-3.11.16-windows-x86_64-none\Lib\pathlib.py:1116: FileNotFoundError
+____ ERROR at setup of test_noncycle_resume_exact_model_adam_rng[phase-1] _____
+
+self = WindowsPath('retained-workspace/runs/gap-confirmation/test-temp-2')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'retained-workspace\\runs\\gap-confirmation\\test-temp-2'
+
+python-runtime\cpython-3.11.16-windows-x86_64-none\Lib\pathlib.py:1116: FileNotFoundError
+____ ERROR at setup of test_noncycle_resume_exact_model_adam_rng[shuffle] _____
+
+self = WindowsPath('retained-workspace/runs/gap-confirmation/test-temp-2')
+mode = 448, parents = False, exist_ok = False
+
+    def mkdir(self, mode=0o777, parents=False, exist_ok=False):
+        """
+        Create a new directory at this given path.
+        """
+        try:
+>           os.mkdir(self, mode)
+E           FileNotFoundError: [WinError 3] The system cannot find the path specified: 'retained-workspace\\runs\\gap-confirmation\\test-temp-2'
+
+python-runtime\cpython-3.11.16-windows-x86_64-none\Lib\pathlib.py:1116: FileNotFoundError
+=========================== short test summary info ===========================
+ERROR tests/test_gap_confirmation.py::test_noncycle_resume_exact_model_adam_rng[canonical]
+ERROR tests/test_gap_confirmation.py::test_noncycle_resume_exact_model_adam_rng[phase-1]
+ERROR tests/test_gap_confirmation.py::test_noncycle_resume_exact_model_adam_rng[shuffle]
+9 passed, 3 errors in 2.74s

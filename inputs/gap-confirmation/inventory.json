@@ -1,0 +1,518 @@
+{
+  "created_utc": "2026-10-08T21:30:26.439447+00:00",
+  "files": [
+    {
+      "source": "retained-project\\runs\\gap-lr-continuations\\0c5c963ffeaeef61\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/0c5c963ffeaeef61/parent-20000.pt",
+      "sha256": "d4a6afba6b765d53da564c4499b8f3b6255351ff47f3fdbb6fca8dd56f6cf332",
+      "bytes": 420138
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\0c5c963ffeaeef61\\pool.pt",
+      "path": "inputs/gap-confirmation/0c5c963ffeaeef61/pool.pt",
+      "sha256": "3968e003549a2282534733e950c822aedc9d349029bc6a5310e7ad5c00b74a51",
+      "bytes": 1574790
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\0c5c963ffeaeef61\\independent.pt",
+      "path": "inputs/gap-confirmation/0c5c963ffeaeef61/independent.pt",
+      "sha256": "d6e636a31238041a6f3dc38275413fe61de89915a40a9fe8133794ae6641ebd5",
+      "bytes": 1575045
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\0c5c963ffeaeef61\\dense\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/0c5c963ffeaeef61/dense-26000.pt",
+      "sha256": "e96ef95a4d78b13bae30c19b85cccdb163471972d752a42b2c37f70e8196e2c1",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\0c5c963ffeaeef61\\dense\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/0c5c963ffeaeef61/dense-30000.pt",
+      "sha256": "6b8120f381972247cae743bcd00835d0a7060d9ed8eb81b8369561053f414610",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\0c5c963ffeaeef61\\cycle-16384\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/0c5c963ffeaeef61/canonical-26000.pt",
+      "sha256": "500cdfdbf2eb8036acf3dfe5c2e35d2e318fc125f3985e88b915abaaef40015f",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\0c5c963ffeaeef61\\cycle-16384\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/0c5c963ffeaeef61/canonical-30000.pt",
+      "sha256": "0912b8507f1a6e76215df22c33124d6abea915836a2c828e7c67613703a37da2",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-lr-continuations\\91663b919d79ec88\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/91663b919d79ec88/parent-20000.pt",
+      "sha256": "339d2ec21ee079c476d3386ff782058e1f561b9d14fcd28efe5a92a2f4f0c487",
+      "bytes": 420138
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\91663b919d79ec88\\pool.pt",
+      "path": "inputs/gap-confirmation/91663b919d79ec88/pool.pt",
+      "sha256": "4635be21a6ab5defd62aa54a7548c37a8dbef51d949c8e0077335395b43f8813",
+      "bytes": 1574790
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\91663b919d79ec88\\independent.pt",
+      "path": "inputs/gap-confirmation/91663b919d79ec88/independent.pt",
+      "sha256": "d6e636a31238041a6f3dc38275413fe61de89915a40a9fe8133794ae6641ebd5",
+      "bytes": 1575045
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\91663b919d79ec88\\dense\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/91663b919d79ec88/dense-26000.pt",
+      "sha256": "5bf262fede09fc4b79a53ff05ee58936a013733bddf3d1aa48caf6491c543c4e",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\91663b919d79ec88\\dense\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/91663b919d79ec88/dense-30000.pt",
+      "sha256": "951e5649a44008ed10e4eba2d576ad72131b272518facb9faad750aa99362a64",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\91663b919d79ec88\\cycle-16384\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/91663b919d79ec88/canonical-26000.pt",
+      "sha256": "8ebbe3d2afe97773f888a2193167cee5003b75390e8061c35b1450e563f87e2e",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\91663b919d79ec88\\cycle-16384\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/91663b919d79ec88/canonical-30000.pt",
+      "sha256": "e1e1293c930dcaf68cc395e20dba6458c7e5d916a0e0aa4003d0523c0a754366",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-lr-continuations\\82223663a57a5723\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/82223663a57a5723/parent-20000.pt",
+      "sha256": "b4de0e3862c773f23f71e49609eacfa8e0275f312f7810f74778a48e543a23f3",
+      "bytes": 420138
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\82223663a57a5723\\pool.pt",
+      "path": "inputs/gap-confirmation/82223663a57a5723/pool.pt",
+      "sha256": "36f7eeed6628128d9ebc407e56888f405193d2d18e88e299386af7d0816c7bd4",
+      "bytes": 1574790
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\82223663a57a5723\\independent.pt",
+      "path": "inputs/gap-confirmation/82223663a57a5723/independent.pt",
+      "sha256": "d6e636a31238041a6f3dc38275413fe61de89915a40a9fe8133794ae6641ebd5",
+      "bytes": 1575045
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\82223663a57a5723\\dense\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/82223663a57a5723/dense-26000.pt",
+      "sha256": "cdcf9a011fac3c26f68e7f8a64c9fd22ab1a44bd885e6f660fb95e3f8c8420f9",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\82223663a57a5723\\dense\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/82223663a57a5723/dense-30000.pt",
+      "sha256": "02197f93b77ee094483c34c6014bebfc984f0f26e44e2807a988087e6c60ffca",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\82223663a57a5723\\cycle-16384\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/82223663a57a5723/canonical-26000.pt",
+      "sha256": "4d594f21256b5b21dbcd7a5d05f1accbe1b41b724eacc406b9d578df65735161",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\82223663a57a5723\\cycle-16384\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/82223663a57a5723/canonical-30000.pt",
+      "sha256": "d76c07331bbc917d0440ce9a6532afb2ec88c4f35f7068e284878786be95de20",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-lr-continuations\\103fbd5e827ee5ae\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/103fbd5e827ee5ae/parent-20000.pt",
+      "sha256": "b0c806b576acaef10afeb6a8dcbb5887966bde0fe851dd7399c4b271611c2edc",
+      "bytes": 420074
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\103fbd5e827ee5ae\\pool.pt",
+      "path": "inputs/gap-confirmation/103fbd5e827ee5ae/pool.pt",
+      "sha256": "ee63b1881fd1b1b630d0edded49d31fe4dd03dcbdded7630aece177c4ba560b5",
+      "bytes": 1574790
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\103fbd5e827ee5ae\\independent.pt",
+      "path": "inputs/gap-confirmation/103fbd5e827ee5ae/independent.pt",
+      "sha256": "192ed41e63d629098010c4f749da2ca735c5357a3d016b649fb186e284a3c38d",
+      "bytes": 1575045
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\103fbd5e827ee5ae\\dense\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/103fbd5e827ee5ae/dense-26000.pt",
+      "sha256": "7c93b3a6dedebd7b3a3bc41f75142de74514c003d343f0fe6c9ae2be8e4b37bd",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\103fbd5e827ee5ae\\dense\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/103fbd5e827ee5ae/dense-30000.pt",
+      "sha256": "f66082ed9e7e4435b760347202962af611519feff7ecd31d9f21d5f4f8a0df0c",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\103fbd5e827ee5ae\\cycle-16384\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/103fbd5e827ee5ae/canonical-26000.pt",
+      "sha256": "b9c3f2dc38d21d28c935b7ce1253bede0b602fd9d1f3b189229dd4fc15f1af2f",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\103fbd5e827ee5ae\\cycle-16384\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/103fbd5e827ee5ae/canonical-30000.pt",
+      "sha256": "de24ca0921d8fd64c0c78d50fc6c0e4787ce6a2845c2be5140fe21a8bd124ae9",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-lr-continuations\\f517dca3d5af2871\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/f517dca3d5af2871/parent-20000.pt",
+      "sha256": "3b30be973fefa0b5c68327f653c5c389889cc2fac8ab809ed6b88820e6f6e4a9",
+      "bytes": 420074
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\f517dca3d5af2871\\pool.pt",
+      "path": "inputs/gap-confirmation/f517dca3d5af2871/pool.pt",
+      "sha256": "f3bd61bfca784b376db8fe63a74ae77f976a20627b4aab34fda8866925ee0f83",
+      "bytes": 1574790
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\f517dca3d5af2871\\independent.pt",
+      "path": "inputs/gap-confirmation/f517dca3d5af2871/independent.pt",
+      "sha256": "192ed41e63d629098010c4f749da2ca735c5357a3d016b649fb186e284a3c38d",
+      "bytes": 1575045
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\f517dca3d5af2871\\dense\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/f517dca3d5af2871/dense-26000.pt",
+      "sha256": "4a8aef1b2f7448a78aeaaf1af4a5e579e92b973f85f5f51f93f9c7974c21a26d",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\f517dca3d5af2871\\dense\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/f517dca3d5af2871/dense-30000.pt",
+      "sha256": "a2271404e4f7aa12624375c7b2b8562e544f5b0af410ea5812172daa8193b986",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\f517dca3d5af2871\\cycle-16384\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/f517dca3d5af2871/canonical-26000.pt",
+      "sha256": "57ecf91db8b1bf41df41b32900839798b2f4b6205acc77ae665c2102aebb90e1",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\f517dca3d5af2871\\cycle-16384\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/f517dca3d5af2871/canonical-30000.pt",
+      "sha256": "efe6fa01eae804e20ad7913dc4c7288024a20ed234e14e6f28f9b89af1e6828b",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-lr-continuations\\c88efd8a5355dcbf\\cosine\\step-20000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/c88efd8a5355dcbf/parent-20000.pt",
+      "sha256": "d981c4edf74e5a18f08422276fa930b43882499f48d00d5dad1d2d08a5f252e4",
+      "bytes": 420074
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\c88efd8a5355dcbf\\pool.pt",
+      "path": "inputs/gap-confirmation/c88efd8a5355dcbf/pool.pt",
+      "sha256": "42af9235ef0ebf616a1097bf3fe5236725fd92659cd3f7c3b5d89debd8f5f785",
+      "bytes": 1574790
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\c88efd8a5355dcbf\\independent.pt",
+      "path": "inputs/gap-confirmation/c88efd8a5355dcbf/independent.pt",
+      "sha256": "192ed41e63d629098010c4f749da2ca735c5357a3d016b649fb186e284a3c38d",
+      "bytes": 1575045
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\c88efd8a5355dcbf\\dense\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/c88efd8a5355dcbf/dense-26000.pt",
+      "sha256": "6900a9a47296c9a661f86d4ce605bdf4c94f56864c5e982ca3d9e03bce71d903",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\c88efd8a5355dcbf\\dense\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/c88efd8a5355dcbf/dense-30000.pt",
+      "sha256": "d17d34bc9bd9d3739440e95b460c38ad0f1e04c15d5653f8668a3abffe692190",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\c88efd8a5355dcbf\\cycle-16384\\step-26000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/c88efd8a5355dcbf/canonical-26000.pt",
+      "sha256": "1ef2f9d558c7b969691cd9f98d11cde941ce92ae216a173d617a710df9fbeb71",
+      "bytes": 417258
+    },
+    {
+      "source": "retained-project\\runs\\gap-sampling\\batch-1\\c88efd8a5355dcbf\\cycle-16384\\step-30000\\attempt-0001\\checkpoint.pt",
+      "path": "inputs/gap-confirmation/c88efd8a5355dcbf/canonical-30000.pt",
+      "sha256": "4bef762939867d03d5a974600205adf4451719361431ce6baa4a5afb452a16fb",
+      "bytes": 417834
+    },
+    {
+      "source": "retained-workspace\\results\\gap-sampling\\fresh-cases-reserved.json",
+      "path": "inputs/gap-confirmation/fresh-cases-reserved.json",
+      "sha256": "00823f0af25d4a8d27c976078d165b073e5b0cb48124bbf3cbdb6e6589890993",
+      "bytes": 2841
+    }
+  ],
+  "pairs": [
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 31,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "d4a6afba6b765d53da564c4499b8f3b6255351ff47f3fdbb6fca8dd56f6cf332",
+      "checkpoint": "inputs/gap-confirmation/0c5c963ffeaeef61/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/0c5c963ffeaeef61/pool.pt",
+      "independent": "inputs/gap-confirmation/0c5c963ffeaeef61/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/0c5c963ffeaeef61/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/0c5c963ffeaeef61/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/0c5c963ffeaeef61/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/0c5c963ffeaeef61/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 32,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "339d2ec21ee079c476d3386ff782058e1f561b9d14fcd28efe5a92a2f4f0c487",
+      "checkpoint": "inputs/gap-confirmation/91663b919d79ec88/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/91663b919d79ec88/pool.pt",
+      "independent": "inputs/gap-confirmation/91663b919d79ec88/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/91663b919d79ec88/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/91663b919d79ec88/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/91663b919d79ec88/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/91663b919d79ec88/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 33,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "b4de0e3862c773f23f71e49609eacfa8e0275f312f7810f74778a48e543a23f3",
+      "checkpoint": "inputs/gap-confirmation/82223663a57a5723/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/82223663a57a5723/pool.pt",
+      "independent": "inputs/gap-confirmation/82223663a57a5723/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/82223663a57a5723/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/82223663a57a5723/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/82223663a57a5723/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/82223663a57a5723/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 31,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "b0c806b576acaef10afeb6a8dcbb5887966bde0fe851dd7399c4b271611c2edc",
+      "checkpoint": "inputs/gap-confirmation/103fbd5e827ee5ae/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/103fbd5e827ee5ae/pool.pt",
+      "independent": "inputs/gap-confirmation/103fbd5e827ee5ae/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/103fbd5e827ee5ae/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/103fbd5e827ee5ae/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/103fbd5e827ee5ae/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/103fbd5e827ee5ae/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 32,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "3b30be973fefa0b5c68327f653c5c389889cc2fac8ab809ed6b88820e6f6e4a9",
+      "checkpoint": "inputs/gap-confirmation/f517dca3d5af2871/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/f517dca3d5af2871/pool.pt",
+      "independent": "inputs/gap-confirmation/f517dca3d5af2871/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/f517dca3d5af2871/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/f517dca3d5af2871/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/f517dca3d5af2871/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/f517dca3d5af2871/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 33,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "d981c4edf74e5a18f08422276fa930b43882499f48d00d5dad1d2d08a5f252e4",
+      "checkpoint": "inputs/gap-confirmation/c88efd8a5355dcbf/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/c88efd8a5355dcbf/pool.pt",
+      "independent": "inputs/gap-confirmation/c88efd8a5355dcbf/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/c88efd8a5355dcbf/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/c88efd8a5355dcbf/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/c88efd8a5355dcbf/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/c88efd8a5355dcbf/canonical-30000.pt"
+        }
+      }
+    }
+  ],
+  "historical_manifest_sha256": "fbec4e97ed5ae9c6513589d4c0a47df05d3b647700a36997fe3fa8796302e52b"
+}

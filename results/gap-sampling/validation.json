@@ -1,0 +1,14 @@
+{
+  "command": "$env:CUBLAS_WORKSPACE_CONFIG=':4096:8'; .venv/Scripts/python.exe -m pytest -q",
+  "phase": "before batch 1 manifest freeze and research training",
+  "exit_code": 0,
+  "passed": 66,
+  "pytest_seconds": 10.23,
+  "new_checks": [
+    "Every cycling batch preserves exact 50/25/25 group proportions.",
+    "Every full cycle visits each of the 65536 pool indices once, without duplicates or omissions, at every supported batch size.",
+    "Deterministic presentation stream hashes distinguish phase changes.",
+    "A split resumed trajectory crossing a cycle boundary matches an independently coded monolithic ordinary-MSE update reference exactly in model and Adam tensors."
+  ],
+  "budget_note": "Small CPU/GPU fixture tests are reported separately and added to the conservative campaign wall-time charge in the final report."
+}

@@ -1,0 +1,13 @@
+{
+  "compact_files_verified": 117,
+  "full_run_files_verified": 703,
+  "checkpoints": 72,
+  "batches": 3,
+  "budget_seconds": 2302.94697389998,
+  "fresh_cases_unchanged": true,
+  "protocol_hashes_verified": true,
+  "parent_checkpoint_hashes_verified": true,
+  "persistence_counts_recomputed": true,
+  "figure_visually_inspected": true,
+  "campaign_export_sha256": "62c3a3f3017531eaf1b1e505cd66e78c0d3c4790adc660848fdeadc1d054fee8"
+}

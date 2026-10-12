@@ -1,0 +1,320 @@
+{
+  "checkpoints_verified": 48,
+  "frozen_sources_verified": true,
+  "parent_chains_verified": true,
+  "input_files_verified": 43,
+  "exact_reproduction": [
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 31,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 32,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "global_narrow",
+      "seed": 33,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 31,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 32,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "canonical",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "canonical",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "dense",
+      "step": 26000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    },
+    {
+      "policy": "local",
+      "seed": 33,
+      "arm": "dense",
+      "step": 30000,
+      "model_exact": true,
+      "optimizer_exact": true,
+      "sample_rng_exact": true
+    }
+  ],
+  "charged_seconds": 4268.807061099971,
+  "experiment_batches": [
+    1,
+    2,
+    3
+  ],
+  "charged_segments": 4,
+  "decision": {
+    "complete_and_finite": true,
+    "baseline_reproduction": true,
+    "arms": [
+      {
+        "arm": "canonical",
+        "persistent_passes": 6,
+        "training_time_ratio": 0.338839342675517,
+        "presentation_ratio": 0.25,
+        "comparisons": [
+          {
+            "step": 26000,
+            "gap_rmse_ratio": 1.0417386064353187,
+            "gap_sign_delta": -0.0008023579915364953,
+            "chamfer_ratio_192": 0.9998861416798857,
+            "chamfer_ratio_384": 1.0013696202590994,
+            "passes": true
+          },
+          {
+            "step": 30000,
+            "gap_rmse_ratio": 1.0474470724948703,
+            "gap_sign_delta": 0.00037256876627600466,
+            "chamfer_ratio_192": 1.0000188418627423,
+            "chamfer_ratio_384": 0.9981266072467317,
+            "passes": true
+          }
+        ],
+        "qualifies": true
+      },
+      {
+        "arm": "phase-1",
+        "persistent_passes": 6,
+        "training_time_ratio": 0.33840597811733525,
+        "presentation_ratio": 0.25,
+        "comparisons": [
+          {
+            "step": 26000,
+            "gap_rmse_ratio": 1.0301128652358762,
+            "gap_sign_delta": 0.00016022721926367556,
+            "chamfer_ratio_192": 1.0008321683328865,
+            "chamfer_ratio_384": 1.002259144227883,
+            "passes": true
+          },
+          {
+            "step": 30000,
+            "gap_rmse_ratio": 1.0482516279476557,
+            "gap_sign_delta": 0.0005048314730325965,
+            "chamfer_ratio_192": 1.0026810728577475,
+            "chamfer_ratio_384": 1.0006017590608414,
+            "passes": true
+          }
+        ],
+        "qualifies": true
+      },
+      {
+        "arm": "shuffle",
+        "persistent_passes": 6,
+        "training_time_ratio": 0.3388326664216225,
+        "presentation_ratio": 0.25,
+        "comparisons": [
+          {
+            "step": 26000,
+            "gap_rmse_ratio": 1.044077459833887,
+            "gap_sign_delta": -0.0013720293839772912,
+            "chamfer_ratio_192": 1.0007990656777495,
+            "chamfer_ratio_384": 1.0007256106098072,
+            "passes": true
+          },
+          {
+            "step": 30000,
+            "gap_rmse_ratio": 1.0544013408433297,
+            "gap_sign_delta": 0.0005658666292825965,
+            "chamfer_ratio_192": 0.9997009830246086,
+            "chamfer_ratio_384": 1.000296450611372,
+            "passes": true
+          }
+        ],
+        "qualifies": true
+      }
+    ],
+    "gate_pass": true,
+    "reason": "Advance to frozen confirmation"
+  },
+  "manifest_annotation": "The embedded new protocol and hashed numerical code govern. Inherited protocol_sha256 and selection strings are legacy provenance fields, not the new executable protocol hash.",
+  "reserved_cases": 8,
+  "reserved_generation_calls": 0,
+  "reserved_evaluation_calls": 0,
+  "reserved_access_scope": "order gate batch 1 only; later confirmation access is recorded separately",
+  "reservation_sha256": "00823f0af25d4a8d27c976078d165b073e5b0cb48124bbf3cbdb6e6589890993"
+}

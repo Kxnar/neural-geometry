@@ -1,0 +1,83 @@
+{
+  "complete_and_finite": true,
+  "baseline_reproduction": true,
+  "arms": [
+    {
+      "arm": "canonical",
+      "persistent_passes": 6,
+      "training_time_ratio": 0.338839342675517,
+      "presentation_ratio": 0.25,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.0417386064353187,
+          "gap_sign_delta": -0.0008023579915364953,
+          "chamfer_ratio_192": 0.9998861416798857,
+          "chamfer_ratio_384": 1.0013696202590994,
+          "passes": true
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.0474470724948703,
+          "gap_sign_delta": 0.00037256876627600466,
+          "chamfer_ratio_192": 1.0000188418627423,
+          "chamfer_ratio_384": 0.9981266072467317,
+          "passes": true
+        }
+      ],
+      "qualifies": true
+    },
+    {
+      "arm": "phase-1",
+      "persistent_passes": 6,
+      "training_time_ratio": 0.33840597811733525,
+      "presentation_ratio": 0.25,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.0301128652358762,
+          "gap_sign_delta": 0.00016022721926367556,
+          "chamfer_ratio_192": 1.0008321683328865,
+          "chamfer_ratio_384": 1.002259144227883,
+          "passes": true
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.0482516279476557,
+          "gap_sign_delta": 0.0005048314730325965,
+          "chamfer_ratio_192": 1.0026810728577475,
+          "chamfer_ratio_384": 1.0006017590608414,
+          "passes": true
+        }
+      ],
+      "qualifies": true
+    },
+    {
+      "arm": "shuffle",
+      "persistent_passes": 6,
+      "training_time_ratio": 0.3388326664216225,
+      "presentation_ratio": 0.25,
+      "comparisons": [
+        {
+          "step": 26000,
+          "gap_rmse_ratio": 1.044077459833887,
+          "gap_sign_delta": -0.0013720293839772912,
+          "chamfer_ratio_192": 1.0007990656777495,
+          "chamfer_ratio_384": 1.0007256106098072,
+          "passes": true
+        },
+        {
+          "step": 30000,
+          "gap_rmse_ratio": 1.0544013408433297,
+          "gap_sign_delta": 0.0005658666292825965,
+          "chamfer_ratio_192": 0.9997009830246086,
+          "chamfer_ratio_384": 1.000296450611372,
+          "passes": true
+        }
+      ],
+      "qualifies": true
+    }
+  ],
+  "gate_pass": true,
+  "reason": "Advance to frozen confirmation"
+}

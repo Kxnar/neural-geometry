@@ -1,0 +1,80 @@
+{
+  "claim": "The frozen consistency criterion was not met: on two preregistered rotated parallel-plate geometries (gaps 0.012/0.03; angles 17/37 degrees) and seeds 71\u201373, balanced 16,384-point cycling achieved observed persistent structural recovery at 26k/30k and both grids 192/384 in 3/6 paired trajectories versus dense 2/6, using 75% fewer recovery gradient point presentations, 66.1% less measured recovery training time and 26.5% less attributed prefix-plus-recovery-plus-evaluation runtime. Random sampling recovered 3/6, so balancing superiority is unsupported. It failed all three seeds on gap 0.012 / angle 17\u00b0, where dense also failed on resolved references; consistent preservation across this subset is unsupported.",
+  "canonical_qualifies": false,
+  "totals": {
+    "dense": {
+      "persistent": 2,
+      "prefix_presentations": 245760000,
+      "recovery_presentations": 3932160000,
+      "prefix_training_seconds": 714.8568535999802,
+      "recovery_training_seconds": 546.7045676000416,
+      "evaluation_seconds": 141.72353290001047,
+      "selection_preparation_seconds": 0,
+      "attributed_pipeline_seconds": 1437.2588817001088
+    },
+    "canonical": {
+      "persistent": 3,
+      "prefix_presentations": 245760000,
+      "recovery_presentations": 983040000,
+      "prefix_training_seconds": 714.8568535999802,
+      "recovery_training_seconds": 185.3865347999672,
+      "evaluation_seconds": 142.69514370002435,
+      "selection_preparation_seconds": 0,
+      "attributed_pipeline_seconds": 1055.879601600056
+    },
+    "static": {
+      "persistent": 0,
+      "prefix_presentations": 245760000,
+      "recovery_presentations": 983040000,
+      "prefix_training_seconds": 714.8568535999802,
+      "recovery_training_seconds": 184.36366709994036,
+      "evaluation_seconds": 143.70987069999683,
+      "selection_preparation_seconds": 0,
+      "attributed_pipeline_seconds": 1055.8527599000954
+    },
+    "random": {
+      "persistent": 3,
+      "prefix_presentations": 245760000,
+      "recovery_presentations": 983040000,
+      "prefix_training_seconds": 714.8568535999802,
+      "recovery_training_seconds": 190.55627240004833,
+      "evaluation_seconds": 140.82189690001542,
+      "selection_preparation_seconds": 68.06343420001213,
+      "attributed_pipeline_seconds": 1131.9882876000192
+    }
+  },
+  "resolved_candidate_failures": [
+    {
+      "case_index": 0,
+      "seed": 71,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 72,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    },
+    {
+      "case_index": 0,
+      "seed": 73,
+      "arm": "canonical",
+      "complete": true,
+      "gate_26000": false,
+      "gate_30000": false,
+      "persistent": false,
+      "reference_resolved": true
+    }
+  ],
+  "unresolved_reference_cases": [],
+  "scope": "Two angled parallel-plate cases, one geometry family, three paired seeds; observed at26k/30k and192/384 only; six reserved cases untouched"
+}

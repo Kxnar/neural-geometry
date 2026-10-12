@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "checkpoint_sha256": "8c7f5baf06c6549a5b6fc568497361736ba67b9997ec46dc03fb493d6b6c48a1",
+    "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+    "eval_seed": 61000,
+    "requested_samples": 131072,
+    "scope": "post-hoc exploratory; not a selection endpoint",
+    "config": {
+      "scene": "parallel_plates",
+      "feature": 0.02,
+      "width": 128,
+      "policy": "local",
+      "seed": 33,
+      "model": "siren",
+      "depth": 3,
+      "lr": 0.0001,
+      "steps": 10000,
+      "batch_size": 2048,
+      "angle": 0,
+      "device": "cuda",
+      "eval_seed": 50000,
+      "eval_points": 32768,
+      "surface_samples": 32768,
+      "resolutions": [
+        96,
+        192
+      ],
+      "checkpoints": [
+        1000,
+        3000,
+        10000
+      ]
+    }
+  },
+  "regions": {
+    "whole_gap": {
+      "samples": 131070,
+      "sign_accuracy": 0.8308995366096497,
+      "sdf_mae": 0.0034801936708390713
+    },
+    "central_footprint": {
+      "samples": 83824,
+      "sign_accuracy": 0.8383637070655823,
+      "sdf_mae": 0.0034661446698009968
+    },
+    "outer_footprint": {
+      "samples": 47246,
+      "sign_accuracy": 0.8176565170288086,
+      "sdf_mae": 0.003505118889734149
+    },
+    "margin_0_0.001": {
+      "samples": 13170,
+      "sign_accuracy": 0.6207289099693298,
+      "sdf_mae": 0.001743400120176375
+    },
+    "margin_0.001_0.0025": {
+      "samples": 19595,
+      "sign_accuracy": 0.7289614677429199,
+      "sdf_mae": 0.001794298063032329
+    },
+    "margin_0.0025_0.005": {
+      "samples": 32786,
+      "sign_accuracy": 0.8370646238327026,
+      "sdf_mae": 0.0023907129652798176
+    },
+    "margin_0.005_0.011": {
+      "samples": 65519,
+      "sign_accuracy": 0.9005479216575623,
+      "sdf_mae": 0.004878695122897625
+    },
+    "midplane_central": {
+      "samples": 83824,
+      "sign_accuracy": 0.9203807711601257
+    },
+    "midplane_outer": {
+      "samples": 47246,
+      "sign_accuracy": 0.9063836336135864
+    }
+  }
+}

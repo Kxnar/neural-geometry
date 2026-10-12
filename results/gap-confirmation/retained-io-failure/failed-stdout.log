@@ -1,0 +1,61 @@
+{"pair": "global_narrow:31", "arm": "dense", "step": 26000, "primary": true, "train_seconds": 54.03806550000445, "eval_seconds": 11.298603400005959, "completed": 1, "expected": 48}
+{"pair": "global_narrow:31", "arm": "dense", "step": 30000, "primary": true, "train_seconds": 35.96139109999058, "eval_seconds": 10.788552300014999, "completed": 2, "expected": 48}
+{"pair": "global_narrow:31", "arm": "canonical", "step": 26000, "primary": true, "train_seconds": 18.49322750000283, "eval_seconds": 10.689708099991549, "completed": 3, "expected": 48}
+{"pair": "global_narrow:31", "arm": "canonical", "step": 30000, "primary": true, "train_seconds": 12.144300399988424, "eval_seconds": 10.785815499984892, "completed": 4, "expected": 48}
+{"pair": "global_narrow:31", "arm": "phase-1", "step": 26000, "primary": true, "train_seconds": 18.262893900013296, "eval_seconds": 10.78365309999208, "completed": 5, "expected": 48}
+{"pair": "global_narrow:31", "arm": "phase-1", "step": 30000, "primary": true, "train_seconds": 12.297103099990636, "eval_seconds": 10.611783500004094, "completed": 6, "expected": 48}
+{"pair": "global_narrow:31", "arm": "shuffle", "step": 26000, "primary": true, "train_seconds": 18.224709100002656, "eval_seconds": 10.519048599991947, "completed": 7, "expected": 48}
+{"pair": "global_narrow:31", "arm": "shuffle", "step": 30000, "primary": true, "train_seconds": 11.941111100022681, "eval_seconds": 10.479422700009309, "completed": 8, "expected": 48}
+{"pair": "global_narrow:32", "arm": "canonical", "step": 26000, "primary": true, "train_seconds": 18.33236410000245, "eval_seconds": 10.616648999974132, "completed": 9, "expected": 48}
+{"pair": "global_narrow:32", "arm": "canonical", "step": 30000, "primary": true, "train_seconds": 12.032402099983301, "eval_seconds": 10.615850099973613, "completed": 10, "expected": 48}
+{"pair": "global_narrow:32", "arm": "phase-1", "step": 26000, "primary": true, "train_seconds": 18.32972829998471, "eval_seconds": 10.452496999991126, "completed": 11, "expected": 48}
+{"pair": "global_narrow:32", "arm": "phase-1", "step": 30000, "primary": true, "train_seconds": 11.982740100007504, "eval_seconds": 10.486010299995542, "completed": 12, "expected": 48}
+{"pair": "global_narrow:32", "arm": "shuffle", "step": 26000, "primary": true, "train_seconds": 18.198166799993487, "eval_seconds": 10.58368869998958, "completed": 13, "expected": 48}
+{"pair": "global_narrow:32", "arm": "shuffle", "step": 30000, "primary": true, "train_seconds": 12.518139199994039, "eval_seconds": 10.71858680000878, "completed": 14, "expected": 48}
+{"pair": "global_narrow:32", "arm": "dense", "step": 26000, "primary": true, "train_seconds": 53.78782550001051, "eval_seconds": 10.65835350000998, "completed": 15, "expected": 48}
+{"pair": "global_narrow:32", "arm": "dense", "step": 30000, "primary": true, "train_seconds": 35.90440529998159, "eval_seconds": 10.735165299993241, "completed": 16, "expected": 48}
+{"pair": "global_narrow:33", "arm": "phase-1", "step": 26000, "primary": true, "train_seconds": 18.3589097999793, "eval_seconds": 10.544839000009233, "completed": 17, "expected": 48}
+{"pair": "global_narrow:33", "arm": "phase-1", "step": 30000, "primary": true, "train_seconds": 12.23857719998341, "eval_seconds": 10.708459899993613, "completed": 18, "expected": 48}
+{"pair": "global_narrow:33", "arm": "shuffle", "step": 26000, "primary": true, "train_seconds": 18.056923900003312, "eval_seconds": 10.733561400003964, "completed": 19, "expected": 48}
+{"pair": "global_narrow:33", "arm": "shuffle", "step": 30000, "primary": true, "train_seconds": 12.197872799995821, "eval_seconds": 10.662145800015423, "completed": 20, "expected": 48}
+{"pair": "global_narrow:33", "arm": "dense", "step": 26000, "primary": true, "train_seconds": 54.048864899988985, "eval_seconds": 10.75057740000193, "completed": 21, "expected": 48}
+{"pair": "global_narrow:33", "arm": "dense", "step": 30000, "primary": true, "train_seconds": 35.881096199998865, "eval_seconds": 10.657242500019493, "completed": 22, "expected": 48}
+{"pair": "global_narrow:33", "arm": "canonical", "step": 26000, "primary": true, "train_seconds": 18.54663789999904, "eval_seconds": 10.698829699977068, "completed": 23, "expected": 48}
+{"pair": "global_narrow:33", "arm": "canonical", "step": 30000, "primary": true, "train_seconds": 12.236314399982803, "eval_seconds": 10.656779200013261, "completed": 24, "expected": 48}
+{"pair": "local:31", "arm": "shuffle", "step": 26000, "primary": true, "train_seconds": 18.462480299989693, "eval_seconds": 10.647732499986887, "completed": 25, "expected": 48}
+{"pair": "local:31", "arm": "shuffle", "step": 30000, "primary": true, "train_seconds": 12.49333349999506, "eval_seconds": 10.520054100023117, "completed": 26, "expected": 48}
+{"pair": "local:31", "arm": "dense", "step": 26000, "primary": true, "train_seconds": 53.96499439998297, "eval_seconds": 10.764230900007533, "completed": 27, "expected": 48}
+{"pair": "local:31", "arm": "dense", "step": 30000, "primary": true, "train_seconds": 36.10662720000255, "eval_seconds": 10.725957899994683, "completed": 28, "expected": 48}
+{"pair": "local:31", "arm": "canonical", "step": 26000, "primary": true, "train_seconds": 18.42033879997325, "eval_seconds": 10.776433499995619, "completed": 29, "expected": 48}
+{"pair": "local:31", "arm": "canonical", "step": 30000, "primary": true, "train_seconds": 12.536693100002594, "eval_seconds": 10.639928599994164, "completed": 30, "expected": 48}
+{"pair": "local:31", "arm": "phase-1", "step": 26000, "primary": true, "train_seconds": 18.370174000010593, "eval_seconds": 10.65494179999223, "completed": 31, "expected": 48}
+{"pair": "local:31", "arm": "phase-1", "step": 30000, "primary": true, "train_seconds": 12.353683499997715, "eval_seconds": 10.677763699990464, "completed": 32, "expected": 48}
+{"pair": "local:32", "arm": "dense", "step": 26000, "primary": true, "train_seconds": 54.2709659000102, "eval_seconds": 10.857125299982727, "completed": 33, "expected": 48}
+{"pair": "local:32", "arm": "dense", "step": 30000, "primary": true, "train_seconds": 35.8780733999738, "eval_seconds": 10.641451800009236, "completed": 34, "expected": 48}
+{"pair": "local:32", "arm": "canonical", "step": 26000, "primary": true, "train_seconds": 18.377732499997364, "eval_seconds": 10.729024500004016, "completed": 35, "expected": 48}
+{"pair": "local:32", "arm": "canonical", "step": 30000, "primary": true, "train_seconds": 12.053208099998301, "eval_seconds": 11.209466700005578, "completed": 36, "expected": 48}
+{"pair": "local:32", "arm": "phase-1", "step": 26000, "primary": true, "train_seconds": 18.14742570000817, "eval_seconds": 10.705807899998035, "completed": 37, "expected": 48}
+{"pair": "local:32", "arm": "phase-1", "step": 30000, "primary": true, "train_seconds": 12.1403522999899, "eval_seconds": 10.766771800001152, "completed": 38, "expected": 48}
+{"pair": "local:32", "arm": "shuffle", "step": 26000, "primary": true, "train_seconds": 18.31877300000633, "eval_seconds": 10.695690900000045, "completed": 39, "expected": 48}
+{"pair": "local:32", "arm": "shuffle", "step": 30000, "primary": true, "train_seconds": 12.372536799986847, "eval_seconds": 10.700072699983139, "completed": 40, "expected": 48}
+{"pair": "local:33", "arm": "canonical", "step": 26000, "primary": true, "train_seconds": 18.187130699981935, "eval_seconds": 10.650009100005263, "completed": 41, "expected": 48}
+{"pair": "local:33", "arm": "canonical", "step": 30000, "primary": true, "train_seconds": 12.040379700018093, "eval_seconds": 10.5748516000167, "completed": 42, "expected": 48}
+{"pair": "local:33", "arm": "phase-1", "step": 26000, "primary": true, "train_seconds": 18.521336300007533, "eval_seconds": 10.649905700003728, "completed": 43, "expected": 48}
+{"pair": "local:33", "arm": "phase-1", "step": 30000, "primary": true, "train_seconds": 12.163241500005824, "eval_seconds": 10.892233299993677, "completed": 44, "expected": 48}
+{"pair": "local:33", "arm": "shuffle", "step": 26000, "primary": true, "train_seconds": 18.377757799986284, "eval_seconds": 10.590840999997454, "completed": 45, "expected": 48}
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "retained-workspace\scripts\gap_confirmation.py", line 290, in <module>
+    elif a.command=='run': run(a.manifest,a.out)
+                           ^^^^^^^^^^^^^^^^^^^^^
+  File "retained-workspace\scripts\gap_confirmation.py", line 196, in run
+    r=measurements(c,folder,m,data,independent)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "retained-workspace\scripts\gap_density_controls.py", line 178, in measurements
+    atomic_json(folder/'complete.json',{p.name:digest(p) for p in folder.iterdir() if p.is_file() and p.name!='complete.json' and not p.name.endswith('.tmp')})
+  File "retained-workspace\neural_geometry_scale\study.py", line 50, in atomic_json
+    temp.replace(path)
+  File "python-runtime\cpython-3.11.16-windows-x86_64-none\Lib\pathlib.py", line 1188, in replace
+    os.replace(self, target)
+PermissionError: [WinError 5] Access is denied: 'retained-workspace\\runs\\gap-confirmation\\batch-1\\c88efd8a5355dcbf\\shuffle\\step-30000\\attempt-0001\\complete.json.tmp' -> 'retained-workspace\\runs\\gap-confirmation\\batch-1\\c88efd8a5355dcbf\\shuffle\\step-30000\\attempt-0001\\complete.json'

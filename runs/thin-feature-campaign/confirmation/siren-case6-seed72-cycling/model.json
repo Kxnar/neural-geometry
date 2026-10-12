@@ -1,0 +1,15 @@
+{
+  "parameters": 33665,
+  "initial": {
+    "sha256": "67eabe19707f1a1cc7b27011f73023f1c7a7cf2462f5ff559de13c1b7c323f91",
+    "model": "4793afcb35c74b03c8ad0036fa0ea9d2036b677fc26a12301f2c671c38401b1a",
+    "optimizer": "e429a675d9772a7f87fcc6665d6ede653c6bda3d6d748932e0717764581c1a72",
+    "sample_rng": "a7e0dba3ff2f46516ec895e545a903de93eb44d0fd932bcfff985a83da14a172"
+  },
+  "basis_sha256": null,
+  "config": {
+    "model": "siren",
+    "width": 128,
+    "depth": 3
+  }
+}

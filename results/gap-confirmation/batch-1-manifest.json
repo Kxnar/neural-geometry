@@ -1,0 +1,350 @@
+{
+  "schema": 1,
+  "split": "development",
+  "source_hashes": {
+    "neural_geometry/__init__.py": "59c5ed4664862b6c08b14d7f40c8fc307feceaff848ff73bb569d8d8f66cfa30",
+    "neural_geometry/adaptive.py": "68edc3c21f077a81565a1744ecc571125ab2d7f259ff717eaba63c47a34351e6",
+    "neural_geometry/evaluation.py": "8d808ea167e98ba3ab5895e14016c7f40a1cbd25c10786168eb33f930a9824d9",
+    "neural_geometry/geometry.py": "d5439529cc2b5599680cb0d694e4c7d1f19268997ec5db833f24368618fc0a44",
+    "neural_geometry/metrics.py": "1537f87e2828d2e23a28413f18afb47227ff6d3c93e78980ce02478d1077d03f",
+    "neural_geometry/models.py": "127be4fdcb345448c764b6c9897b81617c1433a72c8d249826a1b0d388ef02b9",
+    "neural_geometry/provenance.py": "88db9b7a5e23504b605deaff7f3145066441085143e31398a489d22d0fdbd996",
+    "neural_geometry/run.py": "5aae1e79bc569b684c1349e2760e70beb867724cb7cafe350af33ad3f3fb4a59",
+    "neural_geometry/sweep.py": "b5476ca8d98deb3b98048d6031e0696b3991c68d42410327205b975a8234aa9f",
+    "neural_geometry_scale/__init__.py": "97375066330634069181753103bee5ffe96b00295ff2f4e861b14423c2cb96c0",
+    "neural_geometry_scale/evaluation.py": "e4df239b9810581d3cc19ec8a3e031f79357c5e5d678936c4f1659e0d1bfbf83",
+    "neural_geometry_scale/geometry.py": "44a0771ccbafc90bc6647e0db620d0db4e22a664df1899f0a0d5ee0854e87d3f",
+    "neural_geometry_scale/study.py": "76de265f6bf57396709dd656d2a29c616bf93e4b20ef82ad58ebe25cfbd919b0",
+    "pyproject.toml": "338ea33b700cad7e2458d3dd35236e487c0b002ce412a9d18bdbb47c20f3ebb5",
+    "requirements-windows-cu126.txt": "a52cb62d2d7f65bbf826813478a99f3447f0f677d85f51d71425f8c87283040b",
+    "scripts/gap_training_controls.py": "13b3b7dab546ca5bf4a6edacd4a53376a2f66d3157e915610c7d0aa5394b2593",
+    "scripts/gap_lr_controls.py": "753c3065964fbbfe0c4c2cc420859d15aa8c56a6ef9e6dff8c5948c78d44e9c1",
+    "scripts/gap_density_controls.py": "641065cac18d3dd69aa0c9afcb2ff2f747ee590119c93e395fc253002aabf22f",
+    "scripts/gap_confirmation.py": "639ec483e3d5e5ad21d6c11d027f0cae57c7d6349258dbd1b96a6a3f4a3378fc",
+    "tests/test_gap_confirmation.py": "7a3fd81521fc098c3cfbfc7ef99811aeaa1189b73d5c4ced11ccfbf29a25949d"
+  },
+  "pairs": [
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 31,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "d4a6afba6b765d53da564c4499b8f3b6255351ff47f3fdbb6fca8dd56f6cf332",
+      "checkpoint": "inputs/gap-confirmation/0c5c963ffeaeef61/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/0c5c963ffeaeef61/pool.pt",
+      "independent": "inputs/gap-confirmation/0c5c963ffeaeef61/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/0c5c963ffeaeef61/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/0c5c963ffeaeef61/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/0c5c963ffeaeef61/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/0c5c963ffeaeef61/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 32,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "339d2ec21ee079c476d3386ff782058e1f561b9d14fcd28efe5a92a2f4f0c487",
+      "checkpoint": "inputs/gap-confirmation/91663b919d79ec88/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/91663b919d79ec88/pool.pt",
+      "independent": "inputs/gap-confirmation/91663b919d79ec88/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/91663b919d79ec88/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/91663b919d79ec88/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/91663b919d79ec88/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/91663b919d79ec88/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "global_narrow",
+        "seed": 33,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "b4de0e3862c773f23f71e49609eacfa8e0275f312f7810f74778a48e543a23f3",
+      "checkpoint": "inputs/gap-confirmation/82223663a57a5723/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/82223663a57a5723/pool.pt",
+      "independent": "inputs/gap-confirmation/82223663a57a5723/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/82223663a57a5723/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/82223663a57a5723/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/82223663a57a5723/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/82223663a57a5723/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 31,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "b0c806b576acaef10afeb6a8dcbb5887966bde0fe851dd7399c4b271611c2edc",
+      "checkpoint": "inputs/gap-confirmation/103fbd5e827ee5ae/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/103fbd5e827ee5ae/pool.pt",
+      "independent": "inputs/gap-confirmation/103fbd5e827ee5ae/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/103fbd5e827ee5ae/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/103fbd5e827ee5ae/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/103fbd5e827ee5ae/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/103fbd5e827ee5ae/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 32,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "3b30be973fefa0b5c68327f653c5c389889cc2fac8ab809ed6b88820e6f6e4a9",
+      "checkpoint": "inputs/gap-confirmation/f517dca3d5af2871/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/f517dca3d5af2871/pool.pt",
+      "independent": "inputs/gap-confirmation/f517dca3d5af2871/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/f517dca3d5af2871/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/f517dca3d5af2871/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/f517dca3d5af2871/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/f517dca3d5af2871/canonical-30000.pt"
+        }
+      }
+    },
+    {
+      "config": {
+        "scene": "parallel_plates",
+        "feature": 0.02,
+        "width": 128,
+        "policy": "local",
+        "seed": 33,
+        "model": "siren",
+        "depth": 3,
+        "lr": 0.0001,
+        "steps": 10000,
+        "batch_size": 2048,
+        "angle": 0,
+        "device": "cuda",
+        "eval_seed": 50000,
+        "eval_points": 32768,
+        "surface_samples": 32768,
+        "resolutions": [
+          96,
+          192
+        ],
+        "checkpoints": [
+          1000,
+          3000,
+          10000
+        ]
+      },
+      "sha256": "d981c4edf74e5a18f08422276fa930b43882499f48d00d5dad1d2d08a5f252e4",
+      "checkpoint": "inputs/gap-confirmation/c88efd8a5355dcbf/parent-20000.pt",
+      "pool": "inputs/gap-confirmation/c88efd8a5355dcbf/pool.pt",
+      "independent": "inputs/gap-confirmation/c88efd8a5355dcbf/independent.pt",
+      "historical": {
+        "dense": {
+          "26000": "inputs/gap-confirmation/c88efd8a5355dcbf/dense-26000.pt",
+          "30000": "inputs/gap-confirmation/c88efd8a5355dcbf/dense-30000.pt"
+        },
+        "canonical": {
+          "26000": "inputs/gap-confirmation/c88efd8a5355dcbf/canonical-26000.pt",
+          "30000": "inputs/gap-confirmation/c88efd8a5355dcbf/canonical-30000.pt"
+        }
+      }
+    }
+  ],
+  "sizes": [
+    4096,
+    16384,
+    65536
+  ],
+  "origin": 20000,
+  "additional_updates": 10000,
+  "checkpoints": [
+    26000,
+    30000
+  ],
+  "chunk_size": 16384,
+  "objective": "Ordinary equal-point batch MSE; chunk sums divided by batch target element count, one Adam step per update.",
+  "nesting": "Balanced 4096-point blocks from one CPU generator seeded training_seed+91000. Exact old 4096-point dataset is prefix. Prefix counts 50% original, 25% full gap, 25% facing interior.",
+  "schedule": "Cosine restart identical to earlier fixed-data diagnostic: update 1 = 1e-4, update 10000 = 1e-6. Adam moments and step counts retained.",
+  "independent_seed": 61002,
+  "independent_points": 65536,
+  "independent_distribution": "Same block sampling/composition per sampler, common evaluation seed across training seeds and densities; disjoint coordinates checked.",
+  "resolutions": [
+    192,
+    384
+  ],
+  "gap_seed": 61000,
+  "gap_samples": 131072,
+  "primary_gate": "All original gap and plate probes correct; two components, Euler 4, closed edges, resolved analytic reference at BOTH 192 and 384.",
+  "fit_gate": "Each of original/gap/interior subsets RMSE <=0.001 and 100% training signs for abs(true SDF)>0.001. Descriptive diagnostic only; failure is not representational impossibility.",
+  "persistence": "Unchanged structural gate at both 26000 and 30000. Report all checkpoint failures/regressions; no claim between observed checkpoints.",
+  "decision": "Persistent restoration across all six pairs at a denser size supports coverage. Fitted finite data with failed geometry motivates between-sample bridge localisation. Unfitted dense data leaves optimisation/capacity unresolved. Mixed outcomes stay mixed.",
+  "compute": "10000 updates. Count batch points times updates; all 65536 pool labels retained. Report measured training and evaluation seconds separately. No storage or label savings claimed.",
+  "fresh_cases_sha256": "00823f0af25d4a8d27c976078d165b073e5b0cb48124bbf3cbdb6e6589890993",
+  "fresh_cases_evaluated": false,
+  "experiment": "order-robustness",
+  "protocol": {
+    "batch": 1,
+    "arms": [
+      {
+        "name": "dense",
+        "points": 65536
+      },
+      {
+        "name": "canonical",
+        "points": 16384
+      },
+      {
+        "name": "phase-1",
+        "points": 16384
+      },
+      {
+        "name": "shuffle",
+        "points": 16384
+      }
+    ],
+    "order": "Rotate arm execution left by pair index modulo four; serial GPU.",
+    "hypothesis": "Balanced 16384-point cycling is robust to phase and independently shuffled cycle order.",
+    "schedule": "Canonical 0,1,2,3; phase1 1,2,3,0; shuffle independent CPU Generator seed700000+pairindex; all2500 permutations before training.",
+    "persistence": "Primary gate at26k AND30k, at192 AND384 in each of all six development pairs.",
+    "guards": "Each checkpoint mean Chamfer at each grid<=1.05xdense; mean independent gap RMSE<=1.10xdense; mean fullgap sign delta>=-0.005.",
+    "compute": "Each candidate presentations25%dense; aggregate training<=90%dense. Evaluation/combined reported separately.",
+    "validity": "Dense and canonical model,Adam,samplingRNG exact historical at26k and30k. Missing/nonfinite/incomplete/unresolved reference cannot qualify.",
+    "stopping": "If any order arm or guard fails stop with all8 reservations untouched. No tuning, replacement arm, changed shuffle seed or extra batch.",
+    "conditional_confirmation": "ONLY if gate succeeds: freeze code and first2 cases of archived reservation with seeds71-73/global_narrow, dense/canonical/static/random; keep6 other complete cases untouched.",
+    "budget": "<=3new batches and7200seconds whole model subprocess wall including all model tests/prep/I/O/evaluations/failures; hard timeout."
+  },
+  "protocol_sha256": "6469c724c482e9846b574db87dd1b4d625f2d740b93f5d2f1401aab9dacee291",
+  "historical_manifest_sha256": "fe9c854accb705c7033c835770d8df6c7925ec627163aa64335cfdba41de9982",
+  "historical_summary_sha256": "858bfaa80f22cc3851e7a6bf9d4ea9743120f1c17aed2e31291476de82b78472",
+  "selection": "At update j=1..10000 select contiguous n-point balanced blocks at index (j-1+phase) modulo (65536/n). All pool points once per cycle. Fixed deterministic order, ordinary equal-point batch MSE; this changes gradient noise and ordering, not just coverage.",
+  "created_utc": "2026-10-08T21:31:29.597935+00:00",
+  "input_inventory_sha256": "40d99a982d1df9edd1f5b1482c80c7336f4b686a79a6f083e64fce17e71e917f",
+  "reservation_path": "inputs/gap-confirmation/fresh-cases-reserved.json"
+}

@@ -1,0 +1,13 @@
+{
+  "attempts": [
+    {
+      "folder": "runs\\gap-density-sweep\\91663b919d79ec88\\n-65536\\step-30000\\attempt-0001",
+      "start": 26000,
+      "last_logged_step": 27500,
+      "density": 65536,
+      "logged_discarded_updates": 1500,
+      "logged_discarded_point_presentations": 98304000,
+      "unlogged_tail": "At most 99 further completed updates before next flush, plus a possible partial update. Exact elapsed compute unavailable."
+    }
+  ]
+}

@@ -1,0 +1,2854 @@
+{
+  "runs": [
+    {
+      "metadata": {
+        "checkpoint_sha256": "a75f37d5bc36e97a0a6762de86f6afaf9fd97d3eb62b802dbbb0af2fcef9d00f",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 64,
+          "policy": "global_narrow",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.8395819067955017,
+          "sdf_mae": 0.0033406021539121866
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.8778392672538757,
+          "sdf_mae": 0.003021384822204709
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.7717055678367615,
+          "sdf_mae": 0.003906958270817995
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7627183198928833,
+          "sdf_mae": 0.002158215967938304
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.793569803237915,
+          "sdf_mae": 0.0019751975778490305
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8285548686981201,
+          "sdf_mae": 0.002227319171652198
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.8743112683296204,
+          "sdf_mae": 0.00454372214153409
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9227190017700195
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.8199635744094849
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "a726bedd3705fb2fd052c7a011c5c0fdcf9043c790949d04a205904132e5f94e",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 64,
+          "policy": "global_narrow",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.8018844723701477,
+          "sdf_mae": 0.0036950670182704926
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9409834742546082,
+          "sdf_mae": 0.0029965427238494158
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.5550945997238159,
+          "sdf_mae": 0.004934391938149929
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.6480637788772583,
+          "sdf_mae": 0.0015725025441497564
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.7316662669181824,
+          "sdf_mae": 0.0016920370981097221
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.805313229560852,
+          "sdf_mae": 0.002465378725901246
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.8520886898040771,
+          "sdf_mae": 0.005336120259016752
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9964568614959717
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.627651035785675
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "db9b85191b6bc6ee7baddb2e64a5e83ea5b37e8d4e391458f6402c5f909c8658",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 64,
+          "policy": "local",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.6509575247764587,
+          "sdf_mae": 0.004497958812862635
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.7123019695281982,
+          "sdf_mae": 0.004183383192867041
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.5421199798583984,
+          "sdf_mae": 0.005056079942733049
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.40311312675476074,
+          "sdf_mae": 0.0019072749419137836
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.49726971983909607,
+          "sdf_mae": 0.002284926362335682
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.6414018273353577,
+          "sdf_mae": 0.003317235503345728
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.7515224814414978,
+          "sdf_mae": 0.006271411664783955
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.8685221672058105
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.622719407081604
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "7e103c1dcb92499bc1e537164e4895b35b8adcd23d25aae94c3dad007bdaddf0",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 64,
+          "policy": "global_narrow",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.6631418466567993,
+          "sdf_mae": 0.004449678584933281
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.7325706481933594,
+          "sdf_mae": 0.00413317559286952
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.539961040019989,
+          "sdf_mae": 0.005011218599975109
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.4000000059604645,
+          "sdf_mae": 0.0016158032231032848
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.5190609693527222,
+          "sdf_mae": 0.0020814461167901754
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.6588177680969238,
+          "sdf_mae": 0.003264982020482421
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.7612906098365784,
+          "sdf_mae": 0.006320421118289232
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.8838518857955933
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.6039241552352905
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "4e432240dcabf5d1e6d61f7a0f491c95a1ebaf839e7cdb1fc78e2521def33119",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 64,
+          "policy": "local",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.729320228099823,
+          "sdf_mae": 0.00413102051243186
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.8396163582801819,
+          "sdf_mae": 0.0036164666526019573
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.5336324572563171,
+          "sdf_mae": 0.00504394480958581
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.5077448487281799,
+          "sdf_mae": 0.0016774550313130021
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.6086756587028503,
+          "sdf_mae": 0.0019546877592802048
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.7280241847038269,
+          "sdf_mae": 0.0029372614808380604
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.8105893135070801,
+          "sdf_mae": 0.00587245961651206
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9543806314468384
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.606167733669281
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "3809c4b7e90ca58548d11755a3554fb7a64f95cc6cc0af0da551d9eef5f58731",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 64,
+          "policy": "local",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.842771053314209,
+          "sdf_mae": 0.0034571061842143536
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9730268120765686,
+          "sdf_mae": 0.002782585797831416
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.6116708517074585,
+          "sdf_mae": 0.004653841722756624
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7276386022567749,
+          "sdf_mae": 0.0015787837328389287
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.7976524829864502,
+          "sdf_mae": 0.0015707688871771097
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8481668829917908,
+          "sdf_mae": 0.002229327568784356
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.8767074942588806,
+          "sdf_mae": 0.0050132074393332005
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.6825762987136841
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "9e35f2dd83ee8c0a8b56739342b626b4a22df196bc73e8475b1df2b2161e82a5",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.8693065047264099,
+          "sdf_mae": 0.003182644722983241
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.895173192024231,
+          "sdf_mae": 0.0029920029919594526
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.823413610458374,
+          "sdf_mae": 0.0035208817571401596
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7302961349487305,
+          "sdf_mae": 0.0016989117721095681
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.7970910668373108,
+          "sdf_mae": 0.001622274867258966
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8624717593193054,
+          "sdf_mae": 0.0020601816941052675
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9222668409347534,
+          "sdf_mae": 0.004509241320192814
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9640675783157349
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.8796300292015076
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "7a820d16a5aa491e02d54e5bc173e11cef72719d5cd60a0dfe9f15a93cdb5ac1",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.7041046619415283,
+          "sdf_mae": 0.004072159994393587
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.7390365600585938,
+          "sdf_mae": 0.003919727634638548
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.6421284079551697,
+          "sdf_mae": 0.004342606756836176
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.45558086037635803,
+          "sdf_mae": 0.0018921657465398312
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.5734115839004517,
+          "sdf_mae": 0.0021426856983453035
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.6896235942840576,
+          "sdf_mae": 0.003000236814841628
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.8003937602043152,
+          "sdf_mae": 0.005623812321573496
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.8730673789978027
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.7483384609222412
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "a60dc030e81aca71359091815c1625aae9471d2002af09c35ad27707e606571f",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9006103873252869,
+          "sdf_mae": 0.002999614691361785
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9135569930076599,
+          "sdf_mae": 0.0029015399049967527
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.877640426158905,
+          "sdf_mae": 0.003173618111759424
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7663629651069641,
+          "sdf_mae": 0.0018012328073382378
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.8200051188468933,
+          "sdf_mae": 0.001634939108043909
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8940706253051758,
+          "sdf_mae": 0.0018654739251360297
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.954974889755249,
+          "sdf_mae": 0.004216168541461229
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9916849732398987
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9207763671875
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "91c716d497eed3c958d79b2eea8ebab317d395dfabe48f567542764fa8af1399",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.7545738816261292,
+          "sdf_mae": 0.003814954310655594
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.7853359580039978,
+          "sdf_mae": 0.0036241814959794283
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.699995756149292,
+          "sdf_mae": 0.00415342440828681
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.5463933348655701,
+          "sdf_mae": 0.0015655767638236284
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.6366930603981018,
+          "sdf_mae": 0.0017777752364054322
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.7370828986167908,
+          "sdf_mae": 0.0026666068006306887
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.8404279947280884,
+          "sdf_mae": 0.005451007280498743
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9130917191505432
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.7920458912849426
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "8c7f5baf06c6549a5b6fc568497361736ba67b9997ec46dc03fb493d6b6c48a1",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.8308995366096497,
+          "sdf_mae": 0.0034801936708390713
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.8383637070655823,
+          "sdf_mae": 0.0034661446698009968
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.8176565170288086,
+          "sdf_mae": 0.003505118889734149
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.6207289099693298,
+          "sdf_mae": 0.001743400120176375
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.7289614677429199,
+          "sdf_mae": 0.001794298063032329
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8370646238327026,
+          "sdf_mae": 0.0023907129652798176
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9005479216575623,
+          "sdf_mae": 0.004878695122897625
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9203807711601257
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9063836336135864
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "41905da73dc78c07e99e7807c53dae113817a24d88d215004f316059f4fafa5a",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            1000,
+            3000,
+            10000
+          ]
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9000991582870483,
+          "sdf_mae": 0.003014663001522422
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9222537875175476,
+          "sdf_mae": 0.0029318120796233416
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.8607924580574036,
+          "sdf_mae": 0.003161656903102994
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.76765376329422,
+          "sdf_mae": 0.002117899479344487
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.8420515656471252,
+          "sdf_mae": 0.0019046302186325192
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9042274355888367,
+          "sdf_mae": 0.002054918557405472
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9420168399810791,
+          "sdf_mae": 0.004007162991911173
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9684219360351562
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.914976954460144
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "eaf4692b638cc0388854807e1e293f0d2f6632d6d2a24d11c25ac1c1c40dd71d",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "sign_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 32,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9369421005249023,
+          "sdf_mae": 0.0026624558959156275
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9447652101516724,
+          "sdf_mae": 0.002538383938372135
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.923062264919281,
+          "sdf_mae": 0.0028825849294662476
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7873196601867676,
+          "sdf_mae": 0.0014136849204078317
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.884052038192749,
+          "sdf_mae": 0.0013034235453233123
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9404318928718567,
+          "sdf_mae": 0.0016151402378454804
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9810894727706909,
+          "sdf_mae": 0.003844004124403
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9593192934989929
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "5de7b07c136016f7ba7cb932931b34e5a37b15be3ba501aae41acf43670aa475",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "sign_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 33,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9585793614387512,
+          "sdf_mae": 0.0025130524300038815
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9758303165435791,
+          "sdf_mae": 0.0022956072352826595
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9279727339744568,
+          "sdf_mae": 0.002898844424635172
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.840015172958374,
+          "sdf_mae": 0.0012611247366294265
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.9268180727958679,
+          "sdf_mae": 0.0011478757951408625
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9723357558250427,
+          "sdf_mae": 0.001453910954296589
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9850272536277771,
+          "sdf_mae": 0.0037029902450740337
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9638699293136597
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "a6f517b68b0cb213c47a08704154ffc7b0a84415f361fcaad0fdc29288b87a6e",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "sign_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 32,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.8707866072654724,
+          "sdf_mae": 0.00300413416698575
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.8819789290428162,
+          "sdf_mae": 0.0029590127523988485
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.8509292006492615,
+          "sdf_mae": 0.003084188560023904
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.545330286026001,
+          "sdf_mae": 0.001413281075656414
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.7217147350311279,
+          "sdf_mae": 0.0015210277633741498
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8972427248954773,
+          "sdf_mae": 0.0020361398346722126
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9675514101982117,
+          "sdf_mae": 0.004251858685165644
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9268932938575745
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "9e1ea331f12f8687b127661a4e4b5214baca09ff30a58a27fac791278ea0c1de",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "sign_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 33,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9414740204811096,
+          "sdf_mae": 0.002343295142054558
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.943321704864502,
+          "sdf_mae": 0.002325695939362049
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9381958246231079,
+          "sdf_mae": 0.0023745193611830473
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7242217063903809,
+          "sdf_mae": 0.0013460218906402588
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.8728757500648499,
+          "sdf_mae": 0.001268985914066434
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9616299867630005,
+          "sdf_mae": 0.0014293716521933675
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9955738186836243,
+          "sdf_mae": 0.003322386182844639
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9960631728172302
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "a344e2d080c5d10eb2557a528726b2a89719b6b6a8d7a16a6d4be42aa470c745",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "sign_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 31,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.6642099618911743,
+          "sdf_mae": 0.004227976314723492
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.7244583964347839,
+          "sdf_mae": 0.003842088859528303
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.5573170185089111,
+          "sdf_mae": 0.0049126180820167065
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.33113136887550354,
+          "sdf_mae": 0.0019823729526251554
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.46435314416885376,
+          "sdf_mae": 0.0023519089445471764
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.6421643495559692,
+          "sdf_mae": 0.003187161171808839
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.8019658327102661,
+          "sdf_mae": 0.0057612755335867405
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.92951899766922
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.6864708065986633
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "f12d5f6f111e88eca8819d0e4aa8ce2682833252feb1d2353e842314d1f83bea",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "sign_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 31,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.955611526966095,
+          "sdf_mae": 0.002344970591366291
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9636977314949036,
+          "sdf_mae": 0.002251755679026246
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9412648677825928,
+          "sdf_mae": 0.002510352525860071
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.8215641379356384,
+          "sdf_mae": 0.002094356808811426
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.9064557552337646,
+          "sdf_mae": 0.0018513270188122988
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9652900695800781,
+          "sdf_mae": 0.001684810733422637
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9924144148826599,
+          "sdf_mae": 0.0028733289800584316
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.98503577709198
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "b5c29f72945ee2abaec85877e7a7c4502a6b4de7d382cd75e2fcce4b61515bc7",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_band",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 33,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9407797455787659,
+          "sdf_mae": 0.002176300622522831
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9611209034919739,
+          "sdf_mae": 0.0019138460047543049
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9046903252601624,
+          "sdf_mae": 0.0026419481728225946
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7440394759178162,
+          "sdf_mae": 0.0014668257208541036
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.8831334710121155,
+          "sdf_mae": 0.0014080536784604192
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9663881063461304,
+          "sdf_mae": 0.0014155120588839054
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9847525358200073,
+          "sdf_mae": 0.002929376671090722
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9635101556777954
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "655a32a3c2c7fb6aed7b84947dc6b332bde9e50f922ab56f6485d7ff1e58bb0f",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_band",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 32,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9418326020240784,
+          "sdf_mae": 0.002097449032589793
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9707720875740051,
+          "sdf_mae": 0.0018277250928804278
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.8904880881309509,
+          "sdf_mae": 0.0025759940035641193
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7872437238693237,
+          "sdf_mae": 0.0015099155716598034
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.909364640712738,
+          "sdf_mae": 0.0014225732302293181
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9568718075752258,
+          "sdf_mae": 0.0014109315816313028
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9750912189483643,
+          "sdf_mae": 0.0027609234675765038
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9415188431739807
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "a05070b784b8d2095d6a3589fdb81be0e235c246d820134b17c924651c27cce1",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_band",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 33,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9634851813316345,
+          "sdf_mae": 0.001936105894856155
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9738976955413818,
+          "sdf_mae": 0.0017795475432649255
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9450111985206604,
+          "sdf_mae": 0.002213872503489256
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.8127562403678894,
+          "sdf_mae": 0.0016402252949774265
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.9218167662620544,
+          "sdf_mae": 0.0015504690818488598
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9835295677185059,
+          "sdf_mae": 0.001440741354599595
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9962148666381836,
+          "sdf_mae": 0.0023587974719703197
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9921051263809204
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "110bc7bc4a9dc1f2f2093cd5d473ddaf22e321cd4d51b64a1343517f3756fc16",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_band",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 32,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.959006667137146,
+          "sdf_mae": 0.0020309549290686846
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9852309823036194,
+          "sdf_mae": 0.0017179501010105014
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9124793410301208,
+          "sdf_mae": 0.00258628954179585
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.8406985402107239,
+          "sdf_mae": 0.0012383178109303117
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.9374840259552002,
+          "sdf_mae": 0.0011616735719144344
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9673945903778076,
+          "sdf_mae": 0.001236387062817812
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9850272536277771,
+          "sdf_mae": 0.0028478677850216627
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9675316214561462
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "b5450dae762f9c0051d78da18eff298065a046c66e51cbd4f18410e362899823",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_band",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 31,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9385290145874023,
+          "sdf_mae": 0.0021472652442753315
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9360207319259644,
+          "sdf_mae": 0.0021250545978546143
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9429792761802673,
+          "sdf_mae": 0.0021866713650524616
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.6964312791824341,
+          "sdf_mae": 0.0014240987366065383
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.8691502809524536,
+          "sdf_mae": 0.0013758367858827114
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9659610986709595,
+          "sdf_mae": 0.0014475011266767979
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9942154288291931,
+          "sdf_mae": 0.0028735080268234015
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9875544905662537
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "e26572741d82cee2129b7df50480b48275a65fe27ec61bd8d144e765239bea72",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_band",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 31,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9806591868400574,
+          "sdf_mae": 0.0019904219079762697
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9869250059127808,
+          "sdf_mae": 0.001781076774932444
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.969542384147644,
+          "sdf_mae": 0.002361843129619956
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.9134396314620972,
+          "sdf_mae": 0.002032474149018526
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.9620311260223389,
+          "sdf_mae": 0.0018228000262752175
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9891417026519775,
+          "sdf_mae": 0.001528363092802465
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.995497465133667,
+          "sdf_mae": 0.0022633171174675226
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9909198880195618
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "742e7bc332c5f4cecc7b9f5cae0e9fc76a6998f7950700c09fd9a24b0bbe5fee",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 33,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9088502526283264,
+          "sdf_mae": 0.0029569617472589016
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.96011883020401,
+          "sdf_mae": 0.002610862720757723
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.8178893327713013,
+          "sdf_mae": 0.003571011358872056
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7324981093406677,
+          "sdf_mae": 0.0012532187392935157
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.8547588586807251,
+          "sdf_mae": 0.001252823625691235
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9283230900764465,
+          "sdf_mae": 0.0018063276074826717
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9507318735122681,
+          "sdf_mae": 0.004384877160191536
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9969340562820435
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.8809634447097778
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "f35223194313d7e811f5bfed2f256870b53f1ca2a618cc020ebdcc11349f9bbf",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 31,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.8037995100021362,
+          "sdf_mae": 0.003501806640997529
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.8657544255256653,
+          "sdf_mae": 0.0031537520699203014
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.6938788294792175,
+          "sdf_mae": 0.00411932822316885
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.5388762354850769,
+          "sdf_mae": 0.0015419659903272986
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.6699668169021606,
+          "sdf_mae": 0.0017016463680192828
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8065637946128845,
+          "sdf_mae": 0.0024047628976404667
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.895694375038147,
+          "sdf_mae": 0.0049831015057861805
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9843839406967163
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.7880666851997375
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "104856fd0ad2837296cb3280fd381901370a0dfde587ad491a9e44d994fe46cb",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "global_narrow",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "global_narrow",
+            "seed": 32,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.8362325429916382,
+          "sdf_mae": 0.0034434483386576176
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.8952328562736511,
+          "sdf_mae": 0.0031347579788416624
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.7315539717674255,
+          "sdf_mae": 0.003991127945482731
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.5578587651252747,
+          "sdf_mae": 0.0010912073776125908
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.7183465361595154,
+          "sdf_mae": 0.0013712677173316479
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8432257771492004,
+          "sdf_mae": 0.0023071232717484236
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9239457249641418,
+          "sdf_mae": 0.005104629322886467
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 1.0
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.8175930380821228
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "a66ec38e2646015b0df944f2eda2d2c2240cbc2e0e0f8cfd60d75d77cfe175ea",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 31,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 31,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9353246092796326,
+          "sdf_mae": 0.002659267745912075
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.9491553902626038,
+          "sdf_mae": 0.0025455255527049303
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9107860922813416,
+          "sdf_mae": 0.0028610704466700554
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.7553530931472778,
+          "sdf_mae": 0.0017826316179707646
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.8631283640861511,
+          "sdf_mae": 0.0016531712608411908
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.948789119720459,
+          "sdf_mae": 0.0018267855048179626
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9863551259040833,
+          "sdf_mae": 0.0035529558081179857
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9993557929992676
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9728654026985168
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "63e5f02490bdc06276af47ef56af5ba20b8968eb2158107fb007d996149369f8",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 33,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 33,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.9690089225769043,
+          "sdf_mae": 0.002413179725408554
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.965177059173584,
+          "sdf_mae": 0.00241268053650856
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.9758074879646301,
+          "sdf_mae": 0.0024140654131770134
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.8993925452232361,
+          "sdf_mae": 0.0026286004576832056
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.9404439926147461,
+          "sdf_mae": 0.0022580274380743504
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.9714817404747009,
+          "sdf_mae": 0.0018400241388007998
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9903081655502319,
+          "sdf_mae": 0.002703089267015457
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9942975640296936
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.9922321438789368
+        }
+      }
+    },
+    {
+      "metadata": {
+        "checkpoint_sha256": "074968c550458fd1331921e811e803598fba1032bb0cbadfc9af29fc537baecf",
+        "diagnostic_source_sha256": "9678678ae8913e2ec5f751aa8f321c94f22ef85dfdeda42b802fc4818b411c9c",
+        "eval_seed": 61000,
+        "requested_samples": 131072,
+        "scope": "post-hoc exploratory; not a selection endpoint",
+        "config": {
+          "scene": "parallel_plates",
+          "feature": 0.02,
+          "width": 128,
+          "policy": "local",
+          "seed": 32,
+          "model": "siren",
+          "depth": 3,
+          "lr": 0.0001,
+          "steps": 10000,
+          "batch_size": 2048,
+          "angle": 0,
+          "device": "cuda",
+          "eval_seed": 50000,
+          "eval_points": 32768,
+          "surface_samples": 32768,
+          "resolutions": [
+            96,
+            192
+          ],
+          "checkpoints": [
+            10000
+          ],
+          "loss": "weighted_margin",
+          "baseline_config": {
+            "scene": "parallel_plates",
+            "feature": 0.02,
+            "width": 128,
+            "policy": "local",
+            "seed": 32,
+            "model": "siren",
+            "depth": 3,
+            "lr": 0.0001,
+            "steps": 10000,
+            "batch_size": 2048,
+            "angle": 0,
+            "device": "cuda",
+            "eval_seed": 50000,
+            "eval_points": 32768,
+            "surface_samples": 32768,
+            "resolutions": [
+              96,
+              192
+            ],
+            "checkpoints": [
+              1000,
+              3000,
+              10000
+            ]
+          }
+        }
+      },
+      "regions": {
+        "whole_gap": {
+          "samples": 131070,
+          "sign_accuracy": 0.8627603650093079,
+          "sdf_mae": 0.0031067151576280594
+        },
+        "central_footprint": {
+          "samples": 83824,
+          "sign_accuracy": 0.8892441391944885,
+          "sdf_mae": 0.0029101851396262646
+        },
+        "outer_footprint": {
+          "samples": 47246,
+          "sign_accuracy": 0.8157727718353271,
+          "sdf_mae": 0.0034553990699350834
+        },
+        "margin_0_0.001": {
+          "samples": 13170,
+          "sign_accuracy": 0.6477600336074829,
+          "sdf_mae": 0.001560180215165019
+        },
+        "margin_0.001_0.0025": {
+          "samples": 19595,
+          "sign_accuracy": 0.7586119174957275,
+          "sdf_mae": 0.001561681623570621
+        },
+        "margin_0.0025_0.005": {
+          "samples": 32786,
+          "sign_accuracy": 0.8617702722549438,
+          "sdf_mae": 0.0020384350791573524
+        },
+        "margin_0.005_0.011": {
+          "samples": 65519,
+          "sign_accuracy": 0.9376211762428284,
+          "sdf_mae": 0.004414235707372427
+        },
+        "midplane_central": {
+          "samples": 83824,
+          "sign_accuracy": 0.9802324175834656
+        },
+        "midplane_outer": {
+          "samples": 47246,
+          "sign_accuracy": 0.902023434638977
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+......................................F.                                 [100%]
+================================== FAILURES ===================================
+_________________ test_cuda_unreserved_train_checkpoint_eval __________________
+
+tmp_path = WindowsPath('retained-workspace/runs/thin-feature-campaign/test-temp-3/test_cuda_unreserved_train_che0')
+
+    def test_cuda_unreserved_train_checkpoint_eval(tmp_path):
+        if not torch.cuda.is_available(): pytest.skip('CUDA unavailable')
+        c.deterministic();scene=c.FamilyScene(plate()); model=c.factory(c.CONFIGS[1],13,'cuda')
+        opt=torch.optim.Adam(model.parameters(),lr=1e-4);g=torch.Generator(device='cuda').manual_seed(14)
+        p,t,_=c.batch(scene,2048,'global_narrow',g,'cuda');opt.zero_grad();loss=(model(p)-t).square().mean();loss.backward();opt.step()
+        saved=c.save_checkpoint(tmp_path/'cuda.pt',model,opt,g,1,c.CONFIGS[1]);assert saved['optimizer']
+        r=c.field_metrics(model,scene,'cuda',9901,128);assert math_isfinite(r['uniform_sdf_mae'])
+>       geometry=c.geometry(model,scene,'cuda',32,count=128);assert 'mesh_present' in geometry
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests\test_thin_feature_campaign.py:104: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+retained-project\.venv\Lib\site-packages\torch\utils\_contextlib.py:116: in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+model = Field(
+  (net): Sequential(
+    (0): Linear(in_features=128, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Lin...res=128, out_features=128, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=128, out_features=1, bias=True)
+  )
+)
+scene = FamilyScene(name='parallel_plates', feature=0.04, angle=11)
+device = 'cuda', resolution = 32, count = 128, seed = 91000
+
+    @torch.no_grad()
+    def geometry(model,scene,device,resolution,count=20000,seed=91000):
+        axis=torch.linspace(-1,1,resolution,device=device); x,y=torch.meshgrid(axis,axis,indexing='ij')
+        points=torch.stack([x.flatten(),y.flatten(),torch.zeros_like(x).flatten()],-1)
+        pv=[];tv=[]
+        for z in axis:
+            points[:,2]=z; pv.append(predict(model,points).reshape(resolution,resolution).cpu().numpy())
+            tv.append(scene.sdf(points).reshape(resolution,resolution).cpu().numpy())
+        volume,truth=np.stack(pv,2),np.stack(tv,2)
+        vertices,faces=mesh_from_volume(volume); rv,rf=mesh_from_volume(truth)
+        target=scene.surface(count,torch.Generator().manual_seed(seed))[0].numpy()
+        sampled=mesh_surface_samples(vertices,faces,count,np.random.default_rng(seed+2)) if len(faces) else np.empty((0,3))
+        pt,rt=topology(vertices,faces),topology(rv,rf)
+        chamfer=symmetric_chamfer(sampled,target)
+        return dict(resolution=resolution,mesh_present=bool(len(faces)),mesh=pt,reference_mesh=rt,
+                    reference_resolved=rt==scene.expected,structure_match=pt==scene.expected and rt==scene.expected,
+>                   symmetric_chamfer=float(chamfer) if math.isfinite(chamfer) else None)
+                                                        ^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: must be real number, not NoneType
+
+scripts\thin_feature_campaign.py:216: TypeError
+=========================== short test summary info ===========================
+FAILED tests/test_thin_feature_campaign.py::test_cuda_unreserved_train_checkpoint_eval
+1 failed, 39 passed in 9.79s

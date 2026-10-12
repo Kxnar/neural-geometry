@@ -1,0 +1,96 @@
+{
+  "selected_config": {
+    "model": "siren",
+    "width": 128,
+    "depth": 3
+  },
+  "comparison_complete": false,
+  "selection_inconclusive": true,
+  "ranks": [
+    {
+      "config": {
+        "model": "siren",
+        "width": 128,
+        "depth": 3
+      },
+      "rank": [
+        0,
+        0,
+        -1,
+        2,
+        561.4289315000642,
+        0
+      ],
+      "lost_dense": 0,
+      "narrow_persistent": 0,
+      "all_persistent": 1,
+      "guard_violations": 2,
+      "aggregate_guards": {
+        "passes": true,
+        "endpoints": [
+          {
+            "step": 26000,
+            "gap_rmse_ratio": 1.036804260718044,
+            "sign_delta": -0.002800009155343286,
+            "passes": true,
+            "chamfer_ratio_192": 1.0023990754027352,
+            "chamfer_ratio_384": 1.0038465342460667
+          },
+          {
+            "step": 30000,
+            "gap_rmse_ratio": 1.0464759849268146,
+            "sign_delta": -0.0006713918410632402,
+            "passes": true,
+            "chamfer_ratio_192": 1.0007386362545985,
+            "chamfer_ratio_384": 1.0006746964634246
+          }
+        ],
+        "pairs": 3
+      }
+    },
+    {
+      "config": {
+        "model": "fourier",
+        "width": 128,
+        "depth": 3,
+        "frequencies": 64,
+        "scale": 10.0
+      },
+      "rank": [
+        0,
+        0,
+        0,
+        2,
+        831.002661900071,
+        1
+      ],
+      "lost_dense": 0,
+      "narrow_persistent": 0,
+      "all_persistent": 0,
+      "guard_violations": 2,
+      "aggregate_guards": {
+        "passes": false,
+        "endpoints": [
+          {
+            "step": 26000,
+            "gap_rmse_ratio": 1.027010234775683,
+            "sign_delta": -0.011325922591572501,
+            "passes": false,
+            "chamfer_ratio_192": 0.9460565700359184,
+            "chamfer_ratio_384": 0.9444797204394128
+          },
+          {
+            "step": 30000,
+            "gap_rmse_ratio": 1.046576914529543,
+            "sign_delta": -0.004627263086418809,
+            "passes": true,
+            "chamfer_ratio_192": 0.9301305313770368,
+            "chamfer_ratio_384": 0.9257237204040915
+          }
+        ],
+        "pairs": 2
+      }
+    }
+  ],
+  "no_switch_after_validation": true
+}

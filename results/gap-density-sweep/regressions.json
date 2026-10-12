@@ -1,0 +1,24 @@
+{
+  "regressions": [
+    {
+      "policy": "local",
+      "seed": 33,
+      "density": 16384,
+      "passing_step": 26000,
+      "failing_step": 30000,
+      "probe_gate_at_failure": true,
+      "failing_meshes": {
+        "192": {
+          "components": 3,
+          "euler": 6,
+          "closed_edges": true
+        },
+        "384": {
+          "components": 4,
+          "euler": 8,
+          "closed_edges": true
+        }
+      }
+    }
+  ]
+}

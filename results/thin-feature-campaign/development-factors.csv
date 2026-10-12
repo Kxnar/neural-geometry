@@ -1,0 +1,17 @@
+model,arm,factor,fixed,seed,persistent_difference
+siren,dense,narrow_minus_wide,17,71,-1
+siren,dense,narrow_minus_wide,37,71,-1
+siren,dense,37_minus_17,0.012,71,0
+siren,dense,37_minus_17,0.03,71,0
+siren,cycling,narrow_minus_wide,17,71,-1
+siren,cycling,narrow_minus_wide,37,71,
+siren,cycling,37_minus_17,0.012,71,0
+siren,cycling,37_minus_17,0.03,71,
+fourier,dense,narrow_minus_wide,17,71,
+fourier,dense,narrow_minus_wide,37,71,0
+fourier,dense,37_minus_17,0.012,71,0
+fourier,dense,37_minus_17,0.03,71,
+fourier,cycling,narrow_minus_wide,17,71,0
+fourier,cycling,narrow_minus_wide,37,71,
+fourier,cycling,37_minus_17,0.012,71,0
+fourier,cycling,37_minus_17,0.03,71,

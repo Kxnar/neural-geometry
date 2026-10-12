@@ -1,0 +1,15 @@
+{
+  "destination": "replay-verified",
+  "report_sha256": "4016c8276f7e67f1b45a9f0e342dea5b8ee84d33b6eda423cdd6b03b9524e0c8",
+  "report_and_claim_match": true,
+  "complete_reporter_exercised": true,
+  "additional_training_updates": 0,
+  "additional_model_evaluations": 0,
+  "retained_binary_readonly_hardlinks": 132,
+  "copied_evidence_files": 945,
+  "scope": "Package and retained-data reporter verification; a full training replay was not executed",
+  "full_reporter_verified_report_sha256": "09751462aa4e699c3733f2f441e31a4064fd667ab550ebbb6f713188a8059dd5",
+  "post_verification_documentation_only_edit": "Added explicit PowerShell exit checks; numerical results and claim unchanged",
+  "final_prepared_files_verified": 79,
+  "final_replay_wrapper_sha256": "ec1b223ebaa0ad747515db4fe69cf8e9a111435ebd8c76f4966d2129d2821393"
+}

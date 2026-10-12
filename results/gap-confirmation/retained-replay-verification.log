@@ -1,0 +1,14 @@
+Artifacts: 1128
+The frozen consistency criterion was not met: on two preregistered rotated parallel-plate geometries (gaps 0.012/0.03; angles 17/37 degrees) and seeds 71–73, balanced 16,384-point cycling achieved observed persistent structural recovery at 26k/30k and both grids 192/384 in 3/6 paired trajectories versus dense 2/6, using 75% fewer recovery gradient point presentations, 66.1% less measured recovery training time and 26.5% less attributed prefix-plus-recovery-plus-evaluation runtime. Random sampling recovered 3/6, so balancing superiority is unsupported. It failed all three seeds on gap 0.012 / angle 17°, where dense also failed on resolved references; consistent preservation across this subset is unsupported.
+Charged minutes: 71.14678435166618
+
+{
+  "inventory_files": 1128,
+  "local_links_verified": 10,
+  "confirmation_checkpoints": 48,
+  "paired_comparisons": 36,
+  "charged_seconds": 4268.807061099971,
+  "model_evaluations": 0,
+  "training_updates": 0,
+  "report_sha256": "09751462aa4e699c3733f2f441e31a4064fd667ab550ebbb6f713188a8059dd5"
+}

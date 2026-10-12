@@ -1,0 +1,14 @@
+{
+  "batch": 1,
+  "hypothesis": "Cycling balanced 16384-point subsets through the same 65536-point dense pool preserves observed persistent structure while reducing point presentations fourfold and measured training time.",
+  "arms": [
+    {"name": "dense", "points": 65536, "phase": 0},
+    {"name": "cycle-16384", "points": 16384, "phase": 0}
+  ],
+  "controls": "All six development model/Adam states at 20000 updates; global_narrow/local seeds 31,32,33; exact historical dense pools; unchanged ordinary MSE, architecture, 10000-update cosine schedule, independent probes, resolutions 192/384 and structural gate. Rerun dense baseline concurrently in this batch, alternating arm order by pair. Historical 16384 static and 65536 full-data results provide context, not additional new runs.",
+  "decision_criteria": "Primary candidate success: unchanged structural gate at BOTH 26000 and 30000, at BOTH resolutions, in all six trajectories, with fewer presentations and aggregate measured training time at least 10% below concurrent dense control. Guardrails at both later checkpoints: mean sampled Chamfer at each grid <=1.05 times dense; mean independent gap RMSE <=1.10 times dense; mean full-gap sign accuracy no more than 0.5 percentage points below dense. Report every seed, regression, fit failure, and measured evaluation time; missing meshes fail. If all pass, test a smaller cycling batch next. Otherwise test a larger cycling batch if incomplete recovery suggests batch noise, or choose a coverage alternative with a new preregistration. Dense controls must reproduce historical model/Adam states at all checkpoints before interpreting candidate differences.",
+  "budget": "At most three new batches across this goal, total additional training/evaluation <=7200 seconds. Conservatively charge entire subprocess wall time including setup, hashes and I/O. Hard timeout for remaining allowance; retain partial output on failure. Expected batch cost about 20 minutes from prior measurements.",
+  "scope": "One existing development geometry only; fresh-case manifest and seeds 71-73 remain reserved. No fresh-case evaluation, new loss, novelty claim, confidence interval or continuous topology guarantee. Sampling changes stochastic optimisation as well as exposure schedule. Persistence is observed only at checkpoints.",
+  "pairing": "Common starting checkpoints, dense pool coordinates/labels, Adam and stored original sampling RNG within each pair; candidate changes the presentation stream deliberately. Each cycling update contains 50% original, 25% gap, 25% interior; each full cycle presents every dense point once. No evaluation points used in selection. Deterministic fixed block order is a limitation to probe in a later batch.",
+  "next_decision": "Select the next batch only after auditing this batch; do not evaluate reserved fresh cases. A negative result is retained and can close the goal."
+}

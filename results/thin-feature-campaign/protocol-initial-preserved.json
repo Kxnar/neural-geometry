@@ -1,0 +1,41 @@
+{
+  "configs": [
+    {
+      "model": "siren",
+      "width": 128,
+      "depth": 3
+    },
+    {
+      "model": "fourier",
+      "width": 128,
+      "depth": 3,
+      "frequencies": 64,
+      "scale": 10.0
+    }
+  ],
+  "development": "Exactly four crossed parallel-plate cells .012/.03 by17/37 seed71; dense+cycling. Selected narrow17 seeds72/73 only if development budget remains. No optional random.",
+  "confirmation": "Original reserved indices2..7; seeds71/72/73; independent initialization-to30k dense/random/cycling trajectories; fixed rotated order.",
+  "objective": "Unweighted exact ordinary MSE; Adam; stochastic prefix10k constant1e-4 then10k cosine1e-4to1e-6; recovery10k same cosine.",
+  "pool": "65536 balanced50/25/25; cycling16384; original global_narrow; oracle analytic regions and labels.",
+  "criteria": "Persistent26k+30k both192/384 all original probes closed mesh expected components/Euler resolved reference; missing/nonfinite fail closed.",
+  "ranking": "fewest lost dense successes; most cycling narrow persistent; most cycling all persistent; fewest guard violations; lowest attributed pipeline time; SIREN tie first. Incomplete comparison fallback SIREN inconclusive.",
+  "guards": "Each endpoint independent gap RMSE<=1.10dense; fullgap sign delta>=-.005; each grid Chamfer<=1.05dense.",
+  "target": "Complete valid confirmation, preserve every dense pass; narrow stacks all6 persistent with guards; aggregate actual cycling pipeline<=.75dense including failed attempts.",
+  "time": "External launch-through-durable-exit charged incl startup/data/labels/randomschedule/prefix/train/eval/transfers/checkpoint/hash/failures. Retrospective onset suffix length>=2 ending30k; onset pipeline separate from later verification.",
+  "limits": {
+    "development": 3600.0,
+    "confirmation": 14400.0,
+    "qa": 1800.0,
+    "global_seconds": 19800.0
+  },
+  "scope": "Descriptive oracle analytic evidence for three box-union families; not arbitrary unseen shapes or topology certification.",
+  "rng": {
+    "model": "seed",
+    "prefix": "CUDA seed+1000",
+    "training_pool": "CPU seed+91000",
+    "independent": "CPU91002",
+    "full_gap": "CPU91001",
+    "evaluation": "CPU91000",
+    "random": "CPU800000+original_case_index*100+seed"
+  }
+}

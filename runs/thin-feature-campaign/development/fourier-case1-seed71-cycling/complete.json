@@ -1,0 +1,352 @@
+{
+  "task": {
+    "id": "fourier-case1-seed71-cycling",
+    "case": {
+      "scene": "parallel_plates",
+      "feature": 0.012,
+      "angle": 37
+    },
+    "case_index": 1,
+    "seed": 71,
+    "arm": "cycling",
+    "config": {
+      "model": "fourier",
+      "width": 128,
+      "depth": 3,
+      "frequencies": 64,
+      "scale": 10.0
+    },
+    "stage": "development"
+  },
+  "records": [
+    {
+      "step": 26000,
+      "primary_gate": false,
+      "field": {
+        "uniform_sdf_mae": 0.22570830583572388,
+        "component_0": {
+          "sign_accuracy": 0.2890625,
+          "mae": 0.206260085105896,
+          "error_margin_ratio_p95": 4.618806838989258,
+          "error_margin_ratio_max": 7.892459392547607,
+          "samples": 256
+        },
+        "component_1": {
+          "sign_accuracy": 0.265625,
+          "mae": 0.21751728653907776,
+          "error_margin_ratio_p95": 4.629137992858887,
+          "error_margin_ratio_max": 7.398725509643555,
+          "samples": 256
+        },
+        "gap": {
+          "sign_accuracy": 0.4296875,
+          "mae": 0.050284333527088165,
+          "error_margin_ratio_p95": 20.001262664794922,
+          "error_margin_ratio_max": 40.0863037109375,
+          "samples": 256
+        },
+        "all_probe_signs_correct": false
+      },
+      "independent": {
+        "all": {
+          "samples": 65536,
+          "rmse": 0.16569983414386844,
+          "sign_accuracy": 0.583465576171875,
+          "min_signed_prediction": -0.8428851962089539,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "original": {
+          "samples": 32768,
+          "rmse": 0.22249787179941155,
+          "sign_accuracy": 0.707000732421875,
+          "min_signed_prediction": -0.8428851962089539,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap": {
+          "samples": 16384,
+          "rmse": 0.06398848166456995,
+          "sign_accuracy": 0.462890625,
+          "min_signed_prediction": -0.2597685158252716,
+          "min_true_margin": 3.203749656677246e-07
+        },
+        "interior": {
+          "samples": 16384,
+          "rmse": 0.08197931717787299,
+          "sign_accuracy": 0.45697021484375,
+          "min_signed_prediction": -0.5266025066375732,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "gap_0": {
+          "samples": 16384,
+          "rmse": 0.06398848166456995,
+          "sign_accuracy": 0.462890625,
+          "min_signed_prediction": -0.2597685158252716,
+          "min_true_margin": 3.203749656677246e-07
+        },
+        "component_0": {
+          "samples": 8306,
+          "rmse": 0.0831355407693632,
+          "sign_accuracy": 0.463159162051529,
+          "min_signed_prediction": -0.5266025066375732,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "component_1": {
+          "samples": 8078,
+          "rmse": 0.08077320323846755,
+          "sign_accuracy": 0.4506065857885615,
+          "min_signed_prediction": -0.44698578119277954,
+          "min_true_margin": 2.078711986541748e-06
+        }
+      },
+      "full_gap": {
+        "all": {
+          "samples": 131072,
+          "rmse": 0.06342316345938348,
+          "sign_accuracy": 0.46831869749982835,
+          "min_signed_prediction": -0.4057355523109436,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap": {
+          "samples": 131072,
+          "rmse": 0.06342316345938348,
+          "sign_accuracy": 0.46831869749982835,
+          "min_signed_prediction": -0.4057355523109436,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap_0": {
+          "samples": 131072,
+          "rmse": 0.06342316345938348,
+          "sign_accuracy": 0.46831869749982835,
+          "min_signed_prediction": -0.4057355523109436,
+          "min_true_margin": 1.1920928955078125e-07
+        }
+      },
+      "evaluations": {
+        "192": {
+          "resolution": 192,
+          "mesh_present": true,
+          "mesh": {
+            "components": 31920,
+            "euler": 39812,
+            "closed_edges": false
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": false,
+          "symmetric_chamfer": 0.09815116544315476
+        },
+        "384": {
+          "resolution": 384,
+          "mesh_present": true,
+          "mesh": {
+            "components": 50397,
+            "euler": 55125,
+            "closed_edges": false
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": false,
+          "symmetric_chamfer": 0.11537752302809608
+        }
+      },
+      "checkpoint": {
+        "sha256": "faeccf8e05ab7b07615fd41b7d9847624690257c42f03e4e16c22f0fff122906",
+        "model": "ebc4cd0dc251b03c55604239b68d43c47fb9161e212f0941db6f02842b59159c",
+        "optimizer": "006dfcaf8e53bf6be85be348f45747fde02e90371ee48fe792d692f345bd08e8",
+        "sample_rng": "cb5ff4a1b1f29db384dca2cf4290a7ca790730a5af9da243babaee38ce0f3265"
+      },
+      "evaluation_seconds": 58.43139749998227,
+      "training_seconds": 144.36454090004554,
+      "cumulative_pipeline_seconds": 207.91059749998385,
+      "failure_reasons": [
+        "original_probe_sign_failure",
+        "grid192:topology_mismatch:{'components': 31920, 'euler': 39812, 'closed_edges': False}",
+        "grid384:topology_mismatch:{'components': 50397, 'euler': 55125, 'closed_edges': False}"
+      ]
+    },
+    {
+      "step": 30000,
+      "primary_gate": false,
+      "field": {
+        "uniform_sdf_mae": 0.23029693961143494,
+        "component_0": {
+          "sign_accuracy": 0.296875,
+          "mae": 0.20498299598693848,
+          "error_margin_ratio_p95": 4.52699613571167,
+          "error_margin_ratio_max": 8.312146186828613,
+          "samples": 256
+        },
+        "component_1": {
+          "sign_accuracy": 0.2421875,
+          "mae": 0.21711406111717224,
+          "error_margin_ratio_p95": 4.696985244750977,
+          "error_margin_ratio_max": 7.494604110717773,
+          "samples": 256
+        },
+        "gap": {
+          "sign_accuracy": 0.4375,
+          "mae": 0.049782849848270416,
+          "error_margin_ratio_p95": 20.656688690185547,
+          "error_margin_ratio_max": 38.13618469238281,
+          "samples": 256
+        },
+        "all_probe_signs_correct": false
+      },
+      "independent": {
+        "all": {
+          "samples": 65536,
+          "rmse": 0.1682855201341883,
+          "sign_accuracy": 0.5868988037109375,
+          "min_signed_prediction": -0.887524425983429,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "original": {
+          "samples": 32768,
+          "rmse": 0.22656443295008727,
+          "sign_accuracy": 0.7069091796875,
+          "min_signed_prediction": -0.887524425983429,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap": {
+          "samples": 16384,
+          "rmse": 0.06328376907357695,
+          "sign_accuracy": 0.47332763671875,
+          "min_signed_prediction": -0.27538007497787476,
+          "min_true_margin": 3.203749656677246e-07
+        },
+        "interior": {
+          "samples": 16384,
+          "rmse": 0.08131632777732989,
+          "sign_accuracy": 0.46044921875,
+          "min_signed_prediction": -0.5333264470100403,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "gap_0": {
+          "samples": 16384,
+          "rmse": 0.06328376907357695,
+          "sign_accuracy": 0.47332763671875,
+          "min_signed_prediction": -0.27538007497787476,
+          "min_true_margin": 3.203749656677246e-07
+        },
+        "component_0": {
+          "samples": 8306,
+          "rmse": 0.08229800389380067,
+          "sign_accuracy": 0.46496508548037563,
+          "min_signed_prediction": -0.5333264470100403,
+          "min_true_margin": 9.08970832824707e-07
+        },
+        "component_1": {
+          "samples": 8078,
+          "rmse": 0.08029443017883507,
+          "sign_accuracy": 0.4558058925476603,
+          "min_signed_prediction": -0.4254341423511505,
+          "min_true_margin": 2.078711986541748e-06
+        }
+      },
+      "full_gap": {
+        "all": {
+          "samples": 131072,
+          "rmse": 0.06253711050921315,
+          "sign_accuracy": 0.4757192666570027,
+          "min_signed_prediction": -0.3772909939289093,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap": {
+          "samples": 131072,
+          "rmse": 0.06253711050921315,
+          "sign_accuracy": 0.4757192666570027,
+          "min_signed_prediction": -0.3772909939289093,
+          "min_true_margin": 1.1920928955078125e-07
+        },
+        "gap_0": {
+          "samples": 131072,
+          "rmse": 0.06253711050921315,
+          "sign_accuracy": 0.4757192666570027,
+          "min_signed_prediction": -0.3772909939289093,
+          "min_true_margin": 1.1920928955078125e-07
+        }
+      },
+      "evaluations": {
+        "192": {
+          "resolution": 192,
+          "mesh_present": true,
+          "mesh": {
+            "components": 34298,
+            "euler": 43366,
+            "closed_edges": false
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": false,
+          "symmetric_chamfer": 0.10208319326975288
+        },
+        "384": {
+          "resolution": 384,
+          "mesh_present": true,
+          "mesh": {
+            "components": 54476,
+            "euler": 60219,
+            "closed_edges": false
+          },
+          "reference_mesh": {
+            "components": 2,
+            "euler": 4,
+            "closed_edges": true
+          },
+          "reference_resolved": true,
+          "structure_match": false,
+          "symmetric_chamfer": 0.12046310794015466
+        }
+      },
+      "checkpoint": {
+        "sha256": "44f771143104f25410786c6f6c1710a02c847e315acce8c2f3ec4f4328de3265",
+        "model": "42ca8acd5a7e49952db2c217151dc43637f47681f02cad86fc74be7313bbf323",
+        "optimizer": "f6a2ff1d838d306ac36129e9ea6b179baaeecef6e0077c00a0047844e348549c",
+        "sample_rng": "cb5ff4a1b1f29db384dca2cf4290a7ca790730a5af9da243babaee38ce0f3265"
+      },
+      "evaluation_seconds": 63.5926217000233,
+      "training_seconds": 156.6170719000511,
+      "cumulative_pipeline_seconds": 283.77832390001277,
+      "failure_reasons": [
+        "original_probe_sign_failure",
+        "grid192:topology_mismatch:{'components': 34298, 'euler': 43366, 'closed_edges': False}",
+        "grid384:topology_mismatch:{'components': 54476, 'euler': 60219, 'closed_edges': False}"
+      ]
+    }
+  ],
+  "persistence": {
+    "persistent": false,
+    "onset": null
+  },
+  "worker_seconds": 283.8181302000303,
+  "selection_stream_sha256": "03f71ddfb7beff7c9218e0c2a06aef0a861478ff0fc53d0cc5089792dc24a77b",
+  "files": {
+    "checkpoint-26000.pt": "faeccf8e05ab7b07615fd41b7d9847624690257c42f03e4e16c22f0fff122906",
+    "checkpoint-30000.pt": "44f771143104f25410786c6f6c1710a02c847e315acce8c2f3ec4f4328de3265",
+    "data.json": "c182820112185514c0bf8cb42ef122f492c7e96104bf4bc1736796eb37a19385",
+    "full-gap.pt": "886e3d2e978fbd30e61d9a88118c7f3749f1e1e2391eb7e438ca7829caa70d48",
+    "independent.pt": "67672ced1dc900f39c9031acb55ff67093f2b7b04bd41aa9862f1d3df069b415",
+    "initial.pt": "ff0e493258f019cd1ef6a042000c8844a7601a18e0423290d4ac819d33e99d13",
+    "metrics-26000.json": "fb32cca8852fb7e564be08970a03514fabee1c34f0ed5df3321058b5ccc35d7c",
+    "metrics-30000.json": "8bc3d68bdb4aa016180e8b3cc002a9a8afb2a7af9b10c903d89c785b6066f5da",
+    "model.json": "580a478f3ba85941dab4fc610e931a635c9f82966795521e46cc567fd1aff01f",
+    "pool.pt": "16904630b5d626408082939f9ca2c9a2b503487a5a585cf5c2a25c3961de73e9",
+    "prefix-20000.pt": "2d5995b786db3e8ea68d684484d9ab280cafd4b9417338b81202470a68f8fd47",
+    "prefix.json": "75033299f6284750a5e0dafe31170547a5d7b10f08e718865141b17b8d321882",
+    "progress.json": "5e79c4b06e8b7e36c5ac2cef2f3525fca6af28a4ee53b25775189b38bf433714",
+    "summary.json": "ec0805fc26eccc8a6c0af72274032dbd2f3411ed751bdc31f4a95159fe3bf493",
+    "training.jsonl": "920bab0ba02057f0962fc487ab6609f6fffbe23ee3b26a5ce80641d1da2237b9"
+  }
+}
